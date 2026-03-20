@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>Istanbul 2026</title>
+
+  <link
+    rel="stylesheet"
+    href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+    integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+    crossorigin=""
+  />
+  <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+  <div class="app-shell">
+    <header class="topbar">
+      <div>
+        <div class="eyebrow">Familien-Städtetrip</div>
+        <h1>Istanbul 2026</h1>
+        <div id="tripMeta" class="muted">lädt …</div>
+      </div>
+      <button id="refreshBtn" class="icon-btn" title="Daten neu laden">↻</button>
+    </header>
+
+    <section class="toolbar card">
+      <div class="toolbar-row">
+        <button id="prevDayBtn" class="nav-btn">←</button>
+        <select id="daySelect" class="day-select"></select>
+        <button id="nextDayBtn" class="nav-btn">→</button>
+      </div>
+
+      <div id="dayTheme" class="theme-line"></div>
+
+      <div class="chips">
+        <button class="chip active" data-filter="all">Alle</button>
+        <button class="chip" data-filter="must">Must</button>
+        <button class="chip" data-filter="daughter">Mit Tochter</button>
+        <button class="chip" data-filter="optional">Optional</button>
+      </div>
+
+      <div id="dayStats" class="stats"></div>
+    </section>
+
+    <section class="tabbar">
+      <button class="tab active" data-tab="plan">Plan</button>
+      <button class="tab" data-tab="map">Karte</button>
+      <button class="tab" data-tab="info">Info</button>
+    </section>
+
+    <main>
+      <section id="planTab" class="tab-panel active">
+        <div id="timeline"></div>
+      </section>
+
+      <section id="mapTab" class="tab-panel">
+        <div class="card map-card">
+          <div id="map"></div>
+          <div id="mapHint" class="map-hint"></div>
+        </div>
+      </section>
+
+      <section id="infoTab" class="tab-panel">
+        <div class="card">
+          <h2>Info</h2>
+          <ul class="info-list">
+            <li><strong>Hotel:</strong> <a id="hotelLink" href="#" target="_blank" rel="noopener">wird geladen …</a></li>
+            <li><strong>Offline-Hinweis:</strong> Diese Version ist online-first. Die Tagesdaten werden lokal zwischengespeichert, Kartenkacheln aber nicht vollständig offline.</li>
+            <li><strong>Fallback:</strong> PDF/Print + Google Maps Offline + Organic Maps.</li>
+            <li><strong>Status:</strong> <span id="cacheStatus">noch kein Cache</span></li>
+          </ul>
+        </div>
+
+        <div class="card">
+          <h2>Verwendung</h2>
+          <ul class="info-list">
+            <li>In der <strong>Plan</strong>-Ansicht seht Ihr den Tagesablauf.</li>
+            <li>Mit <strong>Google Maps</strong> / <strong>Apple Maps</strong> öffnet Ihr den Ort direkt auf dem Handy.</li>
+            <li>Die <strong>Karte</strong> wird besser, sobald <code>lat</code>/<code>lon</code> in <code>places.csv</code> gepflegt sind.</li>
+          </ul>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <script
+    src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+    integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+    crossorigin=""
+  ></script>
+  <script src="./app.js"></script>
+</body>
+</html>

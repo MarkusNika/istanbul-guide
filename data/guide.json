@@ -1,0 +1,2922 @@
+{
+  "trip": {
+    "title": "Istanbul 2026",
+    "hotel_place_id": "HOTEL",
+    "hotel_name": "Hagia Sophia Place Hotel",
+    "start_date": "2026-04-03",
+    "end_date": "2026-04-10",
+    "generated_at": "2026-03-20T23:48:46.141574+00:00",
+    "default_center": {
+      "lat": 41.0082,
+      "lon": 28.9784,
+      "zoom": 12
+    }
+  },
+  "places": {
+    "HOTEL": {
+      "place_id": "HOTEL",
+      "name": "Hagia Sophia Place Hotel",
+      "type": "hotel",
+      "area": "Sultanahmet",
+      "maps_query": "Hagia Sophia Place Hotel Istanbul",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Hagia%20Sophia%20Place%20Hotel%20Istanbul",
+      "apple_maps_url": "http://maps.apple.com/?q=Hagia%20Sophia%20Place%20Hotel%20Istanbul",
+      "lat": null,
+      "lon": null,
+      "has_coordinates": false,
+      "image_query": "Hagia Sophia Place Hotel Istanbul",
+      "tags": [
+        "hotel",
+        "base"
+      ]
+    },
+    "SULTANAHMET_SQ": {
+      "place_id": "SULTANAHMET_SQ",
+      "name": "Sultanahmet Square",
+      "type": "walk",
+      "area": "Sultanahmet",
+      "maps_query": "Sultanahmet Square Istanbul",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Sultanahmet%20Square%20Istanbul",
+      "apple_maps_url": "http://maps.apple.com/?q=Sultanahmet%20Square%20Istanbul",
+      "lat": null,
+      "lon": null,
+      "has_coordinates": false,
+      "image_query": "Sultanahmet Square morning",
+      "tags": [
+        "walk",
+        "historic"
+      ]
+    },
+    "BLUE_MOSQUE": {
+      "place_id": "BLUE_MOSQUE",
+      "name": "Blue Mosque",
+      "type": "sight",
+      "area": "Sultanahmet",
+      "maps_query": "Blue Mosque Istanbul",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Blue%20Mosque%20Istanbul",
+      "apple_maps_url": "http://maps.apple.com/?q=Blue%20Mosque%20Istanbul",
+      "lat": null,
+      "lon": null,
+      "has_coordinates": false,
+      "image_query": "Blue Mosque Istanbul exterior",
+      "tags": [
+        "mosque",
+        "must"
+      ]
+    },
+    "ARASTA_BAZAAR": {
+      "place_id": "ARASTA_BAZAAR",
+      "name": "Arasta Bazaar",
+      "type": "walk",
+      "area": "Sultanahmet",
+      "maps_query": "Arasta Bazaar Istanbul",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Arasta%20Bazaar%20Istanbul",
+      "apple_maps_url": "http://maps.apple.com/?q=Arasta%20Bazaar%20Istanbul",
+      "lat": null,
+      "lon": null,
+      "has_coordinates": false,
+      "image_query": "Arasta Bazaar Istanbul",
+      "tags": [
+        "bazaar"
+      ]
+    },
+    "LITTLE_HAGIA_SOPHIA": {
+      "place_id": "LITTLE_HAGIA_SOPHIA",
+      "name": "Little Hagia Sophia",
+      "type": "sight",
+      "area": "Sultanahmet",
+      "maps_query": "Little Hagia Sophia Istanbul",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Little%20Hagia%20Sophia%20Istanbul",
+      "apple_maps_url": "http://maps.apple.com/?q=Little%20Hagia%20Sophia%20Istanbul",
+      "lat": null,
+      "lon": null,
+      "has_coordinates": false,
+      "image_query": "Little Hagia Sophia Istanbul",
+      "tags": [
+        "mosque",
+        "quiet"
+      ]
+    },
+    "DERALIYE": {
+      "place_id": "DERALIYE",
+      "name": "Deraliye Restaurant",
+      "type": "dinner",
+      "area": "Sultanahmet",
+      "maps_query": "Deraliye Restaurant Istanbul",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Deraliye%20Restaurant%20Istanbul",
+      "apple_maps_url": "http://maps.apple.com/?q=Deraliye%20Restaurant%20Istanbul",
+      "lat": null,
+      "lon": null,
+      "has_coordinates": false,
+      "image_query": "Deraliye Restaurant Istanbul",
+      "tags": [
+        "food",
+        "dinner"
+      ]
+    },
+    "HAGIA_SOPHIA": {
+      "place_id": "HAGIA_SOPHIA",
+      "name": "Hagia Sophia",
+      "type": "sight",
+      "area": "Sultanahmet",
+      "maps_query": "Hagia Sophia Istanbul",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Hagia%20Sophia%20Istanbul",
+      "apple_maps_url": "http://maps.apple.com/?q=Hagia%20Sophia%20Istanbul",
+      "lat": null,
+      "lon": null,
+      "has_coordinates": false,
+      "image_query": "Hagia Sophia interior",
+      "tags": [
+        "must",
+        "historic"
+      ]
+    },
+    "SIMIT_SULTANAHMET": {
+      "place_id": "SIMIT_SULTANAHMET",
+      "name": "Simit / Tea stop Sultanahmet",
+      "type": "breakfast",
+      "area": "Sultanahmet",
+      "maps_query": "Simit Sarayi Sultanahmet Istanbul",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Simit%20Sarayi%20Sultanahmet%20Istanbul",
+      "apple_maps_url": "http://maps.apple.com/?q=Simit%20Sarayi%20Sultanahmet%20Istanbul",
+      "lat": null,
+      "lon": null,
+      "has_coordinates": false,
+      "image_query": "simit tea istanbul",
+      "tags": [
+        "breakfast",
+        "quick"
+      ]
+    },
+    "GRAND_BAZAAR_NURU": {
+      "place_id": "GRAND_BAZAAR_NURU",
+      "name": "Grand Bazaar Nuruosmaniye Gate",
+      "type": "sight",
+      "area": "Beyazit",
+      "maps_query": "Grand Bazaar Nuruosmaniye Gate Istanbul",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Grand%20Bazaar%20Nuruosmaniye%20Gate%20Istanbul",
+      "apple_maps_url": "http://maps.apple.com/?q=Grand%20Bazaar%20Nuruosmaniye%20Gate%20Istanbul",
+      "lat": null,
+      "lon": null,
+      "has_coordinates": false,
+      "image_query": "Grand Bazaar Istanbul",
+      "tags": [
+        "bazaar",
+        "must"
+      ]
+    },
+    "PANDELI": {
+      "place_id": "PANDELI",
+      "name": "Pandeli Restaurant",
+      "type": "lunch",
+      "area": "Eminönü",
+      "maps_query": "Pandeli Restaurant Istanbul",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Pandeli%20Restaurant%20Istanbul",
+      "apple_maps_url": "http://maps.apple.com/?q=Pandeli%20Restaurant%20Istanbul",
+      "lat": null,
+      "lon": null,
+      "has_coordinates": false,
+      "image_query": "Pandeli Restaurant Istanbul",
+      "tags": [
+        "food",
+        "lunch"
+      ]
+    },
+    "BASILICA_CISTERN": {
+      "place_id": "BASILICA_CISTERN",
+      "name": "Basilica Cistern",
+      "type": "sight",
+      "area": "Sultanahmet",
+      "maps_query": "Basilica Cistern Istanbul",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Basilica%20Cistern%20Istanbul",
+      "apple_maps_url": "http://maps.apple.com/?q=Basilica%20Cistern%20Istanbul",
+      "lat": null,
+      "lon": null,
+      "has_coordinates": false,
+      "image_query": "Basilica Cistern Istanbul",
+      "tags": [
+        "must",
+        "historic"
+      ]
+    },
+    "SPICE_BAZAAR": {
+      "place_id": "SPICE_BAZAAR",
+      "name": "Spice Bazaar",
+      "type": "sight",
+      "area": "Eminönü",
+      "maps_query": "Spice Bazaar Istanbul",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Spice%20Bazaar%20Istanbul",
+      "apple_maps_url": "http://maps.apple.com/?q=Spice%20Bazaar%20Istanbul",
+      "lat": null,
+      "lon": null,
+      "has_coordinates": false,
+      "image_query": "Spice Bazaar Istanbul",
+      "tags": [
+        "bazaar"
+      ]
+    },
+    "EMINONU_FERRY": {
+      "place_id": "EMINONU_FERRY",
+      "name": "Eminönü Ferry Terminal",
+      "type": "ferry",
+      "area": "Eminönü",
+      "maps_query": "Eminonu Ferry Terminal Istanbul",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Eminonu%20Ferry%20Terminal%20Istanbul",
+      "apple_maps_url": "http://maps.apple.com/?q=Eminonu%20Ferry%20Terminal%20Istanbul",
+      "lat": null,
+      "lon": null,
+      "has_coordinates": false,
+      "image_query": "Eminonu ferry Istanbul",
+      "tags": [
+        "ferry",
+        "transport"
+      ]
+    },
+    "HAFIZ_MUSTAFA_EMINONU": {
+      "place_id": "HAFIZ_MUSTAFA_EMINONU",
+      "name": "Hafız Mustafa Eminönü",
+      "type": "coffee",
+      "area": "Eminönü",
+      "maps_query": "Hafiz Mustafa Eminonu Istanbul",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Hafiz%20Mustafa%20Eminonu%20Istanbul",
+      "apple_maps_url": "http://maps.apple.com/?q=Hafiz%20Mustafa%20Eminonu%20Istanbul",
+      "lat": null,
+      "lon": null,
+      "has_coordinates": false,
+      "image_query": "Hafiz Mustafa Istanbul",
+      "tags": [
+        "coffee",
+        "dessert"
+      ]
+    },
+    "GULHANE_PARK": {
+      "place_id": "GULHANE_PARK",
+      "name": "Gülhane Park",
+      "type": "walk",
+      "area": "Sirkeci",
+      "maps_query": "Gulhane Park Istanbul",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Gulhane%20Park%20Istanbul",
+      "apple_maps_url": "http://maps.apple.com/?q=Gulhane%20Park%20Istanbul",
+      "lat": null,
+      "lon": null,
+      "has_coordinates": false,
+      "image_query": "Gulhane Park Istanbul",
+      "tags": [
+        "park",
+        "walk"
+      ]
+    },
+    "BREAKFAST_SIRKECI": {
+      "place_id": "BREAKFAST_SIRKECI",
+      "name": "Quick breakfast Sirkeci",
+      "type": "breakfast",
+      "area": "Sirkeci",
+      "maps_query": "Hafiz Mustafa Sirkeci Istanbul",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Hafiz%20Mustafa%20Sirkeci%20Istanbul",
+      "apple_maps_url": "http://maps.apple.com/?q=Hafiz%20Mustafa%20Sirkeci%20Istanbul",
+      "lat": null,
+      "lon": null,
+      "has_coordinates": false,
+      "image_query": "breakfast sirkeci istanbul",
+      "tags": [
+        "breakfast"
+      ]
+    },
+    "TOPKAPI": {
+      "place_id": "TOPKAPI",
+      "name": "Topkapi Palace",
+      "type": "sight",
+      "area": "Sultanahmet",
+      "maps_query": "Topkapi Palace Istanbul",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Topkapi%20Palace%20Istanbul",
+      "apple_maps_url": "http://maps.apple.com/?q=Topkapi%20Palace%20Istanbul",
+      "lat": null,
+      "lon": null,
+      "has_coordinates": false,
+      "image_query": "Topkapi Palace Istanbul",
+      "tags": [
+        "must",
+        "palace"
+      ]
+    },
+    "HAMDI": {
+      "place_id": "HAMDI",
+      "name": "Hamdi Restaurant Eminönü",
+      "type": "lunch",
+      "area": "Eminönü",
+      "maps_query": "Hamdi Restaurant Eminonu Istanbul",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Hamdi%20Restaurant%20Eminonu%20Istanbul",
+      "apple_maps_url": "http://maps.apple.com/?q=Hamdi%20Restaurant%20Eminonu%20Istanbul",
+      "lat": null,
+      "lon": null,
+      "has_coordinates": false,
+      "image_query": "Hamdi Restaurant Istanbul",
+      "tags": [
+        "food",
+        "lunch"
+      ]
+    },
+    "SULEYMANIYE": {
+      "place_id": "SULEYMANIYE",
+      "name": "Süleymaniye Mosque",
+      "type": "sight",
+      "area": "Fatih",
+      "maps_query": "Suleymaniye Mosque Istanbul",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Suleymaniye%20Mosque%20Istanbul",
+      "apple_maps_url": "http://maps.apple.com/?q=Suleymaniye%20Mosque%20Istanbul",
+      "lat": null,
+      "lon": null,
+      "has_coordinates": false,
+      "image_query": "Suleymaniye Mosque Istanbul",
+      "tags": [
+        "mosque",
+        "view"
+      ]
+    },
+    "VEFA_BOZACISI": {
+      "place_id": "VEFA_BOZACISI",
+      "name": "Vefa Bozacısı",
+      "type": "coffee",
+      "area": "Fatih",
+      "maps_query": "Vefa Bozacisi Istanbul",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Vefa%20Bozacisi%20Istanbul",
+      "apple_maps_url": "http://maps.apple.com/?q=Vefa%20Bozacisi%20Istanbul",
+      "lat": null,
+      "lon": null,
+      "has_coordinates": false,
+      "image_query": "Vefa Bozacisi Istanbul",
+      "tags": [
+        "drink",
+        "traditional"
+      ]
+    },
+    "ZEYREK": {
+      "place_id": "ZEYREK",
+      "name": "Zeyrek",
+      "type": "walk",
+      "area": "Fatih",
+      "maps_query": "Zeyrek Mosque Istanbul",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Zeyrek%20Mosque%20Istanbul",
+      "apple_maps_url": "http://maps.apple.com/?q=Zeyrek%20Mosque%20Istanbul",
+      "lat": null,
+      "lon": null,
+      "has_coordinates": false,
+      "image_query": "Zeyrek Istanbul",
+      "tags": [
+        "walk",
+        "historic"
+      ]
+    },
+    "VALENS_AQUEDUCT": {
+      "place_id": "VALENS_AQUEDUCT",
+      "name": "Valens Aqueduct",
+      "type": "sight",
+      "area": "Fatih",
+      "maps_query": "Valens Aqueduct Istanbul",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Valens%20Aqueduct%20Istanbul",
+      "apple_maps_url": "http://maps.apple.com/?q=Valens%20Aqueduct%20Istanbul",
+      "lat": null,
+      "lon": null,
+      "has_coordinates": false,
+      "image_query": "Valens Aqueduct Istanbul",
+      "tags": [
+        "historic"
+      ]
+    },
+    "BALAT": {
+      "place_id": "BALAT",
+      "name": "Balat",
+      "type": "walk",
+      "area": "Balat",
+      "maps_query": "Balat Istanbul",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Balat%20Istanbul",
+      "apple_maps_url": "http://maps.apple.com/?q=Balat%20Istanbul",
+      "lat": null,
+      "lon": null,
+      "has_coordinates": false,
+      "image_query": "Balat Istanbul colorful streets",
+      "tags": [
+        "walk",
+        "neighborhood"
+      ]
+    },
+    "VELVET_CAFE": {
+      "place_id": "VELVET_CAFE",
+      "name": "Velvet Cafe Balat",
+      "type": "breakfast",
+      "area": "Balat",
+      "maps_query": "Velvet Cafe Balat Istanbul",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Velvet%20Cafe%20Balat%20Istanbul",
+      "apple_maps_url": "http://maps.apple.com/?q=Velvet%20Cafe%20Balat%20Istanbul",
+      "lat": null,
+      "lon": null,
+      "has_coordinates": false,
+      "image_query": "Velvet Cafe Balat",
+      "tags": [
+        "breakfast",
+        "coffee"
+      ]
+    },
+    "PATRIARCHATE": {
+      "place_id": "PATRIARCHATE",
+      "name": "Ecumenical Patriarchate",
+      "type": "sight",
+      "area": "Fener",
+      "maps_query": "Ecumenical Patriarchate of Constantinople Istanbul",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Ecumenical%20Patriarchate%20of%20Constantinople%20Istanbul",
+      "apple_maps_url": "http://maps.apple.com/?q=Ecumenical%20Patriarchate%20of%20Constantinople%20Istanbul",
+      "lat": null,
+      "lon": null,
+      "has_coordinates": false,
+      "image_query": "Fener Patriarchate Istanbul",
+      "tags": [
+        "historic"
+      ]
+    },
+    "IRON_CHURCH": {
+      "place_id": "IRON_CHURCH",
+      "name": "Bulgarian Iron Church",
+      "type": "sight",
+      "area": "Balat",
+      "maps_query": "Bulgarian St Stephen Church Istanbul",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Bulgarian%20St%20Stephen%20Church%20Istanbul",
+      "apple_maps_url": "http://maps.apple.com/?q=Bulgarian%20St%20Stephen%20Church%20Istanbul",
+      "lat": null,
+      "lon": null,
+      "has_coordinates": false,
+      "image_query": "Bulgarian Iron Church Istanbul",
+      "tags": [
+        "church"
+      ]
+    },
+    "KARIYE": {
+      "place_id": "KARIYE",
+      "name": "Kariye / Chora",
+      "type": "sight",
+      "area": "Edirnekapı",
+      "maps_query": "Kariye Mosque Istanbul",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Kariye%20Mosque%20Istanbul",
+      "apple_maps_url": "http://maps.apple.com/?q=Kariye%20Mosque%20Istanbul",
+      "lat": null,
+      "lon": null,
+      "has_coordinates": false,
+      "image_query": "Kariye Mosque Istanbul",
+      "tags": [
+        "historic"
+      ]
+    },
+    "ASITANE": {
+      "place_id": "ASITANE",
+      "name": "Asitane Restaurant",
+      "type": "lunch",
+      "area": "Edirnekapı",
+      "maps_query": "Asitane Restaurant Istanbul",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Asitane%20Restaurant%20Istanbul",
+      "apple_maps_url": "http://maps.apple.com/?q=Asitane%20Restaurant%20Istanbul",
+      "lat": null,
+      "lon": null,
+      "has_coordinates": false,
+      "image_query": "Asitane Restaurant Istanbul",
+      "tags": [
+        "food",
+        "lunch"
+      ]
+    },
+    "EYUP_SQUARE": {
+      "place_id": "EYUP_SQUARE",
+      "name": "Eyüp Sultan Square",
+      "type": "walk",
+      "area": "Eyüp",
+      "maps_query": "Eyup Sultan Square Istanbul",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Eyup%20Sultan%20Square%20Istanbul",
+      "apple_maps_url": "http://maps.apple.com/?q=Eyup%20Sultan%20Square%20Istanbul",
+      "lat": null,
+      "lon": null,
+      "has_coordinates": false,
+      "image_query": "Eyup Sultan Square Istanbul",
+      "tags": [
+        "walk"
+      ]
+    },
+    "PIERRE_LOTI": {
+      "place_id": "PIERRE_LOTI",
+      "name": "Pierre Loti",
+      "type": "view",
+      "area": "Eyüp",
+      "maps_query": "Pierre Loti Tepesi Istanbul",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Pierre%20Loti%20Tepesi%20Istanbul",
+      "apple_maps_url": "http://maps.apple.com/?q=Pierre%20Loti%20Tepesi%20Istanbul",
+      "lat": null,
+      "lon": null,
+      "has_coordinates": false,
+      "image_query": "Pierre Loti Istanbul view",
+      "tags": [
+        "view",
+        "tea"
+      ]
+    },
+    "CAGALOGLU_HAMAMI": {
+      "place_id": "CAGALOGLU_HAMAMI",
+      "name": "Cağaloğlu Hamamı",
+      "type": "hamam",
+      "area": "Sultanahmet",
+      "maps_query": "Cagaloglu Hamami Istanbul",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Cagaloglu%20Hamami%20Istanbul",
+      "apple_maps_url": "http://maps.apple.com/?q=Cagaloglu%20Hamami%20Istanbul",
+      "lat": null,
+      "lon": null,
+      "has_coordinates": false,
+      "image_query": "Cagaloglu Hamami Istanbul",
+      "tags": [
+        "hamam",
+        "optional"
+      ]
+    },
+    "PANDO": {
+      "place_id": "PANDO",
+      "name": "Pando Kaymak",
+      "type": "breakfast",
+      "area": "Beşiktaş",
+      "maps_query": "Pando Kaymak Besiktas Istanbul",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Pando%20Kaymak%20Besiktas%20Istanbul",
+      "apple_maps_url": "http://maps.apple.com/?q=Pando%20Kaymak%20Besiktas%20Istanbul",
+      "lat": null,
+      "lon": null,
+      "has_coordinates": false,
+      "image_query": "Pando Kaymak Istanbul",
+      "tags": [
+        "breakfast"
+      ]
+    },
+    "DOLMABAHCE": {
+      "place_id": "DOLMABAHCE",
+      "name": "Dolmabahçe Palace",
+      "type": "sight",
+      "area": "Beşiktaş",
+      "maps_query": "Dolmabahce Palace Istanbul",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Dolmabahce%20Palace%20Istanbul",
+      "apple_maps_url": "http://maps.apple.com/?q=Dolmabahce%20Palace%20Istanbul",
+      "lat": null,
+      "lon": null,
+      "has_coordinates": false,
+      "image_query": "Dolmabahce Palace Istanbul",
+      "tags": [
+        "palace",
+        "must"
+      ]
+    },
+    "KARAKOY_LOKANTASI": {
+      "place_id": "KARAKOY_LOKANTASI",
+      "name": "Karaköy Lokantası",
+      "type": "lunch",
+      "area": "Karaköy",
+      "maps_query": "Karakoy Lokantasi Istanbul",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Karakoy%20Lokantasi%20Istanbul",
+      "apple_maps_url": "http://maps.apple.com/?q=Karakoy%20Lokantasi%20Istanbul",
+      "lat": null,
+      "lon": null,
+      "has_coordinates": false,
+      "image_query": "Karakoy Lokantasi Istanbul",
+      "tags": [
+        "food",
+        "lunch"
+      ]
+    },
+    "KARAKOY": {
+      "place_id": "KARAKOY",
+      "name": "Karaköy",
+      "type": "walk",
+      "area": "Karaköy",
+      "maps_query": "Karakoy Istanbul",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Karakoy%20Istanbul",
+      "apple_maps_url": "http://maps.apple.com/?q=Karakoy%20Istanbul",
+      "lat": null,
+      "lon": null,
+      "has_coordinates": false,
+      "image_query": "Karakoy Istanbul streets",
+      "tags": [
+        "walk",
+        "urban"
+      ]
+    },
+    "TURYOL_EMINONU": {
+      "place_id": "TURYOL_EMINONU",
+      "name": "Bosphorus cruise pier",
+      "type": "ferry",
+      "area": "Eminönü",
+      "maps_query": "Turyol Eminonu Istanbul",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Turyol%20Eminonu%20Istanbul",
+      "apple_maps_url": "http://maps.apple.com/?q=Turyol%20Eminonu%20Istanbul",
+      "lat": null,
+      "lon": null,
+      "has_coordinates": false,
+      "image_query": "Bosphorus boat Eminonu",
+      "tags": [
+        "boat"
+      ]
+    },
+    "DEM_KARAKOY": {
+      "place_id": "DEM_KARAKOY",
+      "name": "Dem Karaköy",
+      "type": "coffee",
+      "area": "Karaköy",
+      "maps_query": "Dem Karakoy Istanbul",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Dem%20Karakoy%20Istanbul",
+      "apple_maps_url": "http://maps.apple.com/?q=Dem%20Karakoy%20Istanbul",
+      "lat": null,
+      "lon": null,
+      "has_coordinates": false,
+      "image_query": "Dem Karakoy Istanbul",
+      "tags": [
+        "coffee",
+        "tea"
+      ]
+    },
+    "KAMONDO_STAIRS": {
+      "place_id": "KAMONDO_STAIRS",
+      "name": "Kamondo Stairs",
+      "type": "walk",
+      "area": "Karaköy",
+      "maps_query": "Kamondo Stairs Istanbul",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Kamondo%20Stairs%20Istanbul",
+      "apple_maps_url": "http://maps.apple.com/?q=Kamondo%20Stairs%20Istanbul",
+      "lat": null,
+      "lon": null,
+      "has_coordinates": false,
+      "image_query": "Kamondo Stairs Istanbul",
+      "tags": [
+        "walk",
+        "architecture"
+      ]
+    },
+    "PRIVATO": {
+      "place_id": "PRIVATO",
+      "name": "Privato Cafe",
+      "type": "breakfast",
+      "area": "Galata",
+      "maps_query": "Privato Cafe Istanbul",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Privato%20Cafe%20Istanbul",
+      "apple_maps_url": "http://maps.apple.com/?q=Privato%20Cafe%20Istanbul",
+      "lat": null,
+      "lon": null,
+      "has_coordinates": false,
+      "image_query": "Privato Cafe Istanbul",
+      "tags": [
+        "breakfast"
+      ]
+    },
+    "GALATA_TOWER": {
+      "place_id": "GALATA_TOWER",
+      "name": "Galata Tower",
+      "type": "sight",
+      "area": "Galata",
+      "maps_query": "Galata Tower Istanbul",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Galata%20Tower%20Istanbul",
+      "apple_maps_url": "http://maps.apple.com/?q=Galata%20Tower%20Istanbul",
+      "lat": null,
+      "lon": null,
+      "has_coordinates": false,
+      "image_query": "Galata Tower Istanbul",
+      "tags": [
+        "tower",
+        "must"
+      ]
+    },
+    "CUKURCUMA": {
+      "place_id": "CUKURCUMA",
+      "name": "Çukurcuma",
+      "type": "walk",
+      "area": "Beyoğlu",
+      "maps_query": "Cukurcuma Istanbul",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Cukurcuma%20Istanbul",
+      "apple_maps_url": "http://maps.apple.com/?q=Cukurcuma%20Istanbul",
+      "lat": null,
+      "lon": null,
+      "has_coordinates": false,
+      "image_query": "Cukurcuma Istanbul",
+      "tags": [
+        "walk",
+        "antiques"
+      ]
+    },
+    "CIHANGIR": {
+      "place_id": "CIHANGIR",
+      "name": "Cihangir",
+      "type": "walk",
+      "area": "Cihangir",
+      "maps_query": "Cihangir Istanbul",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Cihangir%20Istanbul",
+      "apple_maps_url": "http://maps.apple.com/?q=Cihangir%20Istanbul",
+      "lat": null,
+      "lon": null,
+      "has_coordinates": false,
+      "image_query": "Cihangir Istanbul",
+      "tags": [
+        "walk",
+        "cafe"
+      ]
+    },
+    "FICCIN": {
+      "place_id": "FICCIN",
+      "name": "Ficcin",
+      "type": "lunch",
+      "area": "Beyoğlu",
+      "maps_query": "Ficcin Beyoglu Istanbul",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Ficcin%20Beyoglu%20Istanbul",
+      "apple_maps_url": "http://maps.apple.com/?q=Ficcin%20Beyoglu%20Istanbul",
+      "lat": null,
+      "lon": null,
+      "has_coordinates": false,
+      "image_query": "Ficcin Istanbul",
+      "tags": [
+        "food",
+        "lunch"
+      ]
+    },
+    "ISTIKLAL": {
+      "place_id": "ISTIKLAL",
+      "name": "İstiklal Avenue",
+      "type": "walk",
+      "area": "Beyoğlu",
+      "maps_query": "Istiklal Avenue Istanbul",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Istiklal%20Avenue%20Istanbul",
+      "apple_maps_url": "http://maps.apple.com/?q=Istiklal%20Avenue%20Istanbul",
+      "lat": null,
+      "lon": null,
+      "has_coordinates": false,
+      "image_query": "Istiklal Avenue Istanbul",
+      "tags": [
+        "walk",
+        "urban"
+      ]
+    },
+    "ST_ANTOINE": {
+      "place_id": "ST_ANTOINE",
+      "name": "St. Antoine Church",
+      "type": "sight",
+      "area": "Beyoğlu",
+      "maps_query": "St. Anthony of Padua Church Istanbul",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=St.%20Anthony%20of%20Padua%20Church%20Istanbul",
+      "apple_maps_url": "http://maps.apple.com/?q=St.%20Anthony%20of%20Padua%20Church%20Istanbul",
+      "lat": null,
+      "lon": null,
+      "has_coordinates": false,
+      "image_query": "St Antoine Istanbul",
+      "tags": [
+        "church"
+      ]
+    },
+    "PERA_MUSEUM": {
+      "place_id": "PERA_MUSEUM",
+      "name": "Pera Museum",
+      "type": "sight",
+      "area": "Beyoğlu",
+      "maps_query": "Pera Museum Istanbul",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Pera%20Museum%20Istanbul",
+      "apple_maps_url": "http://maps.apple.com/?q=Pera%20Museum%20Istanbul",
+      "lat": null,
+      "lon": null,
+      "has_coordinates": false,
+      "image_query": "Pera Museum Istanbul",
+      "tags": [
+        "museum"
+      ]
+    },
+    "MANDABATMAZ": {
+      "place_id": "MANDABATMAZ",
+      "name": "Mandabatmaz",
+      "type": "coffee",
+      "area": "Beyoğlu",
+      "maps_query": "Mandabatmaz Istanbul",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Mandabatmaz%20Istanbul",
+      "apple_maps_url": "http://maps.apple.com/?q=Mandabatmaz%20Istanbul",
+      "lat": null,
+      "lon": null,
+      "has_coordinates": false,
+      "image_query": "Mandabatmaz Istanbul coffee",
+      "tags": [
+        "coffee"
+      ]
+    },
+    "USKUDAR_BREAKFAST": {
+      "place_id": "USKUDAR_BREAKFAST",
+      "name": "Üsküdar breakfast stop",
+      "type": "breakfast",
+      "area": "Üsküdar",
+      "maps_query": "Kanaat Lokantasi Uskudar Istanbul",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Kanaat%20Lokantasi%20Uskudar%20Istanbul",
+      "apple_maps_url": "http://maps.apple.com/?q=Kanaat%20Lokantasi%20Uskudar%20Istanbul",
+      "lat": null,
+      "lon": null,
+      "has_coordinates": false,
+      "image_query": "breakfast Uskudar Istanbul",
+      "tags": [
+        "breakfast"
+      ]
+    },
+    "USKUDAR_WATERFRONT": {
+      "place_id": "USKUDAR_WATERFRONT",
+      "name": "Üsküdar waterfront",
+      "type": "walk",
+      "area": "Üsküdar",
+      "maps_query": "Uskudar Coast Walk Istanbul",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Uskudar%20Coast%20Walk%20Istanbul",
+      "apple_maps_url": "http://maps.apple.com/?q=Uskudar%20Coast%20Walk%20Istanbul",
+      "lat": null,
+      "lon": null,
+      "has_coordinates": false,
+      "image_query": "Uskudar waterfront Istanbul",
+      "tags": [
+        "walk",
+        "view"
+      ]
+    },
+    "KUZGUNCUK": {
+      "place_id": "KUZGUNCUK",
+      "name": "Kuzguncuk",
+      "type": "walk",
+      "area": "Kuzguncuk",
+      "maps_query": "Kuzguncuk Istanbul",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Kuzguncuk%20Istanbul",
+      "apple_maps_url": "http://maps.apple.com/?q=Kuzguncuk%20Istanbul",
+      "lat": null,
+      "lon": null,
+      "has_coordinates": false,
+      "image_query": "Kuzguncuk Istanbul streets",
+      "tags": [
+        "walk",
+        "neighborhood"
+      ]
+    },
+    "CIYA": {
+      "place_id": "CIYA",
+      "name": "Çiya Sofrası",
+      "type": "lunch",
+      "area": "Kadıköy",
+      "maps_query": "Ciya Sofrasi Istanbul",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Ciya%20Sofrasi%20Istanbul",
+      "apple_maps_url": "http://maps.apple.com/?q=Ciya%20Sofrasi%20Istanbul",
+      "lat": null,
+      "lon": null,
+      "has_coordinates": false,
+      "image_query": "Ciya Sofrasi Istanbul",
+      "tags": [
+        "food",
+        "lunch"
+      ]
+    },
+    "KADIKOY_CARSI": {
+      "place_id": "KADIKOY_CARSI",
+      "name": "Kadıköy Çarşı",
+      "type": "walk",
+      "area": "Kadıköy",
+      "maps_query": "Kadikoy Carsi Istanbul",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Kadikoy%20Carsi%20Istanbul",
+      "apple_maps_url": "http://maps.apple.com/?q=Kadikoy%20Carsi%20Istanbul",
+      "lat": null,
+      "lon": null,
+      "has_coordinates": false,
+      "image_query": "Kadikoy market Istanbul",
+      "tags": [
+        "walk",
+        "market"
+      ]
+    },
+    "YELDEGIRMENI": {
+      "place_id": "YELDEGIRMENI",
+      "name": "Yeldeğirmeni",
+      "type": "walk",
+      "area": "Kadıköy",
+      "maps_query": "Yeldegirmeni Istanbul",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Yeldegirmeni%20Istanbul",
+      "apple_maps_url": "http://maps.apple.com/?q=Yeldegirmeni%20Istanbul",
+      "lat": null,
+      "lon": null,
+      "has_coordinates": false,
+      "image_query": "Yeldegirmeni Istanbul",
+      "tags": [
+        "walk",
+        "streetart"
+      ]
+    },
+    "MODA": {
+      "place_id": "MODA",
+      "name": "Moda",
+      "type": "walk",
+      "area": "Kadıköy",
+      "maps_query": "Moda Istanbul",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Moda%20Istanbul",
+      "apple_maps_url": "http://maps.apple.com/?q=Moda%20Istanbul",
+      "lat": null,
+      "lon": null,
+      "has_coordinates": false,
+      "image_query": "Moda Istanbul waterfront",
+      "tags": [
+        "walk",
+        "relax"
+      ]
+    },
+    "MODA_COFFEE": {
+      "place_id": "MODA_COFFEE",
+      "name": "Moda coffee stop",
+      "type": "coffee",
+      "area": "Moda",
+      "maps_query": "Walter's Coffee Roastery Moda Istanbul",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Walter%27s%20Coffee%20Roastery%20Moda%20Istanbul",
+      "apple_maps_url": "http://maps.apple.com/?q=Walter%27s%20Coffee%20Roastery%20Moda%20Istanbul",
+      "lat": null,
+      "lon": null,
+      "has_coordinates": false,
+      "image_query": "Moda coffee Istanbul",
+      "tags": [
+        "coffee"
+      ]
+    },
+    "KADIKOY_FERRY": {
+      "place_id": "KADIKOY_FERRY",
+      "name": "Kadıköy Ferry Terminal",
+      "type": "ferry",
+      "area": "Kadıköy",
+      "maps_query": "Kadikoy Ferry Terminal Istanbul",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Kadikoy%20Ferry%20Terminal%20Istanbul",
+      "apple_maps_url": "http://maps.apple.com/?q=Kadikoy%20Ferry%20Terminal%20Istanbul",
+      "lat": null,
+      "lon": null,
+      "has_coordinates": false,
+      "image_query": "Kadikoy Ferry Terminal Istanbul",
+      "tags": [
+        "ferry",
+        "transport"
+      ]
+    },
+    "AIRPORT": {
+      "place_id": "AIRPORT",
+      "name": "Airport",
+      "type": "transfer",
+      "area": "Airport",
+      "maps_query": "Istanbul Airport",
+      "maps_url": "https://www.google.com/maps/search/?api=1&query=Istanbul%20Airport",
+      "apple_maps_url": "http://maps.apple.com/?q=Istanbul%20Airport",
+      "lat": null,
+      "lon": null,
+      "has_coordinates": false,
+      "image_query": "Istanbul Airport departures",
+      "tags": [
+        "airport"
+      ]
+    }
+  },
+  "days": [
+    {
+      "day_id": "D01",
+      "date": "2026-04-03",
+      "label": "Fr 03.04 – Ankunft",
+      "theme": "Sanfter Einstieg",
+      "color": "#607D8B",
+      "is_travel_day": true,
+      "stats": {
+        "items": 7,
+        "must_count": 4,
+        "daughter_count": 6
+      },
+      "items": [
+        {
+          "seq": 1,
+          "time_from": "14:30",
+          "time_to": "15:30",
+          "activity_title": "Check-in und kurze Pause",
+          "with_daughter": false,
+          "priority": "must",
+          "transport_from_prev": "arrival",
+          "travel_min": 0,
+          "notes": "",
+          "place": {
+            "place_id": "HOTEL",
+            "name": "Hagia Sophia Place Hotel",
+            "type": "hotel",
+            "area": "Sultanahmet",
+            "maps_query": "Hagia Sophia Place Hotel Istanbul",
+            "maps_url": "https://www.google.com/maps/search/?api=1&query=Hagia%20Sophia%20Place%20Hotel%20Istanbul",
+            "apple_maps_url": "http://maps.apple.com/?q=Hagia%20Sophia%20Place%20Hotel%20Istanbul",
+            "lat": null,
+            "lon": null,
+            "has_coordinates": false,
+            "image_query": "Hagia Sophia Place Hotel Istanbul",
+            "tags": [
+              "hotel",
+              "base"
+            ]
+          }
+        },
+        {
+          "seq": 2,
+          "time_from": "16:00",
+          "time_to": "16:25",
+          "activity_title": "Orientierungsspaziergang",
+          "with_daughter": true,
+          "priority": "must",
+          "transport_from_prev": "walk",
+          "travel_min": 7,
+          "notes": "sanfter Einstieg",
+          "place": {
+            "place_id": "SULTANAHMET_SQ",
+            "name": "Sultanahmet Square",
+            "type": "walk",
+            "area": "Sultanahmet",
+            "maps_query": "Sultanahmet Square Istanbul",
+            "maps_url": "https://www.google.com/maps/search/?api=1&query=Sultanahmet%20Square%20Istanbul",
+            "apple_maps_url": "http://maps.apple.com/?q=Sultanahmet%20Square%20Istanbul",
+            "lat": null,
+            "lon": null,
+            "has_coordinates": false,
+            "image_query": "Sultanahmet Square morning",
+            "tags": [
+              "walk",
+              "historic"
+            ]
+          }
+        },
+        {
+          "seq": 3,
+          "time_from": "16:25",
+          "time_to": "16:45",
+          "activity_title": "Außenansicht und Platz",
+          "with_daughter": true,
+          "priority": "must",
+          "transport_from_prev": "walk",
+          "travel_min": 3,
+          "notes": "",
+          "place": {
+            "place_id": "BLUE_MOSQUE",
+            "name": "Blue Mosque",
+            "type": "sight",
+            "area": "Sultanahmet",
+            "maps_query": "Blue Mosque Istanbul",
+            "maps_url": "https://www.google.com/maps/search/?api=1&query=Blue%20Mosque%20Istanbul",
+            "apple_maps_url": "http://maps.apple.com/?q=Blue%20Mosque%20Istanbul",
+            "lat": null,
+            "lon": null,
+            "has_coordinates": false,
+            "image_query": "Blue Mosque Istanbul exterior",
+            "tags": [
+              "mosque",
+              "must"
+            ]
+          }
+        },
+        {
+          "seq": 4,
+          "time_from": "16:50",
+          "time_to": "17:15",
+          "activity_title": "Leichter Bummel",
+          "with_daughter": true,
+          "priority": "nice",
+          "transport_from_prev": "walk",
+          "travel_min": 5,
+          "notes": "",
+          "place": {
+            "place_id": "ARASTA_BAZAAR",
+            "name": "Arasta Bazaar",
+            "type": "walk",
+            "area": "Sultanahmet",
+            "maps_query": "Arasta Bazaar Istanbul",
+            "maps_url": "https://www.google.com/maps/search/?api=1&query=Arasta%20Bazaar%20Istanbul",
+            "apple_maps_url": "http://maps.apple.com/?q=Arasta%20Bazaar%20Istanbul",
+            "lat": null,
+            "lon": null,
+            "has_coordinates": false,
+            "image_query": "Arasta Bazaar Istanbul",
+            "tags": [
+              "bazaar"
+            ]
+          }
+        },
+        {
+          "seq": 5,
+          "time_from": "17:20",
+          "time_to": "17:45",
+          "activity_title": "Optionaler Abstecher",
+          "with_daughter": true,
+          "priority": "optional",
+          "transport_from_prev": "walk",
+          "travel_min": 8,
+          "notes": "nur wenn Energie da ist",
+          "place": {
+            "place_id": "LITTLE_HAGIA_SOPHIA",
+            "name": "Little Hagia Sophia",
+            "type": "sight",
+            "area": "Sultanahmet",
+            "maps_query": "Little Hagia Sophia Istanbul",
+            "maps_url": "https://www.google.com/maps/search/?api=1&query=Little%20Hagia%20Sophia%20Istanbul",
+            "apple_maps_url": "http://maps.apple.com/?q=Little%20Hagia%20Sophia%20Istanbul",
+            "lat": null,
+            "lon": null,
+            "has_coordinates": false,
+            "image_query": "Little Hagia Sophia Istanbul",
+            "tags": [
+              "mosque",
+              "quiet"
+            ]
+          }
+        },
+        {
+          "seq": 6,
+          "time_from": "19:00",
+          "time_to": "20:30",
+          "activity_title": "Abendessen",
+          "with_daughter": true,
+          "priority": "must",
+          "transport_from_prev": "taxi",
+          "travel_min": 10,
+          "notes": "",
+          "place": {
+            "place_id": "DERALIYE",
+            "name": "Deraliye Restaurant",
+            "type": "dinner",
+            "area": "Sultanahmet",
+            "maps_query": "Deraliye Restaurant Istanbul",
+            "maps_url": "https://www.google.com/maps/search/?api=1&query=Deraliye%20Restaurant%20Istanbul",
+            "apple_maps_url": "http://maps.apple.com/?q=Deraliye%20Restaurant%20Istanbul",
+            "lat": null,
+            "lon": null,
+            "has_coordinates": false,
+            "image_query": "Deraliye Restaurant Istanbul",
+            "tags": [
+              "food",
+              "dinner"
+            ]
+          }
+        },
+        {
+          "seq": 7,
+          "time_from": "20:40",
+          "time_to": "21:00",
+          "activity_title": "Nachtansicht außen",
+          "with_daughter": true,
+          "priority": "nice",
+          "transport_from_prev": "walk",
+          "travel_min": 10,
+          "notes": "",
+          "place": {
+            "place_id": "HAGIA_SOPHIA",
+            "name": "Hagia Sophia",
+            "type": "sight",
+            "area": "Sultanahmet",
+            "maps_query": "Hagia Sophia Istanbul",
+            "maps_url": "https://www.google.com/maps/search/?api=1&query=Hagia%20Sophia%20Istanbul",
+            "apple_maps_url": "http://maps.apple.com/?q=Hagia%20Sophia%20Istanbul",
+            "lat": null,
+            "lon": null,
+            "has_coordinates": false,
+            "image_query": "Hagia Sophia interior",
+            "tags": [
+              "must",
+              "historic"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "day_id": "D02",
+      "date": "2026-04-04",
+      "label": "Sa 04.04 – Sultanahmet",
+      "theme": "Klassiker Altstadt",
+      "color": "#1565C0",
+      "is_travel_day": false,
+      "stats": {
+        "items": 10,
+        "must_count": 8,
+        "daughter_count": 5
+      },
+      "items": [
+        {
+          "seq": 1,
+          "time_from": "06:30",
+          "time_to": "07:00",
+          "activity_title": "Früher Fotospaziergang",
+          "with_daughter": false,
+          "priority": "must",
+          "transport_from_prev": "walk",
+          "travel_min": 7,
+          "notes": "",
+          "place": {
+            "place_id": "SULTANAHMET_SQ",
+            "name": "Sultanahmet Square",
+            "type": "walk",
+            "area": "Sultanahmet",
+            "maps_query": "Sultanahmet Square Istanbul",
+            "maps_url": "https://www.google.com/maps/search/?api=1&query=Sultanahmet%20Square%20Istanbul",
+            "apple_maps_url": "http://maps.apple.com/?q=Sultanahmet%20Square%20Istanbul",
+            "lat": null,
+            "lon": null,
+            "has_coordinates": false,
+            "image_query": "Sultanahmet Square morning",
+            "tags": [
+              "walk",
+              "historic"
+            ]
+          }
+        },
+        {
+          "seq": 2,
+          "time_from": "07:00",
+          "time_to": "07:30",
+          "activity_title": "Simit und Tee",
+          "with_daughter": false,
+          "priority": "must",
+          "transport_from_prev": "walk",
+          "travel_min": 5,
+          "notes": "leicht halten",
+          "place": {
+            "place_id": "SIMIT_SULTANAHMET",
+            "name": "Simit / Tea stop Sultanahmet",
+            "type": "breakfast",
+            "area": "Sultanahmet",
+            "maps_query": "Simit Sarayi Sultanahmet Istanbul",
+            "maps_url": "https://www.google.com/maps/search/?api=1&query=Simit%20Sarayi%20Sultanahmet%20Istanbul",
+            "apple_maps_url": "http://maps.apple.com/?q=Simit%20Sarayi%20Sultanahmet%20Istanbul",
+            "lat": null,
+            "lon": null,
+            "has_coordinates": false,
+            "image_query": "simit tea istanbul",
+            "tags": [
+              "breakfast",
+              "quick"
+            ]
+          }
+        },
+        {
+          "seq": 3,
+          "time_from": "09:00",
+          "time_to": "10:00",
+          "activity_title": "Früher Besuch",
+          "with_daughter": false,
+          "priority": "must",
+          "transport_from_prev": "walk",
+          "travel_min": 8,
+          "notes": "Gebetszeiten beachten",
+          "place": {
+            "place_id": "HAGIA_SOPHIA",
+            "name": "Hagia Sophia",
+            "type": "sight",
+            "area": "Sultanahmet",
+            "maps_query": "Hagia Sophia Istanbul",
+            "maps_url": "https://www.google.com/maps/search/?api=1&query=Hagia%20Sophia%20Istanbul",
+            "apple_maps_url": "http://maps.apple.com/?q=Hagia%20Sophia%20Istanbul",
+            "lat": null,
+            "lon": null,
+            "has_coordinates": false,
+            "image_query": "Hagia Sophia interior",
+            "tags": [
+              "must",
+              "historic"
+            ]
+          }
+        },
+        {
+          "seq": 4,
+          "time_from": "10:10",
+          "time_to": "10:45",
+          "activity_title": "Besuch",
+          "with_daughter": false,
+          "priority": "must",
+          "transport_from_prev": "walk",
+          "travel_min": 3,
+          "notes": "",
+          "place": {
+            "place_id": "BLUE_MOSQUE",
+            "name": "Blue Mosque",
+            "type": "sight",
+            "area": "Sultanahmet",
+            "maps_query": "Blue Mosque Istanbul",
+            "maps_url": "https://www.google.com/maps/search/?api=1&query=Blue%20Mosque%20Istanbul",
+            "apple_maps_url": "http://maps.apple.com/?q=Blue%20Mosque%20Istanbul",
+            "lat": null,
+            "lon": null,
+            "has_coordinates": false,
+            "image_query": "Blue Mosque Istanbul exterior",
+            "tags": [
+              "mosque",
+              "must"
+            ]
+          }
+        },
+        {
+          "seq": 5,
+          "time_from": "11:00",
+          "time_to": "12:10",
+          "activity_title": "Großer Basar",
+          "with_daughter": false,
+          "priority": "must",
+          "transport_from_prev": "walk",
+          "travel_min": 15,
+          "notes": "über Nuruosmaniye rein",
+          "place": {
+            "place_id": "GRAND_BAZAAR_NURU",
+            "name": "Grand Bazaar Nuruosmaniye Gate",
+            "type": "sight",
+            "area": "Beyazit",
+            "maps_query": "Grand Bazaar Nuruosmaniye Gate Istanbul",
+            "maps_url": "https://www.google.com/maps/search/?api=1&query=Grand%20Bazaar%20Nuruosmaniye%20Gate%20Istanbul",
+            "apple_maps_url": "http://maps.apple.com/?q=Grand%20Bazaar%20Nuruosmaniye%20Gate%20Istanbul",
+            "lat": null,
+            "lon": null,
+            "has_coordinates": false,
+            "image_query": "Grand Bazaar Istanbul",
+            "tags": [
+              "bazaar",
+              "must"
+            ]
+          }
+        },
+        {
+          "seq": 6,
+          "time_from": "13:00",
+          "time_to": "14:00",
+          "activity_title": "Lunch mit Tochter",
+          "with_daughter": true,
+          "priority": "must",
+          "transport_from_prev": "walk",
+          "travel_min": 15,
+          "notes": "Treffpunkt direkt dort",
+          "place": {
+            "place_id": "PANDELI",
+            "name": "Pandeli Restaurant",
+            "type": "lunch",
+            "area": "Eminönü",
+            "maps_query": "Pandeli Restaurant Istanbul",
+            "maps_url": "https://www.google.com/maps/search/?api=1&query=Pandeli%20Restaurant%20Istanbul",
+            "apple_maps_url": "http://maps.apple.com/?q=Pandeli%20Restaurant%20Istanbul",
+            "lat": null,
+            "lon": null,
+            "has_coordinates": false,
+            "image_query": "Pandeli Restaurant Istanbul",
+            "tags": [
+              "food",
+              "lunch"
+            ]
+          }
+        },
+        {
+          "seq": 7,
+          "time_from": "14:30",
+          "time_to": "15:20",
+          "activity_title": "Besuch",
+          "with_daughter": true,
+          "priority": "must",
+          "transport_from_prev": "taxi",
+          "travel_min": 10,
+          "notes": "",
+          "place": {
+            "place_id": "BASILICA_CISTERN",
+            "name": "Basilica Cistern",
+            "type": "sight",
+            "area": "Sultanahmet",
+            "maps_query": "Basilica Cistern Istanbul",
+            "maps_url": "https://www.google.com/maps/search/?api=1&query=Basilica%20Cistern%20Istanbul",
+            "apple_maps_url": "http://maps.apple.com/?q=Basilica%20Cistern%20Istanbul",
+            "lat": null,
+            "lon": null,
+            "has_coordinates": false,
+            "image_query": "Basilica Cistern Istanbul",
+            "tags": [
+              "must",
+              "historic"
+            ]
+          }
+        },
+        {
+          "seq": 8,
+          "time_from": "15:30",
+          "time_to": "16:10",
+          "activity_title": "Gewürzbasar",
+          "with_daughter": true,
+          "priority": "nice",
+          "transport_from_prev": "taxi",
+          "travel_min": 10,
+          "notes": "kann gekürzt werden",
+          "place": {
+            "place_id": "SPICE_BAZAAR",
+            "name": "Spice Bazaar",
+            "type": "sight",
+            "area": "Eminönü",
+            "maps_query": "Spice Bazaar Istanbul",
+            "maps_url": "https://www.google.com/maps/search/?api=1&query=Spice%20Bazaar%20Istanbul",
+            "apple_maps_url": "http://maps.apple.com/?q=Spice%20Bazaar%20Istanbul",
+            "lat": null,
+            "lon": null,
+            "has_coordinates": false,
+            "image_query": "Spice Bazaar Istanbul",
+            "tags": [
+              "bazaar"
+            ]
+          }
+        },
+        {
+          "seq": 9,
+          "time_from": "16:20",
+          "time_to": "17:15",
+          "activity_title": "Fähre nach Üsküdar und zurück",
+          "with_daughter": true,
+          "priority": "must",
+          "transport_from_prev": "walk",
+          "travel_min": 5,
+          "notes": "öffentliche Fähre",
+          "place": {
+            "place_id": "EMINONU_FERRY",
+            "name": "Eminönü Ferry Terminal",
+            "type": "ferry",
+            "area": "Eminönü",
+            "maps_query": "Eminonu Ferry Terminal Istanbul",
+            "maps_url": "https://www.google.com/maps/search/?api=1&query=Eminonu%20Ferry%20Terminal%20Istanbul",
+            "apple_maps_url": "http://maps.apple.com/?q=Eminonu%20Ferry%20Terminal%20Istanbul",
+            "lat": null,
+            "lon": null,
+            "has_coordinates": false,
+            "image_query": "Eminonu ferry Istanbul",
+            "tags": [
+              "ferry",
+              "transport"
+            ]
+          }
+        },
+        {
+          "seq": 10,
+          "time_from": "17:30",
+          "time_to": "18:00",
+          "activity_title": "Kaffee und Süßes",
+          "with_daughter": true,
+          "priority": "nice",
+          "transport_from_prev": "walk",
+          "travel_min": 8,
+          "notes": "",
+          "place": {
+            "place_id": "HAFIZ_MUSTAFA_EMINONU",
+            "name": "Hafız Mustafa Eminönü",
+            "type": "coffee",
+            "area": "Eminönü",
+            "maps_query": "Hafiz Mustafa Eminonu Istanbul",
+            "maps_url": "https://www.google.com/maps/search/?api=1&query=Hafiz%20Mustafa%20Eminonu%20Istanbul",
+            "apple_maps_url": "http://maps.apple.com/?q=Hafiz%20Mustafa%20Eminonu%20Istanbul",
+            "lat": null,
+            "lon": null,
+            "has_coordinates": false,
+            "image_query": "Hafiz Mustafa Istanbul",
+            "tags": [
+              "coffee",
+              "dessert"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "day_id": "D03",
+      "date": "2026-04-05",
+      "label": "So 05.04 – Topkapı / Süleymaniye",
+      "theme": "Imperium & stilles Istanbul",
+      "color": "#2E7D32",
+      "is_travel_day": false,
+      "stats": {
+        "items": 10,
+        "must_count": 5,
+        "daughter_count": 7
+      },
+      "items": [
+        {
+          "seq": 1,
+          "time_from": "06:30",
+          "time_to": "07:15",
+          "activity_title": "Morgenspaziergang",
+          "with_daughter": false,
+          "priority": "nice",
+          "transport_from_prev": "walk",
+          "travel_min": 12,
+          "notes": "",
+          "place": {
+            "place_id": "GULHANE_PARK",
+            "name": "Gülhane Park",
+            "type": "walk",
+            "area": "Sirkeci",
+            "maps_query": "Gulhane Park Istanbul",
+            "maps_url": "https://www.google.com/maps/search/?api=1&query=Gulhane%20Park%20Istanbul",
+            "apple_maps_url": "http://maps.apple.com/?q=Gulhane%20Park%20Istanbul",
+            "lat": null,
+            "lon": null,
+            "has_coordinates": false,
+            "image_query": "Gulhane Park Istanbul",
+            "tags": [
+              "park",
+              "walk"
+            ]
+          }
+        },
+        {
+          "seq": 2,
+          "time_from": "07:15",
+          "time_to": "07:45",
+          "activity_title": "Schnelles Frühstück",
+          "with_daughter": false,
+          "priority": "must",
+          "transport_from_prev": "walk",
+          "travel_min": 8,
+          "notes": "",
+          "place": {
+            "place_id": "BREAKFAST_SIRKECI",
+            "name": "Quick breakfast Sirkeci",
+            "type": "breakfast",
+            "area": "Sirkeci",
+            "maps_query": "Hafiz Mustafa Sirkeci Istanbul",
+            "maps_url": "https://www.google.com/maps/search/?api=1&query=Hafiz%20Mustafa%20Sirkeci%20Istanbul",
+            "apple_maps_url": "http://maps.apple.com/?q=Hafiz%20Mustafa%20Sirkeci%20Istanbul",
+            "lat": null,
+            "lon": null,
+            "has_coordinates": false,
+            "image_query": "breakfast sirkeci istanbul",
+            "tags": [
+              "breakfast"
+            ]
+          }
+        },
+        {
+          "seq": 3,
+          "time_from": "09:00",
+          "time_to": "11:45",
+          "activity_title": "Topkapı inkl. Harem",
+          "with_daughter": false,
+          "priority": "must",
+          "transport_from_prev": "walk",
+          "travel_min": 12,
+          "notes": "früh da sein",
+          "place": {
+            "place_id": "TOPKAPI",
+            "name": "Topkapi Palace",
+            "type": "sight",
+            "area": "Sultanahmet",
+            "maps_query": "Topkapi Palace Istanbul",
+            "maps_url": "https://www.google.com/maps/search/?api=1&query=Topkapi%20Palace%20Istanbul",
+            "apple_maps_url": "http://maps.apple.com/?q=Topkapi%20Palace%20Istanbul",
+            "lat": null,
+            "lon": null,
+            "has_coordinates": false,
+            "image_query": "Topkapi Palace Istanbul",
+            "tags": [
+              "must",
+              "palace"
+            ]
+          }
+        },
+        {
+          "seq": 4,
+          "time_from": "13:00",
+          "time_to": "14:15",
+          "activity_title": "Lunch mit Tochter",
+          "with_daughter": true,
+          "priority": "must",
+          "transport_from_prev": "walk",
+          "travel_min": 20,
+          "notes": "",
+          "place": {
+            "place_id": "HAMDI",
+            "name": "Hamdi Restaurant Eminönü",
+            "type": "lunch",
+            "area": "Eminönü",
+            "maps_query": "Hamdi Restaurant Eminonu Istanbul",
+            "maps_url": "https://www.google.com/maps/search/?api=1&query=Hamdi%20Restaurant%20Eminonu%20Istanbul",
+            "apple_maps_url": "http://maps.apple.com/?q=Hamdi%20Restaurant%20Eminonu%20Istanbul",
+            "lat": null,
+            "lon": null,
+            "has_coordinates": false,
+            "image_query": "Hamdi Restaurant Istanbul",
+            "tags": [
+              "food",
+              "lunch"
+            ]
+          }
+        },
+        {
+          "seq": 5,
+          "time_from": "14:35",
+          "time_to": "15:30",
+          "activity_title": "Moschee und Hof",
+          "with_daughter": true,
+          "priority": "must",
+          "transport_from_prev": "taxi",
+          "travel_min": 10,
+          "notes": "bergauf lieber Taxi",
+          "place": {
+            "place_id": "SULEYMANIYE",
+            "name": "Süleymaniye Mosque",
+            "type": "sight",
+            "area": "Fatih",
+            "maps_query": "Suleymaniye Mosque Istanbul",
+            "maps_url": "https://www.google.com/maps/search/?api=1&query=Suleymaniye%20Mosque%20Istanbul",
+            "apple_maps_url": "http://maps.apple.com/?q=Suleymaniye%20Mosque%20Istanbul",
+            "lat": null,
+            "lon": null,
+            "has_coordinates": false,
+            "image_query": "Suleymaniye Mosque Istanbul",
+            "tags": [
+              "mosque",
+              "view"
+            ]
+          }
+        },
+        {
+          "seq": 6,
+          "time_from": "15:30",
+          "time_to": "16:00",
+          "activity_title": "Tee mit Aussicht",
+          "with_daughter": true,
+          "priority": "nice",
+          "transport_from_prev": "walk",
+          "travel_min": 0,
+          "notes": "gleicher Ort",
+          "place": {
+            "place_id": "SULEYMANIYE",
+            "name": "Süleymaniye Mosque",
+            "type": "sight",
+            "area": "Fatih",
+            "maps_query": "Suleymaniye Mosque Istanbul",
+            "maps_url": "https://www.google.com/maps/search/?api=1&query=Suleymaniye%20Mosque%20Istanbul",
+            "apple_maps_url": "http://maps.apple.com/?q=Suleymaniye%20Mosque%20Istanbul",
+            "lat": null,
+            "lon": null,
+            "has_coordinates": false,
+            "image_query": "Suleymaniye Mosque Istanbul",
+            "tags": [
+              "mosque",
+              "view"
+            ]
+          }
+        },
+        {
+          "seq": 7,
+          "time_from": "16:20",
+          "time_to": "16:40",
+          "activity_title": "Boza probieren",
+          "with_daughter": true,
+          "priority": "nice",
+          "transport_from_prev": "walk",
+          "travel_min": 12,
+          "notes": "",
+          "place": {
+            "place_id": "VEFA_BOZACISI",
+            "name": "Vefa Bozacısı",
+            "type": "coffee",
+            "area": "Fatih",
+            "maps_query": "Vefa Bozacisi Istanbul",
+            "maps_url": "https://www.google.com/maps/search/?api=1&query=Vefa%20Bozacisi%20Istanbul",
+            "apple_maps_url": "http://maps.apple.com/?q=Vefa%20Bozacisi%20Istanbul",
+            "lat": null,
+            "lon": null,
+            "has_coordinates": false,
+            "image_query": "Vefa Bozacisi Istanbul",
+            "tags": [
+              "drink",
+              "traditional"
+            ]
+          }
+        },
+        {
+          "seq": 8,
+          "time_from": "16:45",
+          "time_to": "17:15",
+          "activity_title": "Historische Gassen",
+          "with_daughter": true,
+          "priority": "nice",
+          "transport_from_prev": "walk",
+          "travel_min": 10,
+          "notes": "",
+          "place": {
+            "place_id": "ZEYREK",
+            "name": "Zeyrek",
+            "type": "walk",
+            "area": "Fatih",
+            "maps_query": "Zeyrek Mosque Istanbul",
+            "maps_url": "https://www.google.com/maps/search/?api=1&query=Zeyrek%20Mosque%20Istanbul",
+            "apple_maps_url": "http://maps.apple.com/?q=Zeyrek%20Mosque%20Istanbul",
+            "lat": null,
+            "lon": null,
+            "has_coordinates": false,
+            "image_query": "Zeyrek Istanbul",
+            "tags": [
+              "walk",
+              "historic"
+            ]
+          }
+        },
+        {
+          "seq": 9,
+          "time_from": "17:20",
+          "time_to": "17:35",
+          "activity_title": "Kurzer Stopp",
+          "with_daughter": true,
+          "priority": "nice",
+          "transport_from_prev": "walk",
+          "travel_min": 8,
+          "notes": "",
+          "place": {
+            "place_id": "VALENS_AQUEDUCT",
+            "name": "Valens Aqueduct",
+            "type": "sight",
+            "area": "Fatih",
+            "maps_query": "Valens Aqueduct Istanbul",
+            "maps_url": "https://www.google.com/maps/search/?api=1&query=Valens%20Aqueduct%20Istanbul",
+            "apple_maps_url": "http://maps.apple.com/?q=Valens%20Aqueduct%20Istanbul",
+            "lat": null,
+            "lon": null,
+            "has_coordinates": false,
+            "image_query": "Valens Aqueduct Istanbul",
+            "tags": [
+              "historic"
+            ]
+          }
+        },
+        {
+          "seq": 10,
+          "time_from": "18:00",
+          "time_to": "18:20",
+          "activity_title": "Zurück ins Hotel",
+          "with_daughter": true,
+          "priority": "must",
+          "transport_from_prev": "taxi",
+          "travel_min": 15,
+          "notes": "",
+          "place": {
+            "place_id": "HOTEL",
+            "name": "Hagia Sophia Place Hotel",
+            "type": "hotel",
+            "area": "Sultanahmet",
+            "maps_query": "Hagia Sophia Place Hotel Istanbul",
+            "maps_url": "https://www.google.com/maps/search/?api=1&query=Hagia%20Sophia%20Place%20Hotel%20Istanbul",
+            "apple_maps_url": "http://maps.apple.com/?q=Hagia%20Sophia%20Place%20Hotel%20Istanbul",
+            "lat": null,
+            "lon": null,
+            "has_coordinates": false,
+            "image_query": "Hagia Sophia Place Hotel Istanbul",
+            "tags": [
+              "hotel",
+              "base"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "day_id": "D04",
+      "date": "2026-04-06",
+      "label": "Mo 06.04 – Balat / Fener / Eyüp",
+      "theme": "Atmosphäre & Viertel",
+      "color": "#6A1B9A",
+      "is_travel_day": false,
+      "stats": {
+        "items": 9,
+        "must_count": 5,
+        "daughter_count": 4
+      },
+      "items": [
+        {
+          "seq": 1,
+          "time_from": "07:15",
+          "time_to": "08:15",
+          "activity_title": "Balat im Morgenlicht",
+          "with_daughter": false,
+          "priority": "must",
+          "transport_from_prev": "taxi",
+          "travel_min": 25,
+          "notes": "",
+          "place": {
+            "place_id": "BALAT",
+            "name": "Balat",
+            "type": "walk",
+            "area": "Balat",
+            "maps_query": "Balat Istanbul",
+            "maps_url": "https://www.google.com/maps/search/?api=1&query=Balat%20Istanbul",
+            "apple_maps_url": "http://maps.apple.com/?q=Balat%20Istanbul",
+            "lat": null,
+            "lon": null,
+            "has_coordinates": false,
+            "image_query": "Balat Istanbul colorful streets",
+            "tags": [
+              "walk",
+              "neighborhood"
+            ]
+          }
+        },
+        {
+          "seq": 2,
+          "time_from": "08:20",
+          "time_to": "09:00",
+          "activity_title": "Frühstück",
+          "with_daughter": false,
+          "priority": "must",
+          "transport_from_prev": "walk",
+          "travel_min": 5,
+          "notes": "falls offen",
+          "place": {
+            "place_id": "VELVET_CAFE",
+            "name": "Velvet Cafe Balat",
+            "type": "breakfast",
+            "area": "Balat",
+            "maps_query": "Velvet Cafe Balat Istanbul",
+            "maps_url": "https://www.google.com/maps/search/?api=1&query=Velvet%20Cafe%20Balat%20Istanbul",
+            "apple_maps_url": "http://maps.apple.com/?q=Velvet%20Cafe%20Balat%20Istanbul",
+            "lat": null,
+            "lon": null,
+            "has_coordinates": false,
+            "image_query": "Velvet Cafe Balat",
+            "tags": [
+              "breakfast",
+              "coffee"
+            ]
+          }
+        },
+        {
+          "seq": 3,
+          "time_from": "09:30",
+          "time_to": "10:00",
+          "activity_title": "Patriarchat",
+          "with_daughter": false,
+          "priority": "nice",
+          "transport_from_prev": "walk",
+          "travel_min": 10,
+          "notes": "",
+          "place": {
+            "place_id": "PATRIARCHATE",
+            "name": "Ecumenical Patriarchate",
+            "type": "sight",
+            "area": "Fener",
+            "maps_query": "Ecumenical Patriarchate of Constantinople Istanbul",
+            "maps_url": "https://www.google.com/maps/search/?api=1&query=Ecumenical%20Patriarchate%20of%20Constantinople%20Istanbul",
+            "apple_maps_url": "http://maps.apple.com/?q=Ecumenical%20Patriarchate%20of%20Constantinople%20Istanbul",
+            "lat": null,
+            "lon": null,
+            "has_coordinates": false,
+            "image_query": "Fener Patriarchate Istanbul",
+            "tags": [
+              "historic"
+            ]
+          }
+        },
+        {
+          "seq": 4,
+          "time_from": "10:15",
+          "time_to": "10:45",
+          "activity_title": "Eisenkirche",
+          "with_daughter": false,
+          "priority": "must",
+          "transport_from_prev": "walk",
+          "travel_min": 10,
+          "notes": "",
+          "place": {
+            "place_id": "IRON_CHURCH",
+            "name": "Bulgarian Iron Church",
+            "type": "sight",
+            "area": "Balat",
+            "maps_query": "Bulgarian St Stephen Church Istanbul",
+            "maps_url": "https://www.google.com/maps/search/?api=1&query=Bulgarian%20St%20Stephen%20Church%20Istanbul",
+            "apple_maps_url": "http://maps.apple.com/?q=Bulgarian%20St%20Stephen%20Church%20Istanbul",
+            "lat": null,
+            "lon": null,
+            "has_coordinates": false,
+            "image_query": "Bulgarian Iron Church Istanbul",
+            "tags": [
+              "church"
+            ]
+          }
+        },
+        {
+          "seq": 5,
+          "time_from": "11:20",
+          "time_to": "12:10",
+          "activity_title": "Kariye / Chora",
+          "with_daughter": false,
+          "priority": "nice",
+          "transport_from_prev": "taxi",
+          "travel_min": 15,
+          "notes": "Zugangsstatus prüfen",
+          "place": {
+            "place_id": "KARIYE",
+            "name": "Kariye / Chora",
+            "type": "sight",
+            "area": "Edirnekapı",
+            "maps_query": "Kariye Mosque Istanbul",
+            "maps_url": "https://www.google.com/maps/search/?api=1&query=Kariye%20Mosque%20Istanbul",
+            "apple_maps_url": "http://maps.apple.com/?q=Kariye%20Mosque%20Istanbul",
+            "lat": null,
+            "lon": null,
+            "has_coordinates": false,
+            "image_query": "Kariye Mosque Istanbul",
+            "tags": [
+              "historic"
+            ]
+          }
+        },
+        {
+          "seq": 6,
+          "time_from": "12:45",
+          "time_to": "14:00",
+          "activity_title": "Lunch mit Tochter",
+          "with_daughter": true,
+          "priority": "must",
+          "transport_from_prev": "walk",
+          "travel_min": 8,
+          "notes": "",
+          "place": {
+            "place_id": "ASITANE",
+            "name": "Asitane Restaurant",
+            "type": "lunch",
+            "area": "Edirnekapı",
+            "maps_query": "Asitane Restaurant Istanbul",
+            "maps_url": "https://www.google.com/maps/search/?api=1&query=Asitane%20Restaurant%20Istanbul",
+            "apple_maps_url": "http://maps.apple.com/?q=Asitane%20Restaurant%20Istanbul",
+            "lat": null,
+            "lon": null,
+            "has_coordinates": false,
+            "image_query": "Asitane Restaurant Istanbul",
+            "tags": [
+              "food",
+              "lunch"
+            ]
+          }
+        },
+        {
+          "seq": 7,
+          "time_from": "14:35",
+          "time_to": "15:00",
+          "activity_title": "Ufer und Platz",
+          "with_daughter": true,
+          "priority": "nice",
+          "transport_from_prev": "taxi",
+          "travel_min": 15,
+          "notes": "",
+          "place": {
+            "place_id": "EYUP_SQUARE",
+            "name": "Eyüp Sultan Square",
+            "type": "walk",
+            "area": "Eyüp",
+            "maps_query": "Eyup Sultan Square Istanbul",
+            "maps_url": "https://www.google.com/maps/search/?api=1&query=Eyup%20Sultan%20Square%20Istanbul",
+            "apple_maps_url": "http://maps.apple.com/?q=Eyup%20Sultan%20Square%20Istanbul",
+            "lat": null,
+            "lon": null,
+            "has_coordinates": false,
+            "image_query": "Eyup Sultan Square Istanbul",
+            "tags": [
+              "walk"
+            ]
+          }
+        },
+        {
+          "seq": 8,
+          "time_from": "15:00",
+          "time_to": "16:30",
+          "activity_title": "Aussicht und Tee",
+          "with_daughter": true,
+          "priority": "must",
+          "transport_from_prev": "walk",
+          "travel_min": 10,
+          "notes": "Seilbahn optional",
+          "place": {
+            "place_id": "PIERRE_LOTI",
+            "name": "Pierre Loti",
+            "type": "view",
+            "area": "Eyüp",
+            "maps_query": "Pierre Loti Tepesi Istanbul",
+            "maps_url": "https://www.google.com/maps/search/?api=1&query=Pierre%20Loti%20Tepesi%20Istanbul",
+            "apple_maps_url": "http://maps.apple.com/?q=Pierre%20Loti%20Tepesi%20Istanbul",
+            "lat": null,
+            "lon": null,
+            "has_coordinates": false,
+            "image_query": "Pierre Loti Istanbul view",
+            "tags": [
+              "view",
+              "tea"
+            ]
+          }
+        },
+        {
+          "seq": 9,
+          "time_from": "19:00",
+          "time_to": "20:30",
+          "activity_title": "Optionaler Hamam-Abend",
+          "with_daughter": true,
+          "priority": "optional",
+          "transport_from_prev": "taxi",
+          "travel_min": 30,
+          "notes": "",
+          "place": {
+            "place_id": "CAGALOGLU_HAMAMI",
+            "name": "Cağaloğlu Hamamı",
+            "type": "hamam",
+            "area": "Sultanahmet",
+            "maps_query": "Cagaloglu Hamami Istanbul",
+            "maps_url": "https://www.google.com/maps/search/?api=1&query=Cagaloglu%20Hamami%20Istanbul",
+            "apple_maps_url": "http://maps.apple.com/?q=Cagaloglu%20Hamami%20Istanbul",
+            "lat": null,
+            "lon": null,
+            "has_coordinates": false,
+            "image_query": "Cagaloglu Hamami Istanbul",
+            "tags": [
+              "hamam",
+              "optional"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "day_id": "D05",
+      "date": "2026-04-07",
+      "label": "Di 07.04 – Beşiktaş / Dolmabahçe / Karaköy",
+      "theme": "Palast & Bosporus",
+      "color": "#EF6C00",
+      "is_travel_day": false,
+      "stats": {
+        "items": 7,
+        "must_count": 5,
+        "daughter_count": 5
+      },
+      "items": [
+        {
+          "seq": 1,
+          "time_from": "07:30",
+          "time_to": "08:20",
+          "activity_title": "Frühstück",
+          "with_daughter": false,
+          "priority": "must",
+          "transport_from_prev": "tram",
+          "travel_min": 30,
+          "notes": "Alternativ Çakmak",
+          "place": {
+            "place_id": "PANDO",
+            "name": "Pando Kaymak",
+            "type": "breakfast",
+            "area": "Beşiktaş",
+            "maps_query": "Pando Kaymak Besiktas Istanbul",
+            "maps_url": "https://www.google.com/maps/search/?api=1&query=Pando%20Kaymak%20Besiktas%20Istanbul",
+            "apple_maps_url": "http://maps.apple.com/?q=Pando%20Kaymak%20Besiktas%20Istanbul",
+            "lat": null,
+            "lon": null,
+            "has_coordinates": false,
+            "image_query": "Pando Kaymak Istanbul",
+            "tags": [
+              "breakfast"
+            ]
+          }
+        },
+        {
+          "seq": 2,
+          "time_from": "09:00",
+          "time_to": "11:15",
+          "activity_title": "Palastbesuch",
+          "with_daughter": false,
+          "priority": "must",
+          "transport_from_prev": "walk",
+          "travel_min": 12,
+          "notes": "",
+          "place": {
+            "place_id": "DOLMABAHCE",
+            "name": "Dolmabahçe Palace",
+            "type": "sight",
+            "area": "Beşiktaş",
+            "maps_query": "Dolmabahce Palace Istanbul",
+            "maps_url": "https://www.google.com/maps/search/?api=1&query=Dolmabahce%20Palace%20Istanbul",
+            "apple_maps_url": "http://maps.apple.com/?q=Dolmabahce%20Palace%20Istanbul",
+            "lat": null,
+            "lon": null,
+            "has_coordinates": false,
+            "image_query": "Dolmabahce Palace Istanbul",
+            "tags": [
+              "palace",
+              "must"
+            ]
+          }
+        },
+        {
+          "seq": 3,
+          "time_from": "13:00",
+          "time_to": "14:15",
+          "activity_title": "Lunch mit Tochter",
+          "with_daughter": true,
+          "priority": "must",
+          "transport_from_prev": "taxi",
+          "travel_min": 20,
+          "notes": "",
+          "place": {
+            "place_id": "KARAKOY_LOKANTASI",
+            "name": "Karaköy Lokantası",
+            "type": "lunch",
+            "area": "Karaköy",
+            "maps_query": "Karakoy Lokantasi Istanbul",
+            "maps_url": "https://www.google.com/maps/search/?api=1&query=Karakoy%20Lokantasi%20Istanbul",
+            "apple_maps_url": "http://maps.apple.com/?q=Karakoy%20Lokantasi%20Istanbul",
+            "lat": null,
+            "lon": null,
+            "has_coordinates": false,
+            "image_query": "Karakoy Lokantasi Istanbul",
+            "tags": [
+              "food",
+              "lunch"
+            ]
+          }
+        },
+        {
+          "seq": 4,
+          "time_from": "14:20",
+          "time_to": "15:00",
+          "activity_title": "Karaköy-Spaziergang",
+          "with_daughter": true,
+          "priority": "nice",
+          "transport_from_prev": "walk",
+          "travel_min": 5,
+          "notes": "",
+          "place": {
+            "place_id": "KARAKOY",
+            "name": "Karaköy",
+            "type": "walk",
+            "area": "Karaköy",
+            "maps_query": "Karakoy Istanbul",
+            "maps_url": "https://www.google.com/maps/search/?api=1&query=Karakoy%20Istanbul",
+            "apple_maps_url": "http://maps.apple.com/?q=Karakoy%20Istanbul",
+            "lat": null,
+            "lon": null,
+            "has_coordinates": false,
+            "image_query": "Karakoy Istanbul streets",
+            "tags": [
+              "walk",
+              "urban"
+            ]
+          }
+        },
+        {
+          "seq": 5,
+          "time_from": "15:15",
+          "time_to": "16:30",
+          "activity_title": "Kurze Bosporusfahrt",
+          "with_daughter": true,
+          "priority": "must",
+          "transport_from_prev": "walk",
+          "travel_min": 15,
+          "notes": "nächste passende Abfahrt nehmen",
+          "place": {
+            "place_id": "TURYOL_EMINONU",
+            "name": "Bosphorus cruise pier",
+            "type": "ferry",
+            "area": "Eminönü",
+            "maps_query": "Turyol Eminonu Istanbul",
+            "maps_url": "https://www.google.com/maps/search/?api=1&query=Turyol%20Eminonu%20Istanbul",
+            "apple_maps_url": "http://maps.apple.com/?q=Turyol%20Eminonu%20Istanbul",
+            "lat": null,
+            "lon": null,
+            "has_coordinates": false,
+            "image_query": "Bosphorus boat Eminonu",
+            "tags": [
+              "boat"
+            ]
+          }
+        },
+        {
+          "seq": 6,
+          "time_from": "16:45",
+          "time_to": "17:30",
+          "activity_title": "Kaffee / Tee",
+          "with_daughter": true,
+          "priority": "nice",
+          "transport_from_prev": "taxi",
+          "travel_min": 10,
+          "notes": "",
+          "place": {
+            "place_id": "DEM_KARAKOY",
+            "name": "Dem Karaköy",
+            "type": "coffee",
+            "area": "Karaköy",
+            "maps_query": "Dem Karakoy Istanbul",
+            "maps_url": "https://www.google.com/maps/search/?api=1&query=Dem%20Karakoy%20Istanbul",
+            "apple_maps_url": "http://maps.apple.com/?q=Dem%20Karakoy%20Istanbul",
+            "lat": null,
+            "lon": null,
+            "has_coordinates": false,
+            "image_query": "Dem Karakoy Istanbul",
+            "tags": [
+              "coffee",
+              "tea"
+            ]
+          }
+        },
+        {
+          "seq": 7,
+          "time_from": "18:00",
+          "time_to": "18:30",
+          "activity_title": "Zurück ins Hotel",
+          "with_daughter": true,
+          "priority": "must",
+          "transport_from_prev": "tram",
+          "travel_min": 30,
+          "notes": "",
+          "place": {
+            "place_id": "HOTEL",
+            "name": "Hagia Sophia Place Hotel",
+            "type": "hotel",
+            "area": "Sultanahmet",
+            "maps_query": "Hagia Sophia Place Hotel Istanbul",
+            "maps_url": "https://www.google.com/maps/search/?api=1&query=Hagia%20Sophia%20Place%20Hotel%20Istanbul",
+            "apple_maps_url": "http://maps.apple.com/?q=Hagia%20Sophia%20Place%20Hotel%20Istanbul",
+            "lat": null,
+            "lon": null,
+            "has_coordinates": false,
+            "image_query": "Hagia Sophia Place Hotel Istanbul",
+            "tags": [
+              "hotel",
+              "base"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "day_id": "D06",
+      "date": "2026-04-08",
+      "label": "Mi 08.04 – Galata / Pera / Cihangir",
+      "theme": "Urbanes Istanbul",
+      "color": "#00838F",
+      "is_travel_day": false,
+      "stats": {
+        "items": 10,
+        "must_count": 5,
+        "daughter_count": 5
+      },
+      "items": [
+        {
+          "seq": 1,
+          "time_from": "07:15",
+          "time_to": "08:00",
+          "activity_title": "Morgenrunde",
+          "with_daughter": false,
+          "priority": "nice",
+          "transport_from_prev": "tram",
+          "travel_min": 20,
+          "notes": "",
+          "place": {
+            "place_id": "KAMONDO_STAIRS",
+            "name": "Kamondo Stairs",
+            "type": "walk",
+            "area": "Karaköy",
+            "maps_query": "Kamondo Stairs Istanbul",
+            "maps_url": "https://www.google.com/maps/search/?api=1&query=Kamondo%20Stairs%20Istanbul",
+            "apple_maps_url": "http://maps.apple.com/?q=Kamondo%20Stairs%20Istanbul",
+            "lat": null,
+            "lon": null,
+            "has_coordinates": false,
+            "image_query": "Kamondo Stairs Istanbul",
+            "tags": [
+              "walk",
+              "architecture"
+            ]
+          }
+        },
+        {
+          "seq": 2,
+          "time_from": "08:15",
+          "time_to": "09:00",
+          "activity_title": "Frühstück",
+          "with_daughter": false,
+          "priority": "must",
+          "transport_from_prev": "walk",
+          "travel_min": 8,
+          "notes": "",
+          "place": {
+            "place_id": "PRIVATO",
+            "name": "Privato Cafe",
+            "type": "breakfast",
+            "area": "Galata",
+            "maps_query": "Privato Cafe Istanbul",
+            "maps_url": "https://www.google.com/maps/search/?api=1&query=Privato%20Cafe%20Istanbul",
+            "apple_maps_url": "http://maps.apple.com/?q=Privato%20Cafe%20Istanbul",
+            "lat": null,
+            "lon": null,
+            "has_coordinates": false,
+            "image_query": "Privato Cafe Istanbul",
+            "tags": [
+              "breakfast"
+            ]
+          }
+        },
+        {
+          "seq": 3,
+          "time_from": "09:15",
+          "time_to": "10:00",
+          "activity_title": "Früher Besuch",
+          "with_daughter": false,
+          "priority": "must",
+          "transport_from_prev": "walk",
+          "travel_min": 5,
+          "notes": "",
+          "place": {
+            "place_id": "GALATA_TOWER",
+            "name": "Galata Tower",
+            "type": "sight",
+            "area": "Galata",
+            "maps_query": "Galata Tower Istanbul",
+            "maps_url": "https://www.google.com/maps/search/?api=1&query=Galata%20Tower%20Istanbul",
+            "apple_maps_url": "http://maps.apple.com/?q=Galata%20Tower%20Istanbul",
+            "lat": null,
+            "lon": null,
+            "has_coordinates": false,
+            "image_query": "Galata Tower Istanbul",
+            "tags": [
+              "tower",
+              "must"
+            ]
+          }
+        },
+        {
+          "seq": 4,
+          "time_from": "10:15",
+          "time_to": "10:50",
+          "activity_title": "Spaziergang",
+          "with_daughter": false,
+          "priority": "nice",
+          "transport_from_prev": "walk",
+          "travel_min": 15,
+          "notes": "",
+          "place": {
+            "place_id": "CUKURCUMA",
+            "name": "Çukurcuma",
+            "type": "walk",
+            "area": "Beyoğlu",
+            "maps_query": "Cukurcuma Istanbul",
+            "maps_url": "https://www.google.com/maps/search/?api=1&query=Cukurcuma%20Istanbul",
+            "apple_maps_url": "http://maps.apple.com/?q=Cukurcuma%20Istanbul",
+            "lat": null,
+            "lon": null,
+            "has_coordinates": false,
+            "image_query": "Cukurcuma Istanbul",
+            "tags": [
+              "walk",
+              "antiques"
+            ]
+          }
+        },
+        {
+          "seq": 5,
+          "time_from": "11:00",
+          "time_to": "11:45",
+          "activity_title": "Spaziergang",
+          "with_daughter": false,
+          "priority": "nice",
+          "transport_from_prev": "walk",
+          "travel_min": 10,
+          "notes": "",
+          "place": {
+            "place_id": "CIHANGIR",
+            "name": "Cihangir",
+            "type": "walk",
+            "area": "Cihangir",
+            "maps_query": "Cihangir Istanbul",
+            "maps_url": "https://www.google.com/maps/search/?api=1&query=Cihangir%20Istanbul",
+            "apple_maps_url": "http://maps.apple.com/?q=Cihangir%20Istanbul",
+            "lat": null,
+            "lon": null,
+            "has_coordinates": false,
+            "image_query": "Cihangir Istanbul",
+            "tags": [
+              "walk",
+              "cafe"
+            ]
+          }
+        },
+        {
+          "seq": 6,
+          "time_from": "13:00",
+          "time_to": "14:15",
+          "activity_title": "Lunch mit Tochter",
+          "with_daughter": true,
+          "priority": "must",
+          "transport_from_prev": "walk",
+          "travel_min": 15,
+          "notes": "",
+          "place": {
+            "place_id": "FICCIN",
+            "name": "Ficcin",
+            "type": "lunch",
+            "area": "Beyoğlu",
+            "maps_query": "Ficcin Beyoglu Istanbul",
+            "maps_url": "https://www.google.com/maps/search/?api=1&query=Ficcin%20Beyoglu%20Istanbul",
+            "apple_maps_url": "http://maps.apple.com/?q=Ficcin%20Beyoglu%20Istanbul",
+            "lat": null,
+            "lon": null,
+            "has_coordinates": false,
+            "image_query": "Ficcin Istanbul",
+            "tags": [
+              "food",
+              "lunch"
+            ]
+          }
+        },
+        {
+          "seq": 7,
+          "time_from": "14:20",
+          "time_to": "15:45",
+          "activity_title": "İstiklal mit Seitengassen",
+          "with_daughter": true,
+          "priority": "must",
+          "transport_from_prev": "walk",
+          "travel_min": 8,
+          "notes": "",
+          "place": {
+            "place_id": "ISTIKLAL",
+            "name": "İstiklal Avenue",
+            "type": "walk",
+            "area": "Beyoğlu",
+            "maps_query": "Istiklal Avenue Istanbul",
+            "maps_url": "https://www.google.com/maps/search/?api=1&query=Istiklal%20Avenue%20Istanbul",
+            "apple_maps_url": "http://maps.apple.com/?q=Istiklal%20Avenue%20Istanbul",
+            "lat": null,
+            "lon": null,
+            "has_coordinates": false,
+            "image_query": "Istiklal Avenue Istanbul",
+            "tags": [
+              "walk",
+              "urban"
+            ]
+          }
+        },
+        {
+          "seq": 8,
+          "time_from": "15:45",
+          "time_to": "16:15",
+          "activity_title": "Kirche",
+          "with_daughter": true,
+          "priority": "nice",
+          "transport_from_prev": "walk",
+          "travel_min": 5,
+          "notes": "",
+          "place": {
+            "place_id": "ST_ANTOINE",
+            "name": "St. Antoine Church",
+            "type": "sight",
+            "area": "Beyoğlu",
+            "maps_query": "St. Anthony of Padua Church Istanbul",
+            "maps_url": "https://www.google.com/maps/search/?api=1&query=St.%20Anthony%20of%20Padua%20Church%20Istanbul",
+            "apple_maps_url": "http://maps.apple.com/?q=St.%20Anthony%20of%20Padua%20Church%20Istanbul",
+            "lat": null,
+            "lon": null,
+            "has_coordinates": false,
+            "image_query": "St Antoine Istanbul",
+            "tags": [
+              "church"
+            ]
+          }
+        },
+        {
+          "seq": 9,
+          "time_from": "16:20",
+          "time_to": "17:15",
+          "activity_title": "Museum und Sitzpause",
+          "with_daughter": true,
+          "priority": "nice",
+          "transport_from_prev": "walk",
+          "travel_min": 8,
+          "notes": "",
+          "place": {
+            "place_id": "PERA_MUSEUM",
+            "name": "Pera Museum",
+            "type": "sight",
+            "area": "Beyoğlu",
+            "maps_query": "Pera Museum Istanbul",
+            "maps_url": "https://www.google.com/maps/search/?api=1&query=Pera%20Museum%20Istanbul",
+            "apple_maps_url": "http://maps.apple.com/?q=Pera%20Museum%20Istanbul",
+            "lat": null,
+            "lon": null,
+            "has_coordinates": false,
+            "image_query": "Pera Museum Istanbul",
+            "tags": [
+              "museum"
+            ]
+          }
+        },
+        {
+          "seq": 10,
+          "time_from": "17:20",
+          "time_to": "18:00",
+          "activity_title": "Türkischer Kaffee",
+          "with_daughter": true,
+          "priority": "must",
+          "transport_from_prev": "walk",
+          "travel_min": 8,
+          "notes": "",
+          "place": {
+            "place_id": "MANDABATMAZ",
+            "name": "Mandabatmaz",
+            "type": "coffee",
+            "area": "Beyoğlu",
+            "maps_query": "Mandabatmaz Istanbul",
+            "maps_url": "https://www.google.com/maps/search/?api=1&query=Mandabatmaz%20Istanbul",
+            "apple_maps_url": "http://maps.apple.com/?q=Mandabatmaz%20Istanbul",
+            "lat": null,
+            "lon": null,
+            "has_coordinates": false,
+            "image_query": "Mandabatmaz Istanbul coffee",
+            "tags": [
+              "coffee"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "day_id": "D07",
+      "date": "2026-04-09",
+      "label": "Do 09.04 – Üsküdar / Kuzguncuk / Kadıköy",
+      "theme": "Asiatische Seite",
+      "color": "#AD1457",
+      "is_travel_day": false,
+      "stats": {
+        "items": 11,
+        "must_count": 7,
+        "daughter_count": 6
+      },
+      "items": [
+        {
+          "seq": 1,
+          "time_from": "07:15",
+          "time_to": "07:50",
+          "activity_title": "Fähre nach Üsküdar",
+          "with_daughter": false,
+          "priority": "must",
+          "transport_from_prev": "walk",
+          "travel_min": 20,
+          "notes": "",
+          "place": {
+            "place_id": "EMINONU_FERRY",
+            "name": "Eminönü Ferry Terminal",
+            "type": "ferry",
+            "area": "Eminönü",
+            "maps_query": "Eminonu Ferry Terminal Istanbul",
+            "maps_url": "https://www.google.com/maps/search/?api=1&query=Eminonu%20Ferry%20Terminal%20Istanbul",
+            "apple_maps_url": "http://maps.apple.com/?q=Eminonu%20Ferry%20Terminal%20Istanbul",
+            "lat": null,
+            "lon": null,
+            "has_coordinates": false,
+            "image_query": "Eminonu ferry Istanbul",
+            "tags": [
+              "ferry",
+              "transport"
+            ]
+          }
+        },
+        {
+          "seq": 2,
+          "time_from": "08:00",
+          "time_to": "08:30",
+          "activity_title": "Leichtes Frühstück",
+          "with_daughter": false,
+          "priority": "must",
+          "transport_from_prev": "walk",
+          "travel_min": 8,
+          "notes": "",
+          "place": {
+            "place_id": "USKUDAR_BREAKFAST",
+            "name": "Üsküdar breakfast stop",
+            "type": "breakfast",
+            "area": "Üsküdar",
+            "maps_query": "Kanaat Lokantasi Uskudar Istanbul",
+            "maps_url": "https://www.google.com/maps/search/?api=1&query=Kanaat%20Lokantasi%20Uskudar%20Istanbul",
+            "apple_maps_url": "http://maps.apple.com/?q=Kanaat%20Lokantasi%20Uskudar%20Istanbul",
+            "lat": null,
+            "lon": null,
+            "has_coordinates": false,
+            "image_query": "breakfast Uskudar Istanbul",
+            "tags": [
+              "breakfast"
+            ]
+          }
+        },
+        {
+          "seq": 3,
+          "time_from": "08:40",
+          "time_to": "09:10",
+          "activity_title": "Uferpromenade",
+          "with_daughter": false,
+          "priority": "nice",
+          "transport_from_prev": "walk",
+          "travel_min": 8,
+          "notes": "",
+          "place": {
+            "place_id": "USKUDAR_WATERFRONT",
+            "name": "Üsküdar waterfront",
+            "type": "walk",
+            "area": "Üsküdar",
+            "maps_query": "Uskudar Coast Walk Istanbul",
+            "maps_url": "https://www.google.com/maps/search/?api=1&query=Uskudar%20Coast%20Walk%20Istanbul",
+            "apple_maps_url": "http://maps.apple.com/?q=Uskudar%20Coast%20Walk%20Istanbul",
+            "lat": null,
+            "lon": null,
+            "has_coordinates": false,
+            "image_query": "Uskudar waterfront Istanbul",
+            "tags": [
+              "walk",
+              "view"
+            ]
+          }
+        },
+        {
+          "seq": 4,
+          "time_from": "09:15",
+          "time_to": "10:45",
+          "activity_title": "Viertelspaziergang",
+          "with_daughter": false,
+          "priority": "must",
+          "transport_from_prev": "taxi",
+          "travel_min": 15,
+          "notes": "",
+          "place": {
+            "place_id": "KUZGUNCUK",
+            "name": "Kuzguncuk",
+            "type": "walk",
+            "area": "Kuzguncuk",
+            "maps_query": "Kuzguncuk Istanbul",
+            "maps_url": "https://www.google.com/maps/search/?api=1&query=Kuzguncuk%20Istanbul",
+            "apple_maps_url": "http://maps.apple.com/?q=Kuzguncuk%20Istanbul",
+            "lat": null,
+            "lon": null,
+            "has_coordinates": false,
+            "image_query": "Kuzguncuk Istanbul streets",
+            "tags": [
+              "walk",
+              "neighborhood"
+            ]
+          }
+        },
+        {
+          "seq": 5,
+          "time_from": "10:45",
+          "time_to": "11:15",
+          "activity_title": "Kaffeepause",
+          "with_daughter": false,
+          "priority": "nice",
+          "transport_from_prev": "walk",
+          "travel_min": 0,
+          "notes": "spontan ein Café wählen",
+          "place": {
+            "place_id": "KUZGUNCUK",
+            "name": "Kuzguncuk",
+            "type": "walk",
+            "area": "Kuzguncuk",
+            "maps_query": "Kuzguncuk Istanbul",
+            "maps_url": "https://www.google.com/maps/search/?api=1&query=Kuzguncuk%20Istanbul",
+            "apple_maps_url": "http://maps.apple.com/?q=Kuzguncuk%20Istanbul",
+            "lat": null,
+            "lon": null,
+            "has_coordinates": false,
+            "image_query": "Kuzguncuk Istanbul streets",
+            "tags": [
+              "walk",
+              "neighborhood"
+            ]
+          }
+        },
+        {
+          "seq": 6,
+          "time_from": "13:00",
+          "time_to": "14:15",
+          "activity_title": "Lunch mit Tochter",
+          "with_daughter": true,
+          "priority": "must",
+          "transport_from_prev": "taxi",
+          "travel_min": 25,
+          "notes": "",
+          "place": {
+            "place_id": "CIYA",
+            "name": "Çiya Sofrası",
+            "type": "lunch",
+            "area": "Kadıköy",
+            "maps_query": "Ciya Sofrasi Istanbul",
+            "maps_url": "https://www.google.com/maps/search/?api=1&query=Ciya%20Sofrasi%20Istanbul",
+            "apple_maps_url": "http://maps.apple.com/?q=Ciya%20Sofrasi%20Istanbul",
+            "lat": null,
+            "lon": null,
+            "has_coordinates": false,
+            "image_query": "Ciya Sofrasi Istanbul",
+            "tags": [
+              "food",
+              "lunch"
+            ]
+          }
+        },
+        {
+          "seq": 7,
+          "time_from": "14:20",
+          "time_to": "15:15",
+          "activity_title": "Marktgassen",
+          "with_daughter": true,
+          "priority": "must",
+          "transport_from_prev": "walk",
+          "travel_min": 5,
+          "notes": "",
+          "place": {
+            "place_id": "KADIKOY_CARSI",
+            "name": "Kadıköy Çarşı",
+            "type": "walk",
+            "area": "Kadıköy",
+            "maps_query": "Kadikoy Carsi Istanbul",
+            "maps_url": "https://www.google.com/maps/search/?api=1&query=Kadikoy%20Carsi%20Istanbul",
+            "apple_maps_url": "http://maps.apple.com/?q=Kadikoy%20Carsi%20Istanbul",
+            "lat": null,
+            "lon": null,
+            "has_coordinates": false,
+            "image_query": "Kadikoy market Istanbul",
+            "tags": [
+              "walk",
+              "market"
+            ]
+          }
+        },
+        {
+          "seq": 8,
+          "time_from": "15:15",
+          "time_to": "16:00",
+          "activity_title": "Street Art und lokales Viertel",
+          "with_daughter": true,
+          "priority": "nice",
+          "transport_from_prev": "walk",
+          "travel_min": 10,
+          "notes": "",
+          "place": {
+            "place_id": "YELDEGIRMENI",
+            "name": "Yeldeğirmeni",
+            "type": "walk",
+            "area": "Kadıköy",
+            "maps_query": "Yeldegirmeni Istanbul",
+            "maps_url": "https://www.google.com/maps/search/?api=1&query=Yeldegirmeni%20Istanbul",
+            "apple_maps_url": "http://maps.apple.com/?q=Yeldegirmeni%20Istanbul",
+            "lat": null,
+            "lon": null,
+            "has_coordinates": false,
+            "image_query": "Yeldegirmeni Istanbul",
+            "tags": [
+              "walk",
+              "streetart"
+            ]
+          }
+        },
+        {
+          "seq": 9,
+          "time_from": "16:00",
+          "time_to": "17:15",
+          "activity_title": "Promenade und Pause",
+          "with_daughter": true,
+          "priority": "must",
+          "transport_from_prev": "walk",
+          "travel_min": 15,
+          "notes": "",
+          "place": {
+            "place_id": "MODA",
+            "name": "Moda",
+            "type": "walk",
+            "area": "Kadıköy",
+            "maps_query": "Moda Istanbul",
+            "maps_url": "https://www.google.com/maps/search/?api=1&query=Moda%20Istanbul",
+            "apple_maps_url": "http://maps.apple.com/?q=Moda%20Istanbul",
+            "lat": null,
+            "lon": null,
+            "has_coordinates": false,
+            "image_query": "Moda Istanbul waterfront",
+            "tags": [
+              "walk",
+              "relax"
+            ]
+          }
+        },
+        {
+          "seq": 10,
+          "time_from": "17:15",
+          "time_to": "18:00",
+          "activity_title": "Kaffee",
+          "with_daughter": true,
+          "priority": "nice",
+          "transport_from_prev": "walk",
+          "travel_min": 5,
+          "notes": "",
+          "place": {
+            "place_id": "MODA_COFFEE",
+            "name": "Moda coffee stop",
+            "type": "coffee",
+            "area": "Moda",
+            "maps_query": "Walter's Coffee Roastery Moda Istanbul",
+            "maps_url": "https://www.google.com/maps/search/?api=1&query=Walter%27s%20Coffee%20Roastery%20Moda%20Istanbul",
+            "apple_maps_url": "http://maps.apple.com/?q=Walter%27s%20Coffee%20Roastery%20Moda%20Istanbul",
+            "lat": null,
+            "lon": null,
+            "has_coordinates": false,
+            "image_query": "Moda coffee Istanbul",
+            "tags": [
+              "coffee"
+            ]
+          }
+        },
+        {
+          "seq": 11,
+          "time_from": "18:30",
+          "time_to": "19:00",
+          "activity_title": "Sonnenuntergangsfähre zurück",
+          "with_daughter": true,
+          "priority": "must",
+          "transport_from_prev": "walk",
+          "travel_min": 20,
+          "notes": "",
+          "place": {
+            "place_id": "KADIKOY_FERRY",
+            "name": "Kadıköy Ferry Terminal",
+            "type": "ferry",
+            "area": "Kadıköy",
+            "maps_query": "Kadikoy Ferry Terminal Istanbul",
+            "maps_url": "https://www.google.com/maps/search/?api=1&query=Kadikoy%20Ferry%20Terminal%20Istanbul",
+            "apple_maps_url": "http://maps.apple.com/?q=Kadikoy%20Ferry%20Terminal%20Istanbul",
+            "lat": null,
+            "lon": null,
+            "has_coordinates": false,
+            "image_query": "Kadikoy Ferry Terminal Istanbul",
+            "tags": [
+              "ferry",
+              "transport"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "day_id": "D08",
+      "date": "2026-04-10",
+      "label": "Fr 10.04 – Abreise",
+      "theme": "Transfer",
+      "color": "#455A64",
+      "is_travel_day": true,
+      "stats": {
+        "items": 2,
+        "must_count": 2,
+        "daughter_count": 2
+      },
+      "items": [
+        {
+          "seq": 1,
+          "time_from": "06:00",
+          "time_to": "06:15",
+          "activity_title": "Check-out und Transferstart",
+          "with_daughter": true,
+          "priority": "must",
+          "transport_from_prev": "departure",
+          "travel_min": 0,
+          "notes": "Transfer am Vorabend fixieren",
+          "place": {
+            "place_id": "HOTEL",
+            "name": "Hagia Sophia Place Hotel",
+            "type": "hotel",
+            "area": "Sultanahmet",
+            "maps_query": "Hagia Sophia Place Hotel Istanbul",
+            "maps_url": "https://www.google.com/maps/search/?api=1&query=Hagia%20Sophia%20Place%20Hotel%20Istanbul",
+            "apple_maps_url": "http://maps.apple.com/?q=Hagia%20Sophia%20Place%20Hotel%20Istanbul",
+            "lat": null,
+            "lon": null,
+            "has_coordinates": false,
+            "image_query": "Hagia Sophia Place Hotel Istanbul",
+            "tags": [
+              "hotel",
+              "base"
+            ]
+          }
+        },
+        {
+          "seq": 2,
+          "time_from": "07:00",
+          "time_to": "10:30",
+          "activity_title": "Flughafen / Abflug",
+          "with_daughter": true,
+          "priority": "must",
+          "transport_from_prev": "car",
+          "travel_min": 60,
+          "notes": "Istanbul Airport oder SAW ersetzen",
+          "place": {
+            "place_id": "AIRPORT",
+            "name": "Airport",
+            "type": "transfer",
+            "area": "Airport",
+            "maps_query": "Istanbul Airport",
+            "maps_url": "https://www.google.com/maps/search/?api=1&query=Istanbul%20Airport",
+            "apple_maps_url": "http://maps.apple.com/?q=Istanbul%20Airport",
+            "lat": null,
+            "lon": null,
+            "has_coordinates": false,
+            "image_query": "Istanbul Airport departures",
+            "tags": [
+              "airport"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

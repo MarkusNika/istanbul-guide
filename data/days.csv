@@ -1,0 +1,9 @@
+day_id,date,label,theme,color,is_travel_day
+D01,2026-04-03,"Fr 03.04 – Ankunft","Sanfter Einstieg",#607D8B,yes
+D02,2026-04-04,"Sa 04.04 – Sultanahmet","Klassiker Altstadt",#1565C0,no
+D03,2026-04-05,"So 05.04 – Topkapı / Süleymaniye","Imperium & stilles Istanbul",#2E7D32,no
+D04,2026-04-06,"Mo 06.04 – Balat / Fener / Eyüp","Atmosphäre & Viertel",#6A1B9A,no
+D05,2026-04-07,"Di 07.04 – Beşiktaş / Dolmabahçe / Karaköy","Palast & Bosporus",#EF6C00,no
+D06,2026-04-08,"Mi 08.04 – Galata / Pera / Cihangir","Urbanes Istanbul",#00838F,no
+D07,2026-04-09,"Do 09.04 – Üsküdar / Kuzguncuk / Kadıköy","Asiatische Seite",#AD1457,no
+D08,2026-04-10,"Fr 10.04 – Abreise","Transfer",#455A64,yes
