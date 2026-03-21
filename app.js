@@ -500,3 +500,14 @@ async function boot() {
 }
 
 boot();
+
+if ("serviceWorker" in navigator) {
+  window.addEventListener("load", async () => {
+    try {
+      await navigator.serviceWorker.register("./service-worker.js");
+      console.log("Service Worker registriert.");
+    } catch (err) {
+      console.error("Service Worker Registrierung fehlgeschlagen:", err);
+    }
+  });
+}
