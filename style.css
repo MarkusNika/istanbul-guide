@@ -407,3 +407,27 @@ h2 {
 .marker-view { background: #AD1457; }
 .marker-hamam { background: #8D6E63; }
 .marker-transfer { background: #546E7A; }
+
+.toolbar-actions {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin-top: 10px;
+}
+
+.map-actions {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+}
+
+.map-actions .action-btn,
+.toolbar-actions .action-btn {
+  min-height: 44px;
+}
+
+.action-btn[disabled] {
+  opacity: 0.5;
+  cursor: not-allowed;
+}

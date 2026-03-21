@@ -3,6 +3,31 @@
   "features": [
     {
       "type": "Feature",
+      "id": "HOTEL",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.971075067878587,
+          41.003415627950275
+        ]
+      },
+      "properties": {
+        "place_id": "HOTEL",
+        "name": "Hagia Sophia Place Hotel",
+        "type": "hotel",
+        "area": "Sultanahmet",
+        "maps_query": "Hagia Sophia Place Hotel Istanbul",
+        "maps_url": "https://www.google.com/maps/search/?api=1&query=Hagia%20Sophia%20Place%20Hotel%20Istanbul",
+        "apple_maps_url": "http://maps.apple.com/?q=Hagia%20Sophia%20Place%20Hotel%20Istanbul",
+        "image_query": "Hagia Sophia Place Hotel Istanbul",
+        "tags": [
+          "hotel",
+          "base"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "id": "SULTANAHMET_SQ",
       "geometry": {
         "type": "Point",

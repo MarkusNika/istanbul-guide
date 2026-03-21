@@ -3,6 +3,35 @@
   "features": [
     {
       "type": "Feature",
+      "id": "D08-1-HOTEL",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.971075067878587,
+          41.003415627950275
+        ]
+      },
+      "properties": {
+        "day_id": "D08",
+        "seq": 1,
+        "time_from": "06:00",
+        "time_to": "06:15",
+        "activity_title": "Check-out und Transferstart",
+        "with_daughter": true,
+        "priority": "must",
+        "transport_from_prev": "departure",
+        "travel_min": 0,
+        "notes": "Transfer am Vorabend fixieren",
+        "place_id": "HOTEL",
+        "name": "Hagia Sophia Place Hotel",
+        "type": "hotel",
+        "area": "Sultanahmet",
+        "maps_query": "Hagia Sophia Place Hotel Istanbul",
+        "maps_url": "https://www.google.com/maps/search/?api=1&query=Hagia%20Sophia%20Place%20Hotel%20Istanbul"
+      }
+    },
+    {
+      "type": "Feature",
       "id": "D08-2-AIRPORT",
       "geometry": {
         "type": "Point",
@@ -28,6 +57,30 @@
         "area": "Airport",
         "maps_query": "Istanbul Airport",
         "maps_url": "https://www.google.com/maps/search/?api=1&query=Istanbul%20Airport"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "D08-route",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            28.971075067878587,
+            41.003415627950275
+          ],
+          [
+            28.7322749,
+            41.2748684
+          ]
+        ]
+      },
+      "properties": {
+        "day_id": "D08",
+        "label": "Fr 10.04 – Abreise",
+        "theme": "Transfer",
+        "type": "route",
+        "color": "#455A64"
       }
     }
   ]

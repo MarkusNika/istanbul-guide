@@ -1,5 +1,5 @@
 place_id,name,type,area,maps_query,lat,lon,image_query,tags,geocode_provider,geocode_status,geocode_display_name
-HOTEL,Hagia Sophia Place Hotel,hotel,Sultanahmet,Hagia Sophia Place Hotel Istanbul,,,Hagia Sophia Place Hotel Istanbul,hotel;base,nominatim,not-found,
+HOTEL,Hagia Sophia Place Hotel,hotel,Sultanahmet,Hagia Sophia Place Hotel Istanbul,41.003415627950275,28.971075067878587,Hagia Sophia Place Hotel Istanbul,hotel;base,nominatim,not-found,
 SULTANAHMET_SQ,Sultanahmet Square,walk,Sultanahmet,Sultanahmet Square Istanbul,41.0080081,28.9771617,Sultanahmet Square morning,walk;historic,nominatim,ok,"Meşhur Sultanahmet Köftecisi, Sultanahmet Meydanı, Binbirdirek Mahallesi, İstanbul, Fatih, İstanbul, Marmara Bölgesi, 34122, Türkiye"
 BLUE_MOSQUE,Blue Mosque,sight,Sultanahmet,Blue Mosque Istanbul,41.0053843,28.9768534,Blue Mosque Istanbul exterior,mosque;must,nominatim,ok,"Sultanahmet Camii, 7, Atmeydanı Caddesi, Sultan Ahmet Mahallesi, İstanbul, Fatih, İstanbul, Marmara Bölgesi, 34122, Türkiye"
 ARASTA_BAZAAR,Arasta Bazaar,walk,Sultanahmet,Arasta Bazaar Istanbul,41.0049274,28.9779026,Arasta Bazaar Istanbul,bazaar,nominatim,ok,"Arasta Çarşısı, Şifa Hamamı Sokağı, Sultan Ahmet Mahallesi, İstanbul, Fatih, İstanbul, Marmara Bölgesi, 34122, Türkiye"

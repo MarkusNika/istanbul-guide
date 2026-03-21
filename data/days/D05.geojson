@@ -148,6 +148,35 @@
     },
     {
       "type": "Feature",
+      "id": "D05-7-HOTEL",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.971075067878587,
+          41.003415627950275
+        ]
+      },
+      "properties": {
+        "day_id": "D05",
+        "seq": 7,
+        "time_from": "18:00",
+        "time_to": "18:30",
+        "activity_title": "Zurück ins Hotel",
+        "with_daughter": true,
+        "priority": "must",
+        "transport_from_prev": "tram",
+        "travel_min": 30,
+        "notes": "",
+        "place_id": "HOTEL",
+        "name": "Hagia Sophia Place Hotel",
+        "type": "hotel",
+        "area": "Sultanahmet",
+        "maps_query": "Hagia Sophia Place Hotel Istanbul",
+        "maps_url": "https://www.google.com/maps/search/?api=1&query=Hagia%20Sophia%20Place%20Hotel%20Istanbul"
+      }
+    },
+    {
+      "type": "Feature",
       "id": "D05-route",
       "geometry": {
         "type": "LineString",
@@ -171,6 +200,10 @@
           [
             28.9738193,
             41.0233011
+          ],
+          [
+            28.971075067878587,
+            41.003415627950275
           ]
         ]
       },

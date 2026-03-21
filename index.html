@@ -33,6 +33,10 @@
         <button id="nextDayBtn" class="nav-btn">→</button>
       </div>
 
+      <div class="toolbar-actions">
+        <button id="todayBtn" class="action-btn">Heute</button>
+      </div>
+
       <div id="dayTheme" class="theme-line"></div>
 
       <div class="chips">
@@ -58,10 +62,16 @@
 
       <section id="mapTab" class="tab-panel">
         <div class="card map-card">
+          <div class="map-actions">
+            <button id="zoomDayBtn" class="action-btn primary">Auf Tagesroute zoomen</button>
+            <button id="hotelCenterBtn" class="action-btn">Hotel zentrieren</button>
+          </div>
+
           <div id="map"></div>
           <div id="mapHint" class="map-hint"></div>
         </div>
       </section>
+
 
       <section id="infoTab" class="tab-panel">
         <div class="card">
