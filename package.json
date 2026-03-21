@@ -1,0 +1,24 @@
+{
+  "name": "istanbul-2026",
+  "version": "1.0.0",
+  "description": "Ein mobiler Reiseguide für unseren Istanbul-Trip vom 03.04.2026 bis 10.04.2026.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MarkusNika/istanbul-guide.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/MarkusNika/istanbul-guide/issues"
+  },
+  "homepage": "https://github.com/MarkusNika/istanbul-guide#readme",
+  "dependencies": {
+    "leaflet": "^1.9.4"
+  }
+}

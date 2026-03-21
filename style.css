@@ -373,3 +373,37 @@ h2 {
     grid-template-columns: 52px 1fr 52px;
   }
 }
+
+.day-color-bar.day-D01 { background: #607D8B; }
+.day-color-bar.day-D02 { background: #1565C0; }
+.day-color-bar.day-D03 { background: #2E7D32; }
+.day-color-bar.day-D04 { background: #6A1B9A; }
+.day-color-bar.day-D05 { background: #EF6C00; }
+.day-color-bar.day-D06 { background: #00838F; }
+.day-color-bar.day-D07 { background: #AD1457; }
+.day-color-bar.day-D08 { background: #455A64; }
+
+.marker-bubble {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  border: 2px solid white;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+}
+
+.marker-hotel { background: #455A64; }
+.marker-sight { background: #1565C0; }
+.marker-walk { background: #00838F; }
+.marker-breakfast { background: #EF6C00; }
+.marker-lunch { background: #2E7D32; }
+.marker-dinner { background: #C62828; }
+.marker-coffee { background: #6A1B9A; }
+.marker-ferry { background: #0277BD; }
+.marker-view { background: #AD1457; }
+.marker-hamam { background: #8D6E63; }
+.marker-transfer { background: #546E7A; }

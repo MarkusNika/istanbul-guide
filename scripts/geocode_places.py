@@ -19,10 +19,7 @@ BACKUP_CSV = DATA_DIR / "places.csv.bak"
 USER_AGENT = "istanbul-guide-geocoder/1.0 (personal trip planning)"
 SLEEP_SECONDS = 1.2
 
-# Istanbul-ish viewbox bias:
-# left, top, right, bottom
 ISTANBUL_VIEWBOX = "28.5,41.35,29.5,40.8"
-
 NOMINATIM_URL = "https://nominatim.openstreetmap.org/search"
 
 

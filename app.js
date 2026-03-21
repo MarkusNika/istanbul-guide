@@ -206,9 +206,10 @@ function renderDaySelect() {
 
 function renderThemeAndStats(day) {
   el.dayTheme.innerHTML = `
-    <div class="day-color-bar" style="background:${escapeHtml(day.color)}"></div>
+    <div class="day-color-bar day-${escapeHtml(day.day_id)}"></div>
     ${escapeHtml(day.theme)}
   `;
+
 
   const visibleItems = filterItems(day.items, state.currentFilter);
   const daughterCount = visibleItems.filter(i => i.with_daughter).length;
@@ -288,18 +289,25 @@ function renderTimeline(day) {
 function ensureMap() {
   if (state.map) return;
 
+  if (typeof window.L === "undefined") {
+    console.error("Leaflet wurde nicht geladen. Prüfe /vendor/leaflet/leaflet.js");
+    el.mapHint.textContent = "Leaflet JS wurde nicht geladen. Bitte Pfad /vendor/leaflet/leaflet.js prüfen.";
+    return;
+  }
+
   state.map = L.map("map", {
     zoomControl: true
   }).setView(FALLBACK_CENTER, FALLBACK_ZOOM);
 
   L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
     maxZoom: 19,
-    attribution: '&copy; OpenStreetMap-Mitwirkende'
+    attribution: "&copy; OpenStreetMap-Mitwirkende"
   }).addTo(state.map);
 
   state.markersLayer = L.layerGroup().addTo(state.map);
   state.routeLayer = L.layerGroup().addTo(state.map);
 }
+
 
 function markerColorForType(type) {
   const colors = {
@@ -318,29 +326,33 @@ function markerColorForType(type) {
   return colors[type] || "#1565C0";
 }
 
-function createDivIcon(color, label) {
+function markerClassForType(type) {
+  const classes = {
+    hotel: "marker-hotel",
+    sight: "marker-sight",
+    walk: "marker-walk",
+    breakfast: "marker-breakfast",
+    lunch: "marker-lunch",
+    dinner: "marker-dinner",
+    coffee: "marker-coffee",
+    ferry: "marker-ferry",
+    view: "marker-view",
+    hamam: "marker-hamam",
+    transfer: "marker-transfer"
+  };
+  return classes[type] || "marker-sight";
+}
+
+function createDivIcon(type, label) {
   return L.divIcon({
     className: "custom-div-icon",
-    html: `
-      <div style="
-        background:${color};
-        width:28px;
-        height:28px;
-        border-radius:50%;
-        color:white;
-        display:flex;
-        align-items:center;
-        justify-content:center;
-        font-weight:700;
-        border:2px solid white;
-        box-shadow:0 2px 8px rgba(0,0,0,.25);
-      ">${label}</div>
-    `,
+    html: `<div class="marker-bubble ${markerClassForType(type)}">${label}</div>`,
     iconSize: [28, 28],
     iconAnchor: [14, 14],
     popupAnchor: [0, -12]
   });
 }
+
 
 function renderMap(day) {
   state.markersLayer.clearLayers();
@@ -363,7 +375,7 @@ function renderMap(day) {
 
     const marker = L.marker(
       latlng,
-      { icon: createDivIcon(markerColorForType(p.type), String(item.seq)) }
+      { icon: createDivIcon(p.type, String(item.seq)) }
     );
 
     marker.bindPopup(`
