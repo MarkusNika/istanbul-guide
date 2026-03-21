@@ -1,4 +1,252 @@
 {
   "type": "FeatureCollection",
-  "features": []
+  "features": [
+    {
+      "type": "Feature",
+      "id": "D02-1-SULTANAHMET_SQ",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.9771617,
+          41.0080081
+        ]
+      },
+      "properties": {
+        "day_id": "D02",
+        "seq": 1,
+        "time_from": "06:30",
+        "time_to": "07:00",
+        "activity_title": "Früher Fotospaziergang",
+        "with_daughter": false,
+        "priority": "must",
+        "transport_from_prev": "walk",
+        "travel_min": 7,
+        "notes": "",
+        "place_id": "SULTANAHMET_SQ",
+        "name": "Sultanahmet Square",
+        "type": "walk",
+        "area": "Sultanahmet",
+        "maps_query": "Sultanahmet Square Istanbul",
+        "maps_url": "https://www.google.com/maps/search/?api=1&query=Sultanahmet%20Square%20Istanbul"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "D02-3-HAGIA_SOPHIA",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.9800112,
+          41.0085046
+        ]
+      },
+      "properties": {
+        "day_id": "D02",
+        "seq": 3,
+        "time_from": "09:00",
+        "time_to": "10:00",
+        "activity_title": "Früher Besuch",
+        "with_daughter": false,
+        "priority": "must",
+        "transport_from_prev": "walk",
+        "travel_min": 8,
+        "notes": "Gebetszeiten beachten",
+        "place_id": "HAGIA_SOPHIA",
+        "name": "Hagia Sophia",
+        "type": "sight",
+        "area": "Sultanahmet",
+        "maps_query": "Hagia Sophia Istanbul",
+        "maps_url": "https://www.google.com/maps/search/?api=1&query=Hagia%20Sophia%20Istanbul"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "D02-4-BLUE_MOSQUE",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.9768534,
+          41.0053843
+        ]
+      },
+      "properties": {
+        "day_id": "D02",
+        "seq": 4,
+        "time_from": "10:10",
+        "time_to": "10:45",
+        "activity_title": "Besuch",
+        "with_daughter": false,
+        "priority": "must",
+        "transport_from_prev": "walk",
+        "travel_min": 3,
+        "notes": "",
+        "place_id": "BLUE_MOSQUE",
+        "name": "Blue Mosque",
+        "type": "sight",
+        "area": "Sultanahmet",
+        "maps_query": "Blue Mosque Istanbul",
+        "maps_url": "https://www.google.com/maps/search/?api=1&query=Blue%20Mosque%20Istanbul"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "D02-6-PANDELI",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.9711789,
+          41.0171446
+        ]
+      },
+      "properties": {
+        "day_id": "D02",
+        "seq": 6,
+        "time_from": "13:00",
+        "time_to": "14:00",
+        "activity_title": "Lunch mit Tochter",
+        "with_daughter": true,
+        "priority": "must",
+        "transport_from_prev": "walk",
+        "travel_min": 15,
+        "notes": "Treffpunkt direkt dort",
+        "place_id": "PANDELI",
+        "name": "Pandeli Restaurant",
+        "type": "lunch",
+        "area": "Eminönü",
+        "maps_query": "Pandeli Restaurant Istanbul",
+        "maps_url": "https://www.google.com/maps/search/?api=1&query=Pandeli%20Restaurant%20Istanbul"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "D02-7-BASILICA_CISTERN",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.9783826,
+          41.0084795
+        ]
+      },
+      "properties": {
+        "day_id": "D02",
+        "seq": 7,
+        "time_from": "14:30",
+        "time_to": "15:20",
+        "activity_title": "Besuch",
+        "with_daughter": true,
+        "priority": "must",
+        "transport_from_prev": "taxi",
+        "travel_min": 10,
+        "notes": "",
+        "place_id": "BASILICA_CISTERN",
+        "name": "Basilica Cistern",
+        "type": "sight",
+        "area": "Sultanahmet",
+        "maps_query": "Basilica Cistern Istanbul",
+        "maps_url": "https://www.google.com/maps/search/?api=1&query=Basilica%20Cistern%20Istanbul"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "D02-8-SPICE_BAZAAR",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.9705376,
+          41.0164787
+        ]
+      },
+      "properties": {
+        "day_id": "D02",
+        "seq": 8,
+        "time_from": "15:30",
+        "time_to": "16:10",
+        "activity_title": "Gewürzbasar",
+        "with_daughter": true,
+        "priority": "nice",
+        "transport_from_prev": "taxi",
+        "travel_min": 10,
+        "notes": "kann gekürzt werden",
+        "place_id": "SPICE_BAZAAR",
+        "name": "Spice Bazaar",
+        "type": "sight",
+        "area": "Eminönü",
+        "maps_query": "Spice Bazaar Istanbul",
+        "maps_url": "https://www.google.com/maps/search/?api=1&query=Spice%20Bazaar%20Istanbul"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "D02-9-EMINONU_FERRY",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.974141,
+          41.0179964
+        ]
+      },
+      "properties": {
+        "day_id": "D02",
+        "seq": 9,
+        "time_from": "16:20",
+        "time_to": "17:15",
+        "activity_title": "Fähre nach Üsküdar und zurück",
+        "with_daughter": true,
+        "priority": "must",
+        "transport_from_prev": "walk",
+        "travel_min": 5,
+        "notes": "öffentliche Fähre",
+        "place_id": "EMINONU_FERRY",
+        "name": "Eminönü Ferry Terminal",
+        "type": "ferry",
+        "area": "Eminönü",
+        "maps_query": "Eminonu Ferry Terminal Istanbul",
+        "maps_url": "https://www.google.com/maps/search/?api=1&query=Eminonu%20Ferry%20Terminal%20Istanbul"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "D02-route",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            28.9771617,
+            41.0080081
+          ],
+          [
+            28.9800112,
+            41.0085046
+          ],
+          [
+            28.9768534,
+            41.0053843
+          ],
+          [
+            28.9711789,
+            41.0171446
+          ],
+          [
+            28.9783826,
+            41.0084795
+          ],
+          [
+            28.9705376,
+            41.0164787
+          ],
+          [
+            28.974141,
+            41.0179964
+          ]
+        ]
+      },
+      "properties": {
+        "day_id": "D02",
+        "label": "Sa 04.04 – Sultanahmet",
+        "theme": "Klassiker Altstadt",
+        "type": "route",
+        "color": "#1565C0"
+      }
+    }
+  ]
 }

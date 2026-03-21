@@ -1,4 +1,4 @@
-const CACHE_NAME = "istanbul-guide-v1";
+const CACHE_NAME = "istanbul-guide-v2";
 
 const APP_SHELL = [
   "./",
@@ -6,10 +6,31 @@ const APP_SHELL = [
   "./style.css",
   "./app.js",
   "./manifest.webmanifest",
-  "./data/guide.json"
+  "./service-worker.js",
+
+  "./vendor/leaflet/leaflet.css",
+  "./vendor/leaflet/leaflet.js",
+  "./vendor/leaflet/images/layers.png",
+  "./vendor/leaflet/images/layers-2x.png",
+  "./vendor/leaflet/images/marker-icon.png",
+  "./vendor/leaflet/images/marker-icon-2x.png",
+  "./vendor/leaflet/images/marker-shadow.png",
+
+  "./icons/icon-192.png",
+  "./icons/icon-512.png",
+
+  "./data/guide.json",
+  "./data/places.geojson",
+  "./data/days/D01.geojson",
+  "./data/days/D02.geojson",
+  "./data/days/D03.geojson",
+  "./data/days/D04.geojson",
+  "./data/days/D05.geojson",
+  "./data/days/D06.geojson",
+  "./data/days/D07.geojson",
+  "./data/days/D08.geojson"
 ];
 
-// Install: App-Shell cachen
 self.addEventListener("install", event => {
   event.waitUntil(
     caches.open(CACHE_NAME).then(cache => cache.addAll(APP_SHELL))
@@ -17,7 +38,6 @@ self.addEventListener("install", event => {
   self.skipWaiting();
 });
 
-// Activate: alte Caches entfernen
 self.addEventListener("activate", event => {
   event.waitUntil(
     caches.keys().then(keys =>
@@ -31,17 +51,11 @@ self.addEventListener("activate", event => {
   self.clients.claim();
 });
 
-// Fetch-Strategie:
-// - Für App-Shell / lokale Dateien: network first, fallback cache
-// - Für alles andere: cache first / fallback fetch
 self.addEventListener("fetch", event => {
   const url = new URL(event.request.url);
 
-  // Nur GET behandeln
   if (event.request.method !== "GET") return;
 
-  // GitHub Pages / lokale Dateien bevorzugt mit Network-First,
-  // damit Updates nach Push recht schnell ankommen
   if (url.origin === self.location.origin) {
     event.respondWith(
       fetch(event.request)
@@ -60,7 +74,6 @@ self.addEventListener("fetch", event => {
     return;
   }
 
-  // Externe Requests
   event.respondWith(
     caches.match(event.request).then(cached => cached || fetch(event.request))
   );

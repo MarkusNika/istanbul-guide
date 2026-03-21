@@ -1,4 +1,219 @@
 {
   "type": "FeatureCollection",
-  "features": []
+  "features": [
+    {
+      "type": "Feature",
+      "id": "D01-2-SULTANAHMET_SQ",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.9771617,
+          41.0080081
+        ]
+      },
+      "properties": {
+        "day_id": "D01",
+        "seq": 2,
+        "time_from": "16:00",
+        "time_to": "16:25",
+        "activity_title": "Orientierungsspaziergang",
+        "with_daughter": true,
+        "priority": "must",
+        "transport_from_prev": "walk",
+        "travel_min": 7,
+        "notes": "sanfter Einstieg",
+        "place_id": "SULTANAHMET_SQ",
+        "name": "Sultanahmet Square",
+        "type": "walk",
+        "area": "Sultanahmet",
+        "maps_query": "Sultanahmet Square Istanbul",
+        "maps_url": "https://www.google.com/maps/search/?api=1&query=Sultanahmet%20Square%20Istanbul"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "D01-3-BLUE_MOSQUE",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.9768534,
+          41.0053843
+        ]
+      },
+      "properties": {
+        "day_id": "D01",
+        "seq": 3,
+        "time_from": "16:25",
+        "time_to": "16:45",
+        "activity_title": "Außenansicht und Platz",
+        "with_daughter": true,
+        "priority": "must",
+        "transport_from_prev": "walk",
+        "travel_min": 3,
+        "notes": "",
+        "place_id": "BLUE_MOSQUE",
+        "name": "Blue Mosque",
+        "type": "sight",
+        "area": "Sultanahmet",
+        "maps_query": "Blue Mosque Istanbul",
+        "maps_url": "https://www.google.com/maps/search/?api=1&query=Blue%20Mosque%20Istanbul"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "D01-4-ARASTA_BAZAAR",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.9779026,
+          41.0049274
+        ]
+      },
+      "properties": {
+        "day_id": "D01",
+        "seq": 4,
+        "time_from": "16:50",
+        "time_to": "17:15",
+        "activity_title": "Leichter Bummel",
+        "with_daughter": true,
+        "priority": "nice",
+        "transport_from_prev": "walk",
+        "travel_min": 5,
+        "notes": "",
+        "place_id": "ARASTA_BAZAAR",
+        "name": "Arasta Bazaar",
+        "type": "walk",
+        "area": "Sultanahmet",
+        "maps_query": "Arasta Bazaar Istanbul",
+        "maps_url": "https://www.google.com/maps/search/?api=1&query=Arasta%20Bazaar%20Istanbul"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "D01-5-LITTLE_HAGIA_SOPHIA",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.9721954,
+          41.0027326
+        ]
+      },
+      "properties": {
+        "day_id": "D01",
+        "seq": 5,
+        "time_from": "17:20",
+        "time_to": "17:45",
+        "activity_title": "Optionaler Abstecher",
+        "with_daughter": true,
+        "priority": "optional",
+        "transport_from_prev": "walk",
+        "travel_min": 8,
+        "notes": "nur wenn Energie da ist",
+        "place_id": "LITTLE_HAGIA_SOPHIA",
+        "name": "Little Hagia Sophia",
+        "type": "sight",
+        "area": "Sultanahmet",
+        "maps_query": "Little Hagia Sophia Istanbul",
+        "maps_url": "https://www.google.com/maps/search/?api=1&query=Little%20Hagia%20Sophia%20Istanbul"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "D01-6-DERALIYE",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.9759095,
+          41.0088429
+        ]
+      },
+      "properties": {
+        "day_id": "D01",
+        "seq": 6,
+        "time_from": "19:00",
+        "time_to": "20:30",
+        "activity_title": "Abendessen",
+        "with_daughter": true,
+        "priority": "must",
+        "transport_from_prev": "taxi",
+        "travel_min": 10,
+        "notes": "",
+        "place_id": "DERALIYE",
+        "name": "Deraliye Restaurant",
+        "type": "dinner",
+        "area": "Sultanahmet",
+        "maps_query": "Deraliye Restaurant Istanbul",
+        "maps_url": "https://www.google.com/maps/search/?api=1&query=Deraliye%20Restaurant%20Istanbul"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "D01-7-HAGIA_SOPHIA",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.9800112,
+          41.0085046
+        ]
+      },
+      "properties": {
+        "day_id": "D01",
+        "seq": 7,
+        "time_from": "20:40",
+        "time_to": "21:00",
+        "activity_title": "Nachtansicht außen",
+        "with_daughter": true,
+        "priority": "nice",
+        "transport_from_prev": "walk",
+        "travel_min": 10,
+        "notes": "",
+        "place_id": "HAGIA_SOPHIA",
+        "name": "Hagia Sophia",
+        "type": "sight",
+        "area": "Sultanahmet",
+        "maps_query": "Hagia Sophia Istanbul",
+        "maps_url": "https://www.google.com/maps/search/?api=1&query=Hagia%20Sophia%20Istanbul"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "D01-route",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            28.9771617,
+            41.0080081
+          ],
+          [
+            28.9768534,
+            41.0053843
+          ],
+          [
+            28.9779026,
+            41.0049274
+          ],
+          [
+            28.9721954,
+            41.0027326
+          ],
+          [
+            28.9759095,
+            41.0088429
+          ],
+          [
+            28.9800112,
+            41.0085046
+          ]
+        ]
+      },
+      "properties": {
+        "day_id": "D01",
+        "label": "Fr 03.04 – Ankunft",
+        "theme": "Sanfter Einstieg",
+        "type": "route",
+        "color": "#607D8B"
+      }
+    }
+  ]
 }

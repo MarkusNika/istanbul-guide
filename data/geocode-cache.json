@@ -1,0 +1,1259 @@
+{
+  "Hagia Sophia Place Hotel Istanbul": null,
+  "Sultanahmet Square Istanbul": {
+    "lat": "41.0080081",
+    "lon": "28.9771617",
+    "display_name": "Meşhur Sultanahmet Köftecisi, Sultanahmet Meydanı, Binbirdirek Mahallesi, İstanbul, Fatih, İstanbul, Marmara Bölgesi, 34122, Türkiye",
+    "raw": {
+      "place_id": 54131386,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 5108843104,
+      "lat": "41.0080081",
+      "lon": "28.9771617",
+      "category": "amenity",
+      "type": "restaurant",
+      "place_rank": 30,
+      "importance": 8.147783627064954e-05,
+      "addresstype": "amenity",
+      "name": "Meşhur Sultanahmet Köftecisi",
+      "display_name": "Meşhur Sultanahmet Köftecisi, Sultanahmet Meydanı, Binbirdirek Mahallesi, İstanbul, Fatih, İstanbul, Marmara Bölgesi, 34122, Türkiye",
+      "boundingbox": [
+        "41.0079581",
+        "41.0080581",
+        "28.9771117",
+        "28.9772117"
+      ]
+    }
+  },
+  "Blue Mosque Istanbul": {
+    "lat": "41.0053843",
+    "lon": "28.9768534",
+    "display_name": "Sultanahmet Camii, 7, Atmeydanı Caddesi, Sultan Ahmet Mahallesi, İstanbul, Fatih, İstanbul, Marmara Bölgesi, 34122, Türkiye",
+    "raw": {
+      "place_id": 53625604,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "relation",
+      "osm_id": 18055570,
+      "lat": "41.0053843",
+      "lon": "28.9768534",
+      "category": "amenity",
+      "type": "place_of_worship",
+      "place_rank": 30,
+      "importance": 0.5065690323564912,
+      "addresstype": "amenity",
+      "name": "Sultanahmet Camii",
+      "display_name": "Sultanahmet Camii, 7, Atmeydanı Caddesi, Sultan Ahmet Mahallesi, İstanbul, Fatih, İstanbul, Marmara Bölgesi, 34122, Türkiye",
+      "boundingbox": [
+        "41.0048401",
+        "41.0059731",
+        "28.9758960",
+        "28.9774031"
+      ]
+    }
+  },
+  "Arasta Bazaar Istanbul": {
+    "lat": "41.0049274",
+    "lon": "28.9779026",
+    "display_name": "Arasta Çarşısı, Şifa Hamamı Sokağı, Sultan Ahmet Mahallesi, İstanbul, Fatih, İstanbul, Marmara Bölgesi, 34122, Türkiye",
+    "raw": {
+      "place_id": 428478607,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 25512785,
+      "lat": "41.0049274",
+      "lon": "28.9779026",
+      "category": "amenity",
+      "type": "marketplace",
+      "place_rank": 30,
+      "importance": 8.147783627064954e-05,
+      "addresstype": "amenity",
+      "name": "Arasta Çarşısı",
+      "display_name": "Arasta Çarşısı, Şifa Hamamı Sokağı, Sultan Ahmet Mahallesi, İstanbul, Fatih, İstanbul, Marmara Bölgesi, 34122, Türkiye",
+      "boundingbox": [
+        "41.0041183",
+        "41.0058798",
+        "28.9766948",
+        "28.9788149"
+      ]
+    }
+  },
+  "Little Hagia Sophia Istanbul": {
+    "lat": "41.0027326",
+    "lon": "28.9721954",
+    "display_name": "Küçük Ayasofya Camii, 13, Küçük Ayasofya Caddesi, Küçük Ayasofya Mahallesi, İstanbul, Fatih, İstanbul, Marmara Bölgesi, 34122, Türkiye",
+    "raw": {
+      "place_id": 54213584,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 303179753,
+      "lat": "41.0027326",
+      "lon": "28.9721954",
+      "category": "amenity",
+      "type": "place_of_worship",
+      "place_rank": 30,
+      "importance": 0.46482226534735804,
+      "addresstype": "amenity",
+      "name": "Küçük Ayasofya Camii",
+      "display_name": "Küçük Ayasofya Camii, 13, Küçük Ayasofya Caddesi, Küçük Ayasofya Mahallesi, İstanbul, Fatih, İstanbul, Marmara Bölgesi, 34122, Türkiye",
+      "boundingbox": [
+        "41.0025855",
+        "41.0029013",
+        "28.9719208",
+        "28.9724807"
+      ]
+    }
+  },
+  "Deraliye Restaurant Istanbul": {
+    "lat": "41.0088429",
+    "lon": "28.9759095",
+    "display_name": "Deraliye Ottoman Cuisine Restaurant, Ticarethane Sokağı, Alemdar Mahallesi, İstanbul, Fatih, İstanbul, Marmara Bölgesi, 34110, Türkiye",
+    "raw": {
+      "place_id": 54781998,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 5108843074,
+      "lat": "41.0088429",
+      "lon": "28.9759095",
+      "category": "amenity",
+      "type": "restaurant",
+      "place_rank": 30,
+      "importance": 8.147783627064954e-05,
+      "addresstype": "amenity",
+      "name": "Deraliye Ottoman Cuisine Restaurant",
+      "display_name": "Deraliye Ottoman Cuisine Restaurant, Ticarethane Sokağı, Alemdar Mahallesi, İstanbul, Fatih, İstanbul, Marmara Bölgesi, 34110, Türkiye",
+      "boundingbox": [
+        "41.0087929",
+        "41.0088929",
+        "28.9758595",
+        "28.9759595"
+      ]
+    }
+  },
+  "Hagia Sophia Istanbul": {
+    "lat": "41.0085046",
+    "lon": "28.9800112",
+    "display_name": "Ayasofya-i Kebir Câmi-i Şerifi, Soğukçeşme Sokağı, Cankurtaran Mahallesi, İstanbul, Fatih, İstanbul, Marmara Bölgesi, 34122, Türkiye",
+    "raw": {
+      "place_id": 54507060,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 109862851,
+      "lat": "41.0085046",
+      "lon": "28.9800112",
+      "category": "amenity",
+      "type": "place_of_worship",
+      "place_rank": 30,
+      "importance": 0.6053100640971237,
+      "addresstype": "amenity",
+      "name": "Ayasofya-i Kebir Câmi-i Şerifi",
+      "display_name": "Ayasofya-i Kebir Câmi-i Şerifi, Soğukçeşme Sokağı, Cankurtaran Mahallesi, İstanbul, Fatih, İstanbul, Marmara Bölgesi, 34122, Türkiye",
+      "boundingbox": [
+        "41.0078395",
+        "41.0091830",
+        "28.9790782",
+        "28.9809169"
+      ]
+    }
+  },
+  "Simit Sarayi Sultanahmet Istanbul": null,
+  "Grand Bazaar Nuruosmaniye Gate Istanbul": null,
+  "Pandeli Restaurant Istanbul": {
+    "lat": "41.0171446",
+    "lon": "28.9711789",
+    "display_name": "Pandeli, 1, Eminönü Meydanı, Eminönü, Rüstempaşa Mahallesi, İstanbul, Fatih, İstanbul, Marmara Bölgesi, 34435, Türkiye",
+    "raw": {
+      "place_id": 53609460,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 3079823142,
+      "lat": "41.0171446",
+      "lon": "28.9711789",
+      "category": "amenity",
+      "type": "restaurant",
+      "place_rank": 30,
+      "importance": 8.147783627064954e-05,
+      "addresstype": "amenity",
+      "name": "Pandeli",
+      "display_name": "Pandeli, 1, Eminönü Meydanı, Eminönü, Rüstempaşa Mahallesi, İstanbul, Fatih, İstanbul, Marmara Bölgesi, 34435, Türkiye",
+      "boundingbox": [
+        "41.0170946",
+        "41.0171946",
+        "28.9711289",
+        "28.9712289"
+      ]
+    }
+  },
+  "Basilica Cistern Istanbul": {
+    "lat": "41.0084795",
+    "lon": "28.9783826",
+    "display_name": "Yerebatan Sarnıcı, 1, Yerebatan Caddesi, Alemdar Mahallesi, İstanbul, Fatih, İstanbul, Marmara Bölgesi, 34110, Türkiye",
+    "raw": {
+      "place_id": 432515980,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 11006008339,
+      "lat": "41.0084795",
+      "lon": "28.9783826",
+      "category": "tourism",
+      "type": "attraction",
+      "place_rank": 30,
+      "importance": 0.4633431188913769,
+      "addresstype": "tourism",
+      "name": "Yerebatan Sarnıcı",
+      "display_name": "Yerebatan Sarnıcı, 1, Yerebatan Caddesi, Alemdar Mahallesi, İstanbul, Fatih, İstanbul, Marmara Bölgesi, 34110, Türkiye",
+      "boundingbox": [
+        "41.0084295",
+        "41.0085295",
+        "28.9783326",
+        "28.9784326"
+      ]
+    }
+  },
+  "Spice Bazaar Istanbul": {
+    "lat": "41.0164787",
+    "lon": "28.9705376",
+    "display_name": "Mısır Çarşısı, New Mosque Yard, Eminönü, Rüstempaşa Mahallesi, İstanbul, Fatih, İstanbul, Marmara Bölgesi, 34116, Türkiye",
+    "raw": {
+      "place_id": 54715797,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 24234971,
+      "lat": "41.0164787",
+      "lon": "28.9705376",
+      "category": "amenity",
+      "type": "marketplace",
+      "place_rank": 30,
+      "importance": 0.39038942373343144,
+      "addresstype": "amenity",
+      "name": "Mısır Çarşısı",
+      "display_name": "Mısır Çarşısı, New Mosque Yard, Eminönü, Rüstempaşa Mahallesi, İstanbul, Fatih, İstanbul, Marmara Bölgesi, 34116, Türkiye",
+      "boundingbox": [
+        "41.0156459",
+        "41.0172804",
+        "28.9702565",
+        "28.9719396"
+      ]
+    }
+  },
+  "Eminonu Ferry Terminal Istanbul": {
+    "lat": "41.0179964",
+    "lon": "28.9741410",
+    "display_name": "Eminönü, Reşadiye Caddesi, Sirkeci, Hobyar Mahallesi, İstanbul, Fatih, İstanbul, Marmara Bölgesi, 34112, Türkiye",
+    "raw": {
+      "place_id": 53990357,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 3457463792,
+      "lat": "41.0179964",
+      "lon": "28.9741410",
+      "category": "amenity",
+      "type": "ferry_terminal",
+      "place_rank": 30,
+      "importance": 8.147783627064954e-05,
+      "addresstype": "amenity",
+      "name": "Eminönü",
+      "display_name": "Eminönü, Reşadiye Caddesi, Sirkeci, Hobyar Mahallesi, İstanbul, Fatih, İstanbul, Marmara Bölgesi, 34112, Türkiye",
+      "boundingbox": [
+        "41.0179464",
+        "41.0180464",
+        "28.9740910",
+        "28.9741910"
+      ]
+    }
+  },
+  "Hafiz Mustafa Eminonu Istanbul": null,
+  "Gulhane Park Istanbul": {
+    "lat": "41.0130256",
+    "lon": "28.9809017",
+    "display_name": "Gülhane Parkı, Cankurtaran Mahallesi, İstanbul, Fatih, İstanbul, Marmara Bölgesi, Türkiye",
+    "raw": {
+      "place_id": 53545448,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 25542618,
+      "lat": "41.0130256",
+      "lon": "28.9809017",
+      "category": "leisure",
+      "type": "park",
+      "place_rank": 24,
+      "importance": 0.3891971053939251,
+      "addresstype": "park",
+      "name": "Gülhane Parkı",
+      "display_name": "Gülhane Parkı, Cankurtaran Mahallesi, İstanbul, Fatih, İstanbul, Marmara Bölgesi, Türkiye",
+      "boundingbox": [
+        "41.0104129",
+        "41.0157849",
+        "28.9784191",
+        "28.9862011"
+      ]
+    }
+  },
+  "Hafiz Mustafa Sirkeci Istanbul": {
+    "lat": "41.0160106",
+    "lon": "28.9733605",
+    "display_name": "Hafiz Mustafa 1864, 84, Hamidiye Caddesi, Sirkeci, Hobyar Mahallesi, İstanbul, Fatih, İstanbul, Marmara Bölgesi, 34112, Türkiye",
+    "raw": {
+      "place_id": 54863181,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 6324428785,
+      "lat": "41.0160106",
+      "lon": "28.9733605",
+      "category": "amenity",
+      "type": "cafe",
+      "place_rank": 30,
+      "importance": 8.147783627064954e-05,
+      "addresstype": "amenity",
+      "name": "Hafiz Mustafa 1864",
+      "display_name": "Hafiz Mustafa 1864, 84, Hamidiye Caddesi, Sirkeci, Hobyar Mahallesi, İstanbul, Fatih, İstanbul, Marmara Bölgesi, 34112, Türkiye",
+      "boundingbox": [
+        "41.0159606",
+        "41.0160606",
+        "28.9733105",
+        "28.9734105"
+      ]
+    }
+  },
+  "Topkapi Palace Istanbul": {
+    "lat": "41.0113440",
+    "lon": "28.9832034",
+    "display_name": "Topkapi Sarayı, Harem Ağaları Taşlığı, Cankurtaran Mahallesi, İstanbul, Fatih, İstanbul, Marmara Bölgesi, 34122, Türkiye",
+    "raw": {
+      "place_id": 54834261,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 10284696709,
+      "lat": "41.0113440",
+      "lon": "28.9832034",
+      "category": "tourism",
+      "type": "museum",
+      "place_rank": 30,
+      "importance": 0.5545465133420028,
+      "addresstype": "tourism",
+      "name": "Topkapi Sarayı",
+      "display_name": "Topkapi Sarayı, Harem Ağaları Taşlığı, Cankurtaran Mahallesi, İstanbul, Fatih, İstanbul, Marmara Bölgesi, 34122, Türkiye",
+      "boundingbox": [
+        "41.0112940",
+        "41.0113940",
+        "28.9831534",
+        "28.9832534"
+      ]
+    }
+  },
+  "Hamdi Restaurant Eminonu Istanbul": {
+    "lat": "41.0171629",
+    "lon": "28.9698993",
+    "display_name": "Hamdi, Kalçın Sokağı, Eminönü, Rüstempaşa Mahallesi, İstanbul, Fatih, İstanbul, Marmara Bölgesi, 34116, Türkiye",
+    "raw": {
+      "place_id": 53677453,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 262402714,
+      "lat": "41.0171629",
+      "lon": "28.9698993",
+      "category": "amenity",
+      "type": "restaurant",
+      "place_rank": 30,
+      "importance": 8.147783627064954e-05,
+      "addresstype": "amenity",
+      "name": "Hamdi",
+      "display_name": "Hamdi, Kalçın Sokağı, Eminönü, Rüstempaşa Mahallesi, İstanbul, Fatih, İstanbul, Marmara Bölgesi, 34116, Türkiye",
+      "boundingbox": [
+        "41.0171129",
+        "41.0172129",
+        "28.9698493",
+        "28.9699493"
+      ]
+    }
+  },
+  "Suleymaniye Mosque Istanbul": {
+    "lat": "41.0162287",
+    "lon": "28.9639548",
+    "display_name": "Süleymaniye Camii, 1, Profesör Doktor Sıddık Sami Onar Caddesi, Süleymaniye Mahallesi, İstanbul, Fatih, İstanbul, Marmara Bölgesi, 34116, Türkiye",
+    "raw": {
+      "place_id": 53564715,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "relation",
+      "osm_id": 1564032,
+      "lat": "41.0162287",
+      "lon": "28.9639548",
+      "category": "amenity",
+      "type": "place_of_worship",
+      "place_rank": 30,
+      "importance": 0.4952840344165791,
+      "addresstype": "amenity",
+      "name": "Süleymaniye Camii",
+      "display_name": "Süleymaniye Camii, 1, Profesör Doktor Sıddık Sami Onar Caddesi, Süleymaniye Mahallesi, İstanbul, Fatih, İstanbul, Marmara Bölgesi, 34116, Türkiye",
+      "boundingbox": [
+        "41.0156646",
+        "41.0168160",
+        "28.9630819",
+        "28.9645671"
+      ]
+    }
+  },
+  "Vefa Bozacisi Istanbul": {
+    "lat": "41.0153241",
+    "lon": "28.9584185",
+    "display_name": "Vefa Bozacısı 1876, 66, Vefa Caddesi, Vefa, Molla Hüsrev Mahallesi, İstanbul, Fatih, İstanbul, Marmara Bölgesi, 34134, Türkiye",
+    "raw": {
+      "place_id": 54116666,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 5110342187,
+      "lat": "41.0153241",
+      "lon": "28.9584185",
+      "category": "amenity",
+      "type": "cafe",
+      "place_rank": 30,
+      "importance": 8.147783627064954e-05,
+      "addresstype": "amenity",
+      "name": "Vefa Bozacısı 1876",
+      "display_name": "Vefa Bozacısı 1876, 66, Vefa Caddesi, Vefa, Molla Hüsrev Mahallesi, İstanbul, Fatih, İstanbul, Marmara Bölgesi, 34134, Türkiye",
+      "boundingbox": [
+        "41.0152741",
+        "41.0153741",
+        "28.9583685",
+        "28.9584685"
+      ]
+    }
+  },
+  "Zeyrek Mosque Istanbul": {
+    "lat": "41.0197079",
+    "lon": "28.9572486",
+    "display_name": "Zeyrek Molla Camii, İbadethane Arkası Sokağı, Zeyrek Mahallesi, İstanbul, Fatih, İstanbul, Marmara Bölgesi, 34083, Türkiye",
+    "raw": {
+      "place_id": 54710916,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 137519649,
+      "lat": "41.0197079",
+      "lon": "28.9572486",
+      "category": "tourism",
+      "type": "attraction",
+      "place_rank": 30,
+      "importance": 0.46465955586206037,
+      "addresstype": "tourism",
+      "name": "Zeyrek Molla Camii",
+      "display_name": "Zeyrek Molla Camii, İbadethane Arkası Sokağı, Zeyrek Mahallesi, İstanbul, Fatih, İstanbul, Marmara Bölgesi, 34083, Türkiye",
+      "boundingbox": [
+        "41.0194528",
+        "41.0199828",
+        "28.9569765",
+        "28.9575168"
+      ]
+    }
+  },
+  "Valens Aqueduct Istanbul": {
+    "lat": "41.0162933",
+    "lon": "28.9549684",
+    "display_name": "Bozdoğan Su Kemeri, Akifpaşa Sokağı, Kalenderhane Mahallesi, İstanbul, Fatih, İstanbul, Marmara Bölgesi, 34134, Türkiye",
+    "raw": {
+      "place_id": 54217907,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 23276526,
+      "lat": "41.0162933",
+      "lon": "28.9549684",
+      "category": "man_made",
+      "type": "bridge",
+      "place_rank": 30,
+      "importance": 0.4345916844899323,
+      "addresstype": "man_made",
+      "name": "Bozdoğan Su Kemeri",
+      "display_name": "Bozdoğan Su Kemeri, Akifpaşa Sokağı, Kalenderhane Mahallesi, İstanbul, Fatih, İstanbul, Marmara Bölgesi, 34134, Türkiye",
+      "boundingbox": [
+        "41.0145966",
+        "41.0177200",
+        "28.9522714",
+        "28.9580616"
+      ]
+    }
+  },
+  "Balat Istanbul": {
+    "lat": "41.0320032",
+    "lon": "28.9482931",
+    "display_name": "Balat Mahallesi, İstanbul, Fatih, İstanbul, Marmara Bölgesi, 34087, Türkiye",
+    "raw": {
+      "place_id": 53624520,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "relation",
+      "osm_id": 2463371,
+      "lat": "41.0320032",
+      "lon": "28.9482931",
+      "category": "boundary",
+      "type": "administrative",
+      "place_rank": 16,
+      "importance": 0.41118372170976975,
+      "addresstype": "suburb",
+      "name": "Balat Mahallesi",
+      "display_name": "Balat Mahallesi, İstanbul, Fatih, İstanbul, Marmara Bölgesi, 34087, Türkiye",
+      "boundingbox": [
+        "41.0243607",
+        "41.0343866",
+        "28.9445505",
+        "28.9531866"
+      ]
+    }
+  },
+  "Velvet Cafe Balat Istanbul": {
+    "lat": "41.0311316",
+    "lon": "28.9487449",
+    "display_name": "Velvet Cafe Balat, 8a, Çimen Sokağı, Fener, Balat Mahallesi, İstanbul, Fatih, İstanbul, Marmara Bölgesi, 34087, Türkiye",
+    "raw": {
+      "place_id": 53328879,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 10296535709,
+      "lat": "41.0311316",
+      "lon": "28.9487449",
+      "category": "amenity",
+      "type": "cafe",
+      "place_rank": 30,
+      "importance": 8.147783627064954e-05,
+      "addresstype": "amenity",
+      "name": "Velvet Cafe Balat",
+      "display_name": "Velvet Cafe Balat, 8a, Çimen Sokağı, Fener, Balat Mahallesi, İstanbul, Fatih, İstanbul, Marmara Bölgesi, 34087, Türkiye",
+      "boundingbox": [
+        "41.0310816",
+        "41.0311816",
+        "28.9486949",
+        "28.9487949"
+      ]
+    }
+  },
+  "Ecumenical Patriarchate of Constantinople Istanbul": {
+    "lat": "41.0293643",
+    "lon": "28.9514428",
+    "display_name": "İstanbul Rum Ortodoks Patrikhanesi, İncebel Sokağı, Küçükmustafapaşa, Yavuz Sultan Selim Mahallesi, İstanbul, Fatih, İstanbul, Marmara Bölgesi, 34083, Türkiye",
+    "raw": {
+      "place_id": 54826500,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 203286412,
+      "lat": "41.0293643",
+      "lon": "28.9514428",
+      "category": "office",
+      "type": "religion",
+      "place_rank": 30,
+      "importance": 0.6340404461002233,
+      "addresstype": "office",
+      "name": "İstanbul Rum Ortodoks Patrikhanesi",
+      "display_name": "İstanbul Rum Ortodoks Patrikhanesi, İncebel Sokağı, Küçükmustafapaşa, Yavuz Sultan Selim Mahallesi, İstanbul, Fatih, İstanbul, Marmara Bölgesi, 34083, Türkiye",
+      "boundingbox": [
+        "41.0290961",
+        "41.0295247",
+        "28.9512416",
+        "28.9516439"
+      ]
+    }
+  },
+  "Bulgarian St Stephen Church Istanbul": {
+    "lat": "41.0317775",
+    "lon": "28.9496860",
+    "display_name": "Sveti Stefan Bulgar Kilisesi, Ayvansaray Caddesi, Fener, Balat Mahallesi, İstanbul, Fatih, İstanbul, Marmara Bölgesi, 34087, Türkiye",
+    "raw": {
+      "place_id": 53327091,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 175519383,
+      "lat": "41.0317775",
+      "lon": "28.9496860",
+      "category": "amenity",
+      "type": "place_of_worship",
+      "place_rank": 30,
+      "importance": 0.3930358659837339,
+      "addresstype": "amenity",
+      "name": "Sveti Stefan Bulgar Kilisesi",
+      "display_name": "Sveti Stefan Bulgar Kilisesi, Ayvansaray Caddesi, Fener, Balat Mahallesi, İstanbul, Fatih, İstanbul, Marmara Bölgesi, 34087, Türkiye",
+      "boundingbox": [
+        "41.0316539",
+        "41.0319011",
+        "28.9495193",
+        "28.9498528"
+      ]
+    }
+  },
+  "Kariye Mosque Istanbul": null,
+  "Asitane Restaurant Istanbul": {
+    "lat": "41.0308701",
+    "lon": "28.9389957",
+    "display_name": "Asitane, 6, Kariye Camii Sokağı, Derviş Ali Mahallesi, İstanbul, Fatih, İstanbul, Marmara Bölgesi, 34087, Türkiye",
+    "raw": {
+      "place_id": 53849532,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 5113615118,
+      "lat": "41.0308701",
+      "lon": "28.9389957",
+      "category": "amenity",
+      "type": "restaurant",
+      "place_rank": 30,
+      "importance": 8.147783627064954e-05,
+      "addresstype": "amenity",
+      "name": "Asitane",
+      "display_name": "Asitane, 6, Kariye Camii Sokağı, Derviş Ali Mahallesi, İstanbul, Fatih, İstanbul, Marmara Bölgesi, 34087, Türkiye",
+      "boundingbox": [
+        "41.0308201",
+        "41.0309201",
+        "28.9389457",
+        "28.9390457"
+      ]
+    }
+  },
+  "Eyup Sultan Square Istanbul": null,
+  "Pierre Loti Tepesi Istanbul": null,
+  "Cagaloglu Hamami Istanbul": {
+    "lat": "41.0106906",
+    "lon": "28.9756423",
+    "display_name": "Cağaloğlu Hamamı, Cagaloğlu Hamami Sokağı, Alemdar Mahallesi, İstanbul, Fatih, İstanbul, Marmara Bölgesi, 34110, Türkiye",
+    "raw": {
+      "place_id": 53690567,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 311662190,
+      "lat": "41.0106906",
+      "lon": "28.9756423",
+      "category": "building",
+      "type": "commercial",
+      "place_rank": 30,
+      "importance": 0.31776205367205024,
+      "addresstype": "building",
+      "name": "Cağaloğlu Hamamı",
+      "display_name": "Cağaloğlu Hamamı, Cagaloğlu Hamami Sokağı, Alemdar Mahallesi, İstanbul, Fatih, İstanbul, Marmara Bölgesi, 34110, Türkiye",
+      "boundingbox": [
+        "41.0104107",
+        "41.0109901",
+        "28.9753514",
+        "28.9760140"
+      ]
+    }
+  },
+  "Pando Kaymak Besiktas Istanbul": null,
+  "Dolmabahce Palace Istanbul": {
+    "lat": "41.0389605",
+    "lon": "28.9997735",
+    "display_name": "Dolmabahçe Sarayı, Vişnezade Mahallesi, Beşiktaş, İstanbul, Marmara Bölgesi, 34357, Türkiye",
+    "raw": {
+      "place_id": 53966875,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 24826707,
+      "lat": "41.0389605",
+      "lon": "28.9997735",
+      "category": "leisure",
+      "type": "park",
+      "place_rank": 24,
+      "importance": 0.5030694912114784,
+      "addresstype": "park",
+      "name": "Dolmabahçe Sarayı",
+      "display_name": "Dolmabahçe Sarayı, Vişnezade Mahallesi, Beşiktaş, İstanbul, Marmara Bölgesi, 34357, Türkiye",
+      "boundingbox": [
+        "41.0371211",
+        "41.0409123",
+        "28.9958934",
+        "29.0034047"
+      ]
+    }
+  },
+  "Karakoy Lokantasi Istanbul": {
+    "lat": "41.0245922",
+    "lon": "28.9800280",
+    "display_name": "Karaköy Lokantası, Kemankeş Caddesi, Karaköy, Kemankeş Karamustafa Paşa, Kemankeş Karamustafa Paşa Mahallesi, Beyoğlu, İstanbul, Marmara Bölgesi, 34425, Türkiye",
+    "raw": {
+      "place_id": 53734082,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 1898334690,
+      "lat": "41.0245922",
+      "lon": "28.9800280",
+      "category": "amenity",
+      "type": "restaurant",
+      "place_rank": 30,
+      "importance": 8.147783627064954e-05,
+      "addresstype": "amenity",
+      "name": "Karaköy Lokantası",
+      "display_name": "Karaköy Lokantası, Kemankeş Caddesi, Karaköy, Kemankeş Karamustafa Paşa, Kemankeş Karamustafa Paşa Mahallesi, Beyoğlu, İstanbul, Marmara Bölgesi, 34425, Türkiye",
+      "boundingbox": [
+        "41.0245422",
+        "41.0246422",
+        "28.9799780",
+        "28.9800780"
+      ]
+    }
+  },
+  "Karakoy Istanbul": {
+    "lat": "41.0228645",
+    "lon": "28.9740393",
+    "display_name": "Karaköy, Tersane Caddesi, Azapkapı, Arap Cami, Arap Cami Mahallesi, Beyoğlu, İstanbul, Marmara Bölgesi, 34421, Türkiye",
+    "raw": {
+      "place_id": 53970204,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 31678662,
+      "lat": "41.0228645",
+      "lon": "28.9740393",
+      "category": "railway",
+      "type": "station",
+      "place_rank": 30,
+      "importance": 0.20813244289121335,
+      "addresstype": "railway",
+      "name": "Karaköy",
+      "display_name": "Karaköy, Tersane Caddesi, Azapkapı, Arap Cami, Arap Cami Mahallesi, Beyoğlu, İstanbul, Marmara Bölgesi, 34421, Türkiye",
+      "boundingbox": [
+        "41.0178645",
+        "41.0278645",
+        "28.9690393",
+        "28.9790393"
+      ]
+    }
+  },
+  "Turyol Eminonu Istanbul": {
+    "lat": "41.0187376",
+    "lon": "28.9703806",
+    "display_name": "Turyol İskelesi, Eminönü Meydanı, Eminönü, Rüstempaşa Mahallesi, İstanbul, Fatih, İstanbul, Marmara Bölgesi, 34116, Türkiye",
+    "raw": {
+      "place_id": 54269630,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 239630952,
+      "lat": "41.0187376",
+      "lon": "28.9703806",
+      "category": "amenity",
+      "type": "ferry_terminal",
+      "place_rank": 30,
+      "importance": 8.147783627064954e-05,
+      "addresstype": "amenity",
+      "name": "Turyol İskelesi",
+      "display_name": "Turyol İskelesi, Eminönü Meydanı, Eminönü, Rüstempaşa Mahallesi, İstanbul, Fatih, İstanbul, Marmara Bölgesi, 34116, Türkiye",
+      "boundingbox": [
+        "41.0186258",
+        "41.0188719",
+        "28.9701075",
+        "28.9705995"
+      ]
+    }
+  },
+  "Dem Karakoy Istanbul": {
+    "lat": "41.0233011",
+    "lon": "28.9738193",
+    "display_name": "Dem Karaköy, 1, Söğüt Sokak, Azapkapı, Arap Cami, Arap Cami Mahallesi, Beyoğlu, İstanbul, Marmara Bölgesi, 34421, Türkiye",
+    "raw": {
+      "place_id": 54827481,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 5739124223,
+      "lat": "41.0233011",
+      "lon": "28.9738193",
+      "category": "amenity",
+      "type": "cafe",
+      "place_rank": 30,
+      "importance": 8.147783627064954e-05,
+      "addresstype": "amenity",
+      "name": "Dem Karaköy",
+      "display_name": "Dem Karaköy, 1, Söğüt Sokak, Azapkapı, Arap Cami, Arap Cami Mahallesi, Beyoğlu, İstanbul, Marmara Bölgesi, 34421, Türkiye",
+      "boundingbox": [
+        "41.0232511",
+        "41.0233511",
+        "28.9737693",
+        "28.9738693"
+      ]
+    }
+  },
+  "Kamondo Stairs Istanbul": {
+    "lat": "41.0239741",
+    "lon": "28.9737825",
+    "display_name": "Kamondo Merdivenleri, Azapkapı, Bereketzade Mahallesi, Arap Cami Mahallesi, Beyoğlu, İstanbul, Marmara Bölgesi, 34421, Türkiye",
+    "raw": {
+      "place_id": 53656376,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 7099516987,
+      "lat": "41.0239741",
+      "lon": "28.9737825",
+      "category": "historic",
+      "type": "memorial",
+      "place_rank": 30,
+      "importance": 8.147783627064954e-05,
+      "addresstype": "historic",
+      "name": "Kamondo Merdivenleri",
+      "display_name": "Kamondo Merdivenleri, Azapkapı, Bereketzade Mahallesi, Arap Cami Mahallesi, Beyoğlu, İstanbul, Marmara Bölgesi, 34421, Türkiye",
+      "boundingbox": [
+        "41.0239241",
+        "41.0240241",
+        "28.9737325",
+        "28.9738325"
+      ]
+    }
+  },
+  "Privato Cafe Istanbul": {
+    "lat": "41.0268623",
+    "lon": "28.9740831",
+    "display_name": "Privato Cafe, 3B, Tımarcı Sokağı, Şahkulu, Şahkulu Mahallesi, Beyoğlu, İstanbul, Marmara Bölgesi, 34420, Türkiye",
+    "raw": {
+      "place_id": 54631278,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 5370651424,
+      "lat": "41.0268623",
+      "lon": "28.9740831",
+      "category": "amenity",
+      "type": "restaurant",
+      "place_rank": 30,
+      "importance": 8.147783627064954e-05,
+      "addresstype": "amenity",
+      "name": "Privato Cafe",
+      "display_name": "Privato Cafe, 3B, Tımarcı Sokağı, Şahkulu, Şahkulu Mahallesi, Beyoğlu, İstanbul, Marmara Bölgesi, 34420, Türkiye",
+      "boundingbox": [
+        "41.0268123",
+        "41.0269123",
+        "28.9740331",
+        "28.9741331"
+      ]
+    }
+  },
+  "Galata Tower Istanbul": {
+    "lat": "41.0256406",
+    "lon": "28.9742134",
+    "display_name": "Galata Kulesi, Büyük Hendek Caddesi, Kuledibi, Bereketzade Mahallesi, Beyoğlu, İstanbul, Marmara Bölgesi, 34420, Türkiye",
+    "raw": {
+      "place_id": 53608749,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 23236783,
+      "lat": "41.0256406",
+      "lon": "28.9742134",
+      "category": "man_made",
+      "type": "tower",
+      "place_rank": 30,
+      "importance": 0.45356092873116677,
+      "addresstype": "man_made",
+      "name": "Galata Kulesi",
+      "display_name": "Galata Kulesi, Büyük Hendek Caddesi, Kuledibi, Bereketzade Mahallesi, Beyoğlu, İstanbul, Marmara Bölgesi, 34420, Türkiye",
+      "boundingbox": [
+        "41.0255568",
+        "41.0257121",
+        "28.9741101",
+        "28.9743159"
+      ]
+    }
+  },
+  "Cukurcuma Istanbul": {
+    "lat": "41.0312475",
+    "lon": "28.9800959",
+    "display_name": "Çukurcuma Caddesi, Firuzağa, Firuzağa Mahallesi, Beyoğlu, İstanbul, Marmara Bölgesi, 34425, Türkiye",
+    "raw": {
+      "place_id": 54862761,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 183820454,
+      "lat": "41.0312475",
+      "lon": "28.9800959",
+      "category": "highway",
+      "type": "residential",
+      "place_rank": 26,
+      "importance": 0.05341481116960399,
+      "addresstype": "road",
+      "name": "Çukurcuma Caddesi",
+      "display_name": "Çukurcuma Caddesi, Firuzağa, Firuzağa Mahallesi, Beyoğlu, İstanbul, Marmara Bölgesi, 34425, Türkiye",
+      "boundingbox": [
+        "41.0303758",
+        "41.0321726",
+        "28.9791117",
+        "28.9810484"
+      ]
+    }
+  },
+  "Cihangir Istanbul": {
+    "lat": "41.0330402",
+    "lon": "28.9853187",
+    "display_name": "Cihangir Mahallesi, Beyoğlu, İstanbul, Marmara Bölgesi, Türkiye",
+    "raw": {
+      "place_id": 53330417,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "relation",
+      "osm_id": 7982394,
+      "lat": "41.0330402",
+      "lon": "28.9853187",
+      "category": "boundary",
+      "type": "administrative",
+      "place_rank": 16,
+      "importance": 0.38493605591222957,
+      "addresstype": "suburb",
+      "name": "Cihangir Mahallesi",
+      "display_name": "Cihangir Mahallesi, Beyoğlu, İstanbul, Marmara Bölgesi, Türkiye",
+      "boundingbox": [
+        "41.0306095",
+        "41.0357132",
+        "28.9829166",
+        "28.9880437"
+      ]
+    }
+  },
+  "Ficcin Beyoglu Istanbul": {
+    "lat": "41.0325552",
+    "lon": "28.9757155",
+    "display_name": "Fıccın, 7, Meşrutiyet Caddesi, İstiklal, Asmalı Mescit, Asmalı Mescit Mahallesi, Beyoğlu, İstanbul, Marmara Bölgesi, 34430, Türkiye",
+    "raw": {
+      "place_id": 53681286,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 1665037883,
+      "lat": "41.0325552",
+      "lon": "28.9757155",
+      "category": "amenity",
+      "type": "restaurant",
+      "place_rank": 30,
+      "importance": 8.147783627064954e-05,
+      "addresstype": "amenity",
+      "name": "Fıccın",
+      "display_name": "Fıccın, 7, Meşrutiyet Caddesi, İstiklal, Asmalı Mescit, Asmalı Mescit Mahallesi, Beyoğlu, İstanbul, Marmara Bölgesi, 34430, Türkiye",
+      "boundingbox": [
+        "41.0325052",
+        "41.0326052",
+        "28.9756655",
+        "28.9757655"
+      ]
+    }
+  },
+  "Istiklal Avenue Istanbul": {
+    "lat": "40.9991320",
+    "lon": "28.7087340",
+    "display_name": "İstiklal Caddesi, Mustafa Kemal Paşa Mahallesi, Avcılar, İstanbul, Marmara Bölgesi, 34320, Türkiye",
+    "raw": {
+      "place_id": 53210855,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 10544163950,
+      "lat": "40.9991320",
+      "lon": "28.7087340",
+      "category": "highway",
+      "type": "bus_stop",
+      "place_rank": 30,
+      "importance": 5.104371709768853e-05,
+      "addresstype": "highway",
+      "name": "İstiklal Caddesi",
+      "display_name": "İstiklal Caddesi, Mustafa Kemal Paşa Mahallesi, Avcılar, İstanbul, Marmara Bölgesi, 34320, Türkiye",
+      "boundingbox": [
+        "40.9990820",
+        "40.9991820",
+        "28.7086840",
+        "28.7087840"
+      ]
+    }
+  },
+  "St. Anthony of Padua Church Istanbul": {
+    "lat": "41.0322763",
+    "lon": "28.9771979",
+    "display_name": "Sent Antuan Katolik Kilisesi, 171, İstiklal caddesi, İstiklal, Asmalı Mescit, Asmalı Mescit Mahallesi, Beyoğlu, İstanbul, Marmara Bölgesi, 34433, Türkiye",
+    "raw": {
+      "place_id": 53621979,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 112619334,
+      "lat": "41.0322763",
+      "lon": "28.9771979",
+      "category": "amenity",
+      "type": "place_of_worship",
+      "place_rank": 30,
+      "importance": 0.3629003094109262,
+      "addresstype": "amenity",
+      "name": "Sent Antuan Katolik Kilisesi",
+      "display_name": "Sent Antuan Katolik Kilisesi, 171, İstiklal caddesi, İstiklal, Asmalı Mescit, Asmalı Mescit Mahallesi, Beyoğlu, İstanbul, Marmara Bölgesi, 34433, Türkiye",
+      "boundingbox": [
+        "41.0321359",
+        "41.0324075",
+        "28.9768374",
+        "28.9773939"
+      ]
+    }
+  },
+  "Pera Museum Istanbul": {
+    "lat": "41.0318031",
+    "lon": "28.9752038",
+    "display_name": "Pera Müzesi, 141, Meşrutiyet Caddesi, İstiklal, Asmalı Mescit, Asmalı Mescit Mahallesi, Beyoğlu, İstanbul, Marmara Bölgesi, 34443, Türkiye",
+    "raw": {
+      "place_id": 54622976,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 112676117,
+      "lat": "41.0318031",
+      "lon": "28.9752038",
+      "category": "tourism",
+      "type": "museum",
+      "place_rank": 30,
+      "importance": 0.43891496418847026,
+      "addresstype": "tourism",
+      "name": "Pera Müzesi",
+      "display_name": "Pera Müzesi, 141, Meşrutiyet Caddesi, İstiklal, Asmalı Mescit, Asmalı Mescit Mahallesi, Beyoğlu, İstanbul, Marmara Bölgesi, 34443, Türkiye",
+      "boundingbox": [
+        "41.0316831",
+        "41.0319243",
+        "28.9750379",
+        "28.9753700"
+      ]
+    }
+  },
+  "Mandabatmaz Istanbul": {
+    "lat": "41.0327634",
+    "lon": "28.9761702",
+    "display_name": "Mandabatmaz, 1a, İstiklal caddesi, İstiklal, Asmalı Mescit, Asmalı Mescit Mahallesi, Beyoğlu, İstanbul, Marmara Bölgesi, 34430, Türkiye",
+    "raw": {
+      "place_id": 53442084,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 5115410024,
+      "lat": "41.0327634",
+      "lon": "28.9761702",
+      "category": "amenity",
+      "type": "cafe",
+      "place_rank": 30,
+      "importance": 8.147783627064954e-05,
+      "addresstype": "amenity",
+      "name": "Mandabatmaz",
+      "display_name": "Mandabatmaz, 1a, İstiklal caddesi, İstiklal, Asmalı Mescit, Asmalı Mescit Mahallesi, Beyoğlu, İstanbul, Marmara Bölgesi, 34430, Türkiye",
+      "boundingbox": [
+        "41.0327134",
+        "41.0328134",
+        "28.9761202",
+        "28.9762202"
+      ]
+    }
+  },
+  "Kanaat Lokantasi Uskudar Istanbul": {
+    "lat": "41.0258196",
+    "lon": "29.0164724",
+    "display_name": "Kanaat Lokantası, 9, Selmani Pak Caddesi, Sultantepe Mahallesi, Üsküdar, İstanbul, Marmara Bölgesi, 34674, Türkiye",
+    "raw": {
+      "place_id": 54428698,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 5427228422,
+      "lat": "41.0258196",
+      "lon": "29.0164724",
+      "category": "amenity",
+      "type": "restaurant",
+      "place_rank": 30,
+      "importance": 8.147783627064954e-05,
+      "addresstype": "amenity",
+      "name": "Kanaat Lokantası",
+      "display_name": "Kanaat Lokantası, 9, Selmani Pak Caddesi, Sultantepe Mahallesi, Üsküdar, İstanbul, Marmara Bölgesi, 34674, Türkiye",
+      "boundingbox": [
+        "41.0257696",
+        "41.0258696",
+        "29.0164224",
+        "29.0165224"
+      ]
+    }
+  },
+  "Uskudar Coast Walk Istanbul": null,
+  "Kuzguncuk Istanbul": {
+    "lat": "41.0321600",
+    "lon": "29.0360265",
+    "display_name": "Kuzguncuk Mahallesi, Üsküdar, İstanbul, Marmara Bölgesi, Türkiye",
+    "raw": {
+      "place_id": 54663854,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "relation",
+      "osm_id": 9463313,
+      "lat": "41.0321600",
+      "lon": "29.0360265",
+      "category": "boundary",
+      "type": "administrative",
+      "place_rank": 16,
+      "importance": 0.3378692872294172,
+      "addresstype": "suburb",
+      "name": "Kuzguncuk Mahallesi",
+      "display_name": "Kuzguncuk Mahallesi, Üsküdar, İstanbul, Marmara Bölgesi, Türkiye",
+      "boundingbox": [
+        "41.0253658",
+        "41.0399870",
+        "29.0239857",
+        "29.0464796"
+      ]
+    }
+  },
+  "Ciya Sofrasi Istanbul": {
+    "lat": "40.9893469",
+    "lon": "29.0244294",
+    "display_name": "Çiya Sofrası, 43, Güneşlibahçe Sokağı, Bahariye, Caferağa Mahallesi, Kadıköy, İstanbul, Marmara Bölgesi, 34710, Türkiye",
+    "raw": {
+      "place_id": 54351891,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 9869626517,
+      "lat": "40.9893469",
+      "lon": "29.0244294",
+      "category": "amenity",
+      "type": "restaurant",
+      "place_rank": 30,
+      "importance": 8.147783627064954e-05,
+      "addresstype": "amenity",
+      "name": "Çiya Sofrası",
+      "display_name": "Çiya Sofrası, 43, Güneşlibahçe Sokağı, Bahariye, Caferağa Mahallesi, Kadıköy, İstanbul, Marmara Bölgesi, 34710, Türkiye",
+      "boundingbox": [
+        "40.9892969",
+        "40.9893969",
+        "29.0243794",
+        "29.0244794"
+      ]
+    }
+  },
+  "Kadikoy Carsi Istanbul": {
+    "lat": "40.9912048",
+    "lon": "29.0258535",
+    "display_name": "Kadıköy Çarşı, Söğütlüçeşme Caddesi, Osmanağa Mahallesi, Kadıköy, İstanbul, Marmara Bölgesi, 34714, Türkiye",
+    "raw": {
+      "place_id": 53594480,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 6177120305,
+      "lat": "40.9912048",
+      "lon": "29.0258535",
+      "category": "highway",
+      "type": "bus_stop",
+      "place_rank": 30,
+      "importance": 8.147783627064954e-05,
+      "addresstype": "highway",
+      "name": "Kadıköy Çarşı",
+      "display_name": "Kadıköy Çarşı, Söğütlüçeşme Caddesi, Osmanağa Mahallesi, Kadıköy, İstanbul, Marmara Bölgesi, 34714, Türkiye",
+      "boundingbox": [
+        "40.9911548",
+        "40.9912548",
+        "29.0258035",
+        "29.0259035"
+      ]
+    }
+  },
+  "Yeldegirmeni Istanbul": {
+    "lat": "40.9970269",
+    "lon": "29.0265413",
+    "display_name": "Rasimpaşa Mahallesi, Kadıköy, İstanbul, Marmara Bölgesi, 34716, Türkiye",
+    "raw": {
+      "place_id": 54159390,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "relation",
+      "osm_id": 9286639,
+      "lat": "40.9970269",
+      "lon": "29.0265413",
+      "category": "boundary",
+      "type": "administrative",
+      "place_rank": 16,
+      "importance": 0.2961343492019334,
+      "addresstype": "suburb",
+      "name": "Rasimpaşa Mahallesi",
+      "display_name": "Rasimpaşa Mahallesi, Kadıköy, İstanbul, Marmara Bölgesi, 34716, Türkiye",
+      "boundingbox": [
+        "40.9910422",
+        "41.0028268",
+        "29.0157894",
+        "29.0344781"
+      ]
+    }
+  },
+  "Moda Istanbul": {
+    "lat": "40.9811687",
+    "lon": "29.0254706",
+    "display_name": "Moda, Caferağa Mahallesi, Kadıköy, İstanbul, Marmara Bölgesi, 34710, Türkiye",
+    "raw": {
+      "place_id": 54449478,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 251355449,
+      "lat": "40.9811687",
+      "lon": "29.0254706",
+      "category": "place",
+      "type": "quarter",
+      "place_rank": 20,
+      "importance": 0.3453315576369598,
+      "addresstype": "quarter",
+      "name": "Moda",
+      "display_name": "Moda, Caferağa Mahallesi, Kadıköy, İstanbul, Marmara Bölgesi, 34710, Türkiye",
+      "boundingbox": [
+        "40.9711687",
+        "40.9911687",
+        "29.0154706",
+        "29.0354706"
+      ]
+    }
+  },
+  "Walter's Coffee Roastery Moda Istanbul": {
+    "lat": "40.9847703",
+    "lon": "29.0260568",
+    "display_name": "Walter's Coffee Roastery, 21/b, Bademaltı Sokağı, Moda, Caferağa Mahallesi, Kadıköy, İstanbul, Marmara Bölgesi, 34710, Türkiye",
+    "raw": {
+      "place_id": 54036370,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 5963740918,
+      "lat": "40.9847703",
+      "lon": "29.0260568",
+      "category": "amenity",
+      "type": "cafe",
+      "place_rank": 30,
+      "importance": 8.147783627064954e-05,
+      "addresstype": "amenity",
+      "name": "Walter's Coffee Roastery",
+      "display_name": "Walter's Coffee Roastery, 21/b, Bademaltı Sokağı, Moda, Caferağa Mahallesi, Kadıköy, İstanbul, Marmara Bölgesi, 34710, Türkiye",
+      "boundingbox": [
+        "40.9847203",
+        "40.9848203",
+        "29.0260068",
+        "29.0261068"
+      ]
+    }
+  },
+  "Kadikoy Ferry Terminal Istanbul": {
+    "lat": "40.9918235",
+    "lon": "29.0215476",
+    "display_name": "Kadiköy, Rıhtım Caddesi, Bahariye, Caferağa Mahallesi, Kadıköy, İstanbul, Marmara Bölgesi, 34710, Türkiye",
+    "raw": {
+      "place_id": 405859929,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "node",
+      "osm_id": 583523020,
+      "lat": "40.9918235",
+      "lon": "29.0215476",
+      "category": "amenity",
+      "type": "ferry_terminal",
+      "place_rank": 30,
+      "importance": 8.147783627064954e-05,
+      "addresstype": "amenity",
+      "name": "Kadiköy",
+      "display_name": "Kadiköy, Rıhtım Caddesi, Bahariye, Caferağa Mahallesi, Kadıköy, İstanbul, Marmara Bölgesi, 34710, Türkiye",
+      "boundingbox": [
+        "40.9917735",
+        "40.9918735",
+        "29.0214976",
+        "29.0215976"
+      ]
+    }
+  },
+  "Istanbul Airport": {
+    "lat": "41.2748684",
+    "lon": "28.7322749",
+    "display_name": "İstanbul Havalimanı, IGA-1B, İmrahor Mahallesi, Arnavutköy, İstanbul, Marmara Bölgesi, 34275, Türkiye",
+    "raw": {
+      "place_id": 54385409,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 812730062,
+      "lat": "41.2748684",
+      "lon": "28.7322749",
+      "category": "aeroway",
+      "type": "aerodrome",
+      "place_rank": 30,
+      "importance": 0.5407636109731158,
+      "addresstype": "aeroway",
+      "name": "İstanbul Havalimanı",
+      "display_name": "İstanbul Havalimanı, IGA-1B, İmrahor Mahallesi, Arnavutköy, İstanbul, Marmara Bölgesi, 34275, Türkiye",
+      "boundingbox": [
+        "41.2483651",
+        "41.3021419",
+        "28.7001058",
+        "28.7660314"
+      ]
+    }
+  }
+}

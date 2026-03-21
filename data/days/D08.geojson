@@ -1,4 +1,34 @@
 {
   "type": "FeatureCollection",
-  "features": []
+  "features": [
+    {
+      "type": "Feature",
+      "id": "D08-2-AIRPORT",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.7322749,
+          41.2748684
+        ]
+      },
+      "properties": {
+        "day_id": "D08",
+        "seq": 2,
+        "time_from": "07:00",
+        "time_to": "10:30",
+        "activity_title": "Flughafen / Abflug",
+        "with_daughter": true,
+        "priority": "must",
+        "transport_from_prev": "car",
+        "travel_min": 60,
+        "notes": "Istanbul Airport oder SAW ersetzen",
+        "place_id": "AIRPORT",
+        "name": "Airport",
+        "type": "transfer",
+        "area": "Airport",
+        "maps_query": "Istanbul Airport",
+        "maps_url": "https://www.google.com/maps/search/?api=1&query=Istanbul%20Airport"
+      }
+    }
+  ]
 }

@@ -1,4 +1,186 @@
 {
   "type": "FeatureCollection",
-  "features": []
+  "features": [
+    {
+      "type": "Feature",
+      "id": "D05-2-DOLMABAHCE",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.9997735,
+          41.0389605
+        ]
+      },
+      "properties": {
+        "day_id": "D05",
+        "seq": 2,
+        "time_from": "09:00",
+        "time_to": "11:15",
+        "activity_title": "Palastbesuch",
+        "with_daughter": false,
+        "priority": "must",
+        "transport_from_prev": "walk",
+        "travel_min": 12,
+        "notes": "",
+        "place_id": "DOLMABAHCE",
+        "name": "Dolmabahçe Palace",
+        "type": "sight",
+        "area": "Beşiktaş",
+        "maps_query": "Dolmabahce Palace Istanbul",
+        "maps_url": "https://www.google.com/maps/search/?api=1&query=Dolmabahce%20Palace%20Istanbul"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "D05-3-KARAKOY_LOKANTASI",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.980028,
+          41.0245922
+        ]
+      },
+      "properties": {
+        "day_id": "D05",
+        "seq": 3,
+        "time_from": "13:00",
+        "time_to": "14:15",
+        "activity_title": "Lunch mit Tochter",
+        "with_daughter": true,
+        "priority": "must",
+        "transport_from_prev": "taxi",
+        "travel_min": 20,
+        "notes": "",
+        "place_id": "KARAKOY_LOKANTASI",
+        "name": "Karaköy Lokantası",
+        "type": "lunch",
+        "area": "Karaköy",
+        "maps_query": "Karakoy Lokantasi Istanbul",
+        "maps_url": "https://www.google.com/maps/search/?api=1&query=Karakoy%20Lokantasi%20Istanbul"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "D05-4-KARAKOY",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.9740393,
+          41.0228645
+        ]
+      },
+      "properties": {
+        "day_id": "D05",
+        "seq": 4,
+        "time_from": "14:20",
+        "time_to": "15:00",
+        "activity_title": "Karaköy-Spaziergang",
+        "with_daughter": true,
+        "priority": "nice",
+        "transport_from_prev": "walk",
+        "travel_min": 5,
+        "notes": "",
+        "place_id": "KARAKOY",
+        "name": "Karaköy",
+        "type": "walk",
+        "area": "Karaköy",
+        "maps_query": "Karakoy Istanbul",
+        "maps_url": "https://www.google.com/maps/search/?api=1&query=Karakoy%20Istanbul"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "D05-5-TURYOL_EMINONU",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.9703806,
+          41.0187376
+        ]
+      },
+      "properties": {
+        "day_id": "D05",
+        "seq": 5,
+        "time_from": "15:15",
+        "time_to": "16:30",
+        "activity_title": "Kurze Bosporusfahrt",
+        "with_daughter": true,
+        "priority": "must",
+        "transport_from_prev": "walk",
+        "travel_min": 15,
+        "notes": "nächste passende Abfahrt nehmen",
+        "place_id": "TURYOL_EMINONU",
+        "name": "Bosphorus cruise pier",
+        "type": "ferry",
+        "area": "Eminönü",
+        "maps_query": "Turyol Eminonu Istanbul",
+        "maps_url": "https://www.google.com/maps/search/?api=1&query=Turyol%20Eminonu%20Istanbul"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "D05-6-DEM_KARAKOY",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.9738193,
+          41.0233011
+        ]
+      },
+      "properties": {
+        "day_id": "D05",
+        "seq": 6,
+        "time_from": "16:45",
+        "time_to": "17:30",
+        "activity_title": "Kaffee / Tee",
+        "with_daughter": true,
+        "priority": "nice",
+        "transport_from_prev": "taxi",
+        "travel_min": 10,
+        "notes": "",
+        "place_id": "DEM_KARAKOY",
+        "name": "Dem Karaköy",
+        "type": "coffee",
+        "area": "Karaköy",
+        "maps_query": "Dem Karakoy Istanbul",
+        "maps_url": "https://www.google.com/maps/search/?api=1&query=Dem%20Karakoy%20Istanbul"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "D05-route",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            28.9997735,
+            41.0389605
+          ],
+          [
+            28.980028,
+            41.0245922
+          ],
+          [
+            28.9740393,
+            41.0228645
+          ],
+          [
+            28.9703806,
+            41.0187376
+          ],
+          [
+            28.9738193,
+            41.0233011
+          ]
+        ]
+      },
+      "properties": {
+        "day_id": "D05",
+        "label": "Di 07.04 – Beşiktaş / Dolmabahçe / Karaköy",
+        "theme": "Palast & Bosporus",
+        "type": "route",
+        "color": "#EF6C00"
+      }
+    }
+  ]
 }

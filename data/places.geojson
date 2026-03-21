@@ -1,4 +1,1191 @@
 {
   "type": "FeatureCollection",
-  "features": []
+  "features": [
+    {
+      "type": "Feature",
+      "id": "SULTANAHMET_SQ",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.9771617,
+          41.0080081
+        ]
+      },
+      "properties": {
+        "place_id": "SULTANAHMET_SQ",
+        "name": "Sultanahmet Square",
+        "type": "walk",
+        "area": "Sultanahmet",
+        "maps_query": "Sultanahmet Square Istanbul",
+        "maps_url": "https://www.google.com/maps/search/?api=1&query=Sultanahmet%20Square%20Istanbul",
+        "apple_maps_url": "http://maps.apple.com/?q=Sultanahmet%20Square%20Istanbul",
+        "image_query": "Sultanahmet Square morning",
+        "tags": [
+          "walk",
+          "historic"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BLUE_MOSQUE",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.9768534,
+          41.0053843
+        ]
+      },
+      "properties": {
+        "place_id": "BLUE_MOSQUE",
+        "name": "Blue Mosque",
+        "type": "sight",
+        "area": "Sultanahmet",
+        "maps_query": "Blue Mosque Istanbul",
+        "maps_url": "https://www.google.com/maps/search/?api=1&query=Blue%20Mosque%20Istanbul",
+        "apple_maps_url": "http://maps.apple.com/?q=Blue%20Mosque%20Istanbul",
+        "image_query": "Blue Mosque Istanbul exterior",
+        "tags": [
+          "mosque",
+          "must"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ARASTA_BAZAAR",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.9779026,
+          41.0049274
+        ]
+      },
+      "properties": {
+        "place_id": "ARASTA_BAZAAR",
+        "name": "Arasta Bazaar",
+        "type": "walk",
+        "area": "Sultanahmet",
+        "maps_query": "Arasta Bazaar Istanbul",
+        "maps_url": "https://www.google.com/maps/search/?api=1&query=Arasta%20Bazaar%20Istanbul",
+        "apple_maps_url": "http://maps.apple.com/?q=Arasta%20Bazaar%20Istanbul",
+        "image_query": "Arasta Bazaar Istanbul",
+        "tags": [
+          "bazaar"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "LITTLE_HAGIA_SOPHIA",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.9721954,
+          41.0027326
+        ]
+      },
+      "properties": {
+        "place_id": "LITTLE_HAGIA_SOPHIA",
+        "name": "Little Hagia Sophia",
+        "type": "sight",
+        "area": "Sultanahmet",
+        "maps_query": "Little Hagia Sophia Istanbul",
+        "maps_url": "https://www.google.com/maps/search/?api=1&query=Little%20Hagia%20Sophia%20Istanbul",
+        "apple_maps_url": "http://maps.apple.com/?q=Little%20Hagia%20Sophia%20Istanbul",
+        "image_query": "Little Hagia Sophia Istanbul",
+        "tags": [
+          "mosque",
+          "quiet"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "DERALIYE",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.9759095,
+          41.0088429
+        ]
+      },
+      "properties": {
+        "place_id": "DERALIYE",
+        "name": "Deraliye Restaurant",
+        "type": "dinner",
+        "area": "Sultanahmet",
+        "maps_query": "Deraliye Restaurant Istanbul",
+        "maps_url": "https://www.google.com/maps/search/?api=1&query=Deraliye%20Restaurant%20Istanbul",
+        "apple_maps_url": "http://maps.apple.com/?q=Deraliye%20Restaurant%20Istanbul",
+        "image_query": "Deraliye Restaurant Istanbul",
+        "tags": [
+          "food",
+          "dinner"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "HAGIA_SOPHIA",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.9800112,
+          41.0085046
+        ]
+      },
+      "properties": {
+        "place_id": "HAGIA_SOPHIA",
+        "name": "Hagia Sophia",
+        "type": "sight",
+        "area": "Sultanahmet",
+        "maps_query": "Hagia Sophia Istanbul",
+        "maps_url": "https://www.google.com/maps/search/?api=1&query=Hagia%20Sophia%20Istanbul",
+        "apple_maps_url": "http://maps.apple.com/?q=Hagia%20Sophia%20Istanbul",
+        "image_query": "Hagia Sophia interior",
+        "tags": [
+          "must",
+          "historic"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PANDELI",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.9711789,
+          41.0171446
+        ]
+      },
+      "properties": {
+        "place_id": "PANDELI",
+        "name": "Pandeli Restaurant",
+        "type": "lunch",
+        "area": "Eminönü",
+        "maps_query": "Pandeli Restaurant Istanbul",
+        "maps_url": "https://www.google.com/maps/search/?api=1&query=Pandeli%20Restaurant%20Istanbul",
+        "apple_maps_url": "http://maps.apple.com/?q=Pandeli%20Restaurant%20Istanbul",
+        "image_query": "Pandeli Restaurant Istanbul",
+        "tags": [
+          "food",
+          "lunch"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BASILICA_CISTERN",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.9783826,
+          41.0084795
+        ]
+      },
+      "properties": {
+        "place_id": "BASILICA_CISTERN",
+        "name": "Basilica Cistern",
+        "type": "sight",
+        "area": "Sultanahmet",
+        "maps_query": "Basilica Cistern Istanbul",
+        "maps_url": "https://www.google.com/maps/search/?api=1&query=Basilica%20Cistern%20Istanbul",
+        "apple_maps_url": "http://maps.apple.com/?q=Basilica%20Cistern%20Istanbul",
+        "image_query": "Basilica Cistern Istanbul",
+        "tags": [
+          "must",
+          "historic"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SPICE_BAZAAR",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.9705376,
+          41.0164787
+        ]
+      },
+      "properties": {
+        "place_id": "SPICE_BAZAAR",
+        "name": "Spice Bazaar",
+        "type": "sight",
+        "area": "Eminönü",
+        "maps_query": "Spice Bazaar Istanbul",
+        "maps_url": "https://www.google.com/maps/search/?api=1&query=Spice%20Bazaar%20Istanbul",
+        "apple_maps_url": "http://maps.apple.com/?q=Spice%20Bazaar%20Istanbul",
+        "image_query": "Spice Bazaar Istanbul",
+        "tags": [
+          "bazaar"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "EMINONU_FERRY",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.974141,
+          41.0179964
+        ]
+      },
+      "properties": {
+        "place_id": "EMINONU_FERRY",
+        "name": "Eminönü Ferry Terminal",
+        "type": "ferry",
+        "area": "Eminönü",
+        "maps_query": "Eminonu Ferry Terminal Istanbul",
+        "maps_url": "https://www.google.com/maps/search/?api=1&query=Eminonu%20Ferry%20Terminal%20Istanbul",
+        "apple_maps_url": "http://maps.apple.com/?q=Eminonu%20Ferry%20Terminal%20Istanbul",
+        "image_query": "Eminonu ferry Istanbul",
+        "tags": [
+          "ferry",
+          "transport"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "GULHANE_PARK",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.9809017,
+          41.0130256
+        ]
+      },
+      "properties": {
+        "place_id": "GULHANE_PARK",
+        "name": "Gülhane Park",
+        "type": "walk",
+        "area": "Sirkeci",
+        "maps_query": "Gulhane Park Istanbul",
+        "maps_url": "https://www.google.com/maps/search/?api=1&query=Gulhane%20Park%20Istanbul",
+        "apple_maps_url": "http://maps.apple.com/?q=Gulhane%20Park%20Istanbul",
+        "image_query": "Gulhane Park Istanbul",
+        "tags": [
+          "park",
+          "walk"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BREAKFAST_SIRKECI",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.9733605,
+          41.0160106
+        ]
+      },
+      "properties": {
+        "place_id": "BREAKFAST_SIRKECI",
+        "name": "Quick breakfast Sirkeci",
+        "type": "breakfast",
+        "area": "Sirkeci",
+        "maps_query": "Hafiz Mustafa Sirkeci Istanbul",
+        "maps_url": "https://www.google.com/maps/search/?api=1&query=Hafiz%20Mustafa%20Sirkeci%20Istanbul",
+        "apple_maps_url": "http://maps.apple.com/?q=Hafiz%20Mustafa%20Sirkeci%20Istanbul",
+        "image_query": "breakfast sirkeci istanbul",
+        "tags": [
+          "breakfast"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TOPKAPI",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.9832034,
+          41.011344
+        ]
+      },
+      "properties": {
+        "place_id": "TOPKAPI",
+        "name": "Topkapi Palace",
+        "type": "sight",
+        "area": "Sultanahmet",
+        "maps_query": "Topkapi Palace Istanbul",
+        "maps_url": "https://www.google.com/maps/search/?api=1&query=Topkapi%20Palace%20Istanbul",
+        "apple_maps_url": "http://maps.apple.com/?q=Topkapi%20Palace%20Istanbul",
+        "image_query": "Topkapi Palace Istanbul",
+        "tags": [
+          "must",
+          "palace"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "HAMDI",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.9698993,
+          41.0171629
+        ]
+      },
+      "properties": {
+        "place_id": "HAMDI",
+        "name": "Hamdi Restaurant Eminönü",
+        "type": "lunch",
+        "area": "Eminönü",
+        "maps_query": "Hamdi Restaurant Eminonu Istanbul",
+        "maps_url": "https://www.google.com/maps/search/?api=1&query=Hamdi%20Restaurant%20Eminonu%20Istanbul",
+        "apple_maps_url": "http://maps.apple.com/?q=Hamdi%20Restaurant%20Eminonu%20Istanbul",
+        "image_query": "Hamdi Restaurant Istanbul",
+        "tags": [
+          "food",
+          "lunch"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SULEYMANIYE",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.9639548,
+          41.0162287
+        ]
+      },
+      "properties": {
+        "place_id": "SULEYMANIYE",
+        "name": "Süleymaniye Mosque",
+        "type": "sight",
+        "area": "Fatih",
+        "maps_query": "Suleymaniye Mosque Istanbul",
+        "maps_url": "https://www.google.com/maps/search/?api=1&query=Suleymaniye%20Mosque%20Istanbul",
+        "apple_maps_url": "http://maps.apple.com/?q=Suleymaniye%20Mosque%20Istanbul",
+        "image_query": "Suleymaniye Mosque Istanbul",
+        "tags": [
+          "mosque",
+          "view"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "VEFA_BOZACISI",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.9584185,
+          41.0153241
+        ]
+      },
+      "properties": {
+        "place_id": "VEFA_BOZACISI",
+        "name": "Vefa Bozacısı",
+        "type": "coffee",
+        "area": "Fatih",
+        "maps_query": "Vefa Bozacisi Istanbul",
+        "maps_url": "https://www.google.com/maps/search/?api=1&query=Vefa%20Bozacisi%20Istanbul",
+        "apple_maps_url": "http://maps.apple.com/?q=Vefa%20Bozacisi%20Istanbul",
+        "image_query": "Vefa Bozacisi Istanbul",
+        "tags": [
+          "drink",
+          "traditional"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ZEYREK",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.9572486,
+          41.0197079
+        ]
+      },
+      "properties": {
+        "place_id": "ZEYREK",
+        "name": "Zeyrek",
+        "type": "walk",
+        "area": "Fatih",
+        "maps_query": "Zeyrek Mosque Istanbul",
+        "maps_url": "https://www.google.com/maps/search/?api=1&query=Zeyrek%20Mosque%20Istanbul",
+        "apple_maps_url": "http://maps.apple.com/?q=Zeyrek%20Mosque%20Istanbul",
+        "image_query": "Zeyrek Istanbul",
+        "tags": [
+          "walk",
+          "historic"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "VALENS_AQUEDUCT",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.9549684,
+          41.0162933
+        ]
+      },
+      "properties": {
+        "place_id": "VALENS_AQUEDUCT",
+        "name": "Valens Aqueduct",
+        "type": "sight",
+        "area": "Fatih",
+        "maps_query": "Valens Aqueduct Istanbul",
+        "maps_url": "https://www.google.com/maps/search/?api=1&query=Valens%20Aqueduct%20Istanbul",
+        "apple_maps_url": "http://maps.apple.com/?q=Valens%20Aqueduct%20Istanbul",
+        "image_query": "Valens Aqueduct Istanbul",
+        "tags": [
+          "historic"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "BALAT",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.9482931,
+          41.0320032
+        ]
+      },
+      "properties": {
+        "place_id": "BALAT",
+        "name": "Balat",
+        "type": "walk",
+        "area": "Balat",
+        "maps_query": "Balat Istanbul",
+        "maps_url": "https://www.google.com/maps/search/?api=1&query=Balat%20Istanbul",
+        "apple_maps_url": "http://maps.apple.com/?q=Balat%20Istanbul",
+        "image_query": "Balat Istanbul colorful streets",
+        "tags": [
+          "walk",
+          "neighborhood"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "VELVET_CAFE",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.9487449,
+          41.0311316
+        ]
+      },
+      "properties": {
+        "place_id": "VELVET_CAFE",
+        "name": "Velvet Cafe Balat",
+        "type": "breakfast",
+        "area": "Balat",
+        "maps_query": "Velvet Cafe Balat Istanbul",
+        "maps_url": "https://www.google.com/maps/search/?api=1&query=Velvet%20Cafe%20Balat%20Istanbul",
+        "apple_maps_url": "http://maps.apple.com/?q=Velvet%20Cafe%20Balat%20Istanbul",
+        "image_query": "Velvet Cafe Balat",
+        "tags": [
+          "breakfast",
+          "coffee"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PATRIARCHATE",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.9514428,
+          41.0293643
+        ]
+      },
+      "properties": {
+        "place_id": "PATRIARCHATE",
+        "name": "Ecumenical Patriarchate",
+        "type": "sight",
+        "area": "Fener",
+        "maps_query": "Ecumenical Patriarchate of Constantinople Istanbul",
+        "maps_url": "https://www.google.com/maps/search/?api=1&query=Ecumenical%20Patriarchate%20of%20Constantinople%20Istanbul",
+        "apple_maps_url": "http://maps.apple.com/?q=Ecumenical%20Patriarchate%20of%20Constantinople%20Istanbul",
+        "image_query": "Fener Patriarchate Istanbul",
+        "tags": [
+          "historic"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "IRON_CHURCH",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.949686,
+          41.0317775
+        ]
+      },
+      "properties": {
+        "place_id": "IRON_CHURCH",
+        "name": "Bulgarian Iron Church",
+        "type": "sight",
+        "area": "Balat",
+        "maps_query": "Bulgarian St Stephen Church Istanbul",
+        "maps_url": "https://www.google.com/maps/search/?api=1&query=Bulgarian%20St%20Stephen%20Church%20Istanbul",
+        "apple_maps_url": "http://maps.apple.com/?q=Bulgarian%20St%20Stephen%20Church%20Istanbul",
+        "image_query": "Bulgarian Iron Church Istanbul",
+        "tags": [
+          "church"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ASITANE",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.9389957,
+          41.0308701
+        ]
+      },
+      "properties": {
+        "place_id": "ASITANE",
+        "name": "Asitane Restaurant",
+        "type": "lunch",
+        "area": "Edirnekapı",
+        "maps_query": "Asitane Restaurant Istanbul",
+        "maps_url": "https://www.google.com/maps/search/?api=1&query=Asitane%20Restaurant%20Istanbul",
+        "apple_maps_url": "http://maps.apple.com/?q=Asitane%20Restaurant%20Istanbul",
+        "image_query": "Asitane Restaurant Istanbul",
+        "tags": [
+          "food",
+          "lunch"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "CAGALOGLU_HAMAMI",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.9756423,
+          41.0106906
+        ]
+      },
+      "properties": {
+        "place_id": "CAGALOGLU_HAMAMI",
+        "name": "Cağaloğlu Hamamı",
+        "type": "hamam",
+        "area": "Sultanahmet",
+        "maps_query": "Cagaloglu Hamami Istanbul",
+        "maps_url": "https://www.google.com/maps/search/?api=1&query=Cagaloglu%20Hamami%20Istanbul",
+        "apple_maps_url": "http://maps.apple.com/?q=Cagaloglu%20Hamami%20Istanbul",
+        "image_query": "Cagaloglu Hamami Istanbul",
+        "tags": [
+          "hamam",
+          "optional"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "DOLMABAHCE",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.9997735,
+          41.0389605
+        ]
+      },
+      "properties": {
+        "place_id": "DOLMABAHCE",
+        "name": "Dolmabahçe Palace",
+        "type": "sight",
+        "area": "Beşiktaş",
+        "maps_query": "Dolmabahce Palace Istanbul",
+        "maps_url": "https://www.google.com/maps/search/?api=1&query=Dolmabahce%20Palace%20Istanbul",
+        "apple_maps_url": "http://maps.apple.com/?q=Dolmabahce%20Palace%20Istanbul",
+        "image_query": "Dolmabahce Palace Istanbul",
+        "tags": [
+          "palace",
+          "must"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "KARAKOY_LOKANTASI",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.980028,
+          41.0245922
+        ]
+      },
+      "properties": {
+        "place_id": "KARAKOY_LOKANTASI",
+        "name": "Karaköy Lokantası",
+        "type": "lunch",
+        "area": "Karaköy",
+        "maps_query": "Karakoy Lokantasi Istanbul",
+        "maps_url": "https://www.google.com/maps/search/?api=1&query=Karakoy%20Lokantasi%20Istanbul",
+        "apple_maps_url": "http://maps.apple.com/?q=Karakoy%20Lokantasi%20Istanbul",
+        "image_query": "Karakoy Lokantasi Istanbul",
+        "tags": [
+          "food",
+          "lunch"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "KARAKOY",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.9740393,
+          41.0228645
+        ]
+      },
+      "properties": {
+        "place_id": "KARAKOY",
+        "name": "Karaköy",
+        "type": "walk",
+        "area": "Karaköy",
+        "maps_query": "Karakoy Istanbul",
+        "maps_url": "https://www.google.com/maps/search/?api=1&query=Karakoy%20Istanbul",
+        "apple_maps_url": "http://maps.apple.com/?q=Karakoy%20Istanbul",
+        "image_query": "Karakoy Istanbul streets",
+        "tags": [
+          "walk",
+          "urban"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "TURYOL_EMINONU",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.9703806,
+          41.0187376
+        ]
+      },
+      "properties": {
+        "place_id": "TURYOL_EMINONU",
+        "name": "Bosphorus cruise pier",
+        "type": "ferry",
+        "area": "Eminönü",
+        "maps_query": "Turyol Eminonu Istanbul",
+        "maps_url": "https://www.google.com/maps/search/?api=1&query=Turyol%20Eminonu%20Istanbul",
+        "apple_maps_url": "http://maps.apple.com/?q=Turyol%20Eminonu%20Istanbul",
+        "image_query": "Bosphorus boat Eminonu",
+        "tags": [
+          "boat"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "DEM_KARAKOY",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.9738193,
+          41.0233011
+        ]
+      },
+      "properties": {
+        "place_id": "DEM_KARAKOY",
+        "name": "Dem Karaköy",
+        "type": "coffee",
+        "area": "Karaköy",
+        "maps_query": "Dem Karakoy Istanbul",
+        "maps_url": "https://www.google.com/maps/search/?api=1&query=Dem%20Karakoy%20Istanbul",
+        "apple_maps_url": "http://maps.apple.com/?q=Dem%20Karakoy%20Istanbul",
+        "image_query": "Dem Karakoy Istanbul",
+        "tags": [
+          "coffee",
+          "tea"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "KAMONDO_STAIRS",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.9737825,
+          41.0239741
+        ]
+      },
+      "properties": {
+        "place_id": "KAMONDO_STAIRS",
+        "name": "Kamondo Stairs",
+        "type": "walk",
+        "area": "Karaköy",
+        "maps_query": "Kamondo Stairs Istanbul",
+        "maps_url": "https://www.google.com/maps/search/?api=1&query=Kamondo%20Stairs%20Istanbul",
+        "apple_maps_url": "http://maps.apple.com/?q=Kamondo%20Stairs%20Istanbul",
+        "image_query": "Kamondo Stairs Istanbul",
+        "tags": [
+          "walk",
+          "architecture"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PRIVATO",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.9740831,
+          41.0268623
+        ]
+      },
+      "properties": {
+        "place_id": "PRIVATO",
+        "name": "Privato Cafe",
+        "type": "breakfast",
+        "area": "Galata",
+        "maps_query": "Privato Cafe Istanbul",
+        "maps_url": "https://www.google.com/maps/search/?api=1&query=Privato%20Cafe%20Istanbul",
+        "apple_maps_url": "http://maps.apple.com/?q=Privato%20Cafe%20Istanbul",
+        "image_query": "Privato Cafe Istanbul",
+        "tags": [
+          "breakfast"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "GALATA_TOWER",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.9742134,
+          41.0256406
+        ]
+      },
+      "properties": {
+        "place_id": "GALATA_TOWER",
+        "name": "Galata Tower",
+        "type": "sight",
+        "area": "Galata",
+        "maps_query": "Galata Tower Istanbul",
+        "maps_url": "https://www.google.com/maps/search/?api=1&query=Galata%20Tower%20Istanbul",
+        "apple_maps_url": "http://maps.apple.com/?q=Galata%20Tower%20Istanbul",
+        "image_query": "Galata Tower Istanbul",
+        "tags": [
+          "tower",
+          "must"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "CUKURCUMA",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.9800959,
+          41.0312475
+        ]
+      },
+      "properties": {
+        "place_id": "CUKURCUMA",
+        "name": "Çukurcuma",
+        "type": "walk",
+        "area": "Beyoğlu",
+        "maps_query": "Cukurcuma Istanbul",
+        "maps_url": "https://www.google.com/maps/search/?api=1&query=Cukurcuma%20Istanbul",
+        "apple_maps_url": "http://maps.apple.com/?q=Cukurcuma%20Istanbul",
+        "image_query": "Cukurcuma Istanbul",
+        "tags": [
+          "walk",
+          "antiques"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "CIHANGIR",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.9853187,
+          41.0330402
+        ]
+      },
+      "properties": {
+        "place_id": "CIHANGIR",
+        "name": "Cihangir",
+        "type": "walk",
+        "area": "Cihangir",
+        "maps_query": "Cihangir Istanbul",
+        "maps_url": "https://www.google.com/maps/search/?api=1&query=Cihangir%20Istanbul",
+        "apple_maps_url": "http://maps.apple.com/?q=Cihangir%20Istanbul",
+        "image_query": "Cihangir Istanbul",
+        "tags": [
+          "walk",
+          "cafe"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "FICCIN",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.9757155,
+          41.0325552
+        ]
+      },
+      "properties": {
+        "place_id": "FICCIN",
+        "name": "Ficcin",
+        "type": "lunch",
+        "area": "Beyoğlu",
+        "maps_query": "Ficcin Beyoglu Istanbul",
+        "maps_url": "https://www.google.com/maps/search/?api=1&query=Ficcin%20Beyoglu%20Istanbul",
+        "apple_maps_url": "http://maps.apple.com/?q=Ficcin%20Beyoglu%20Istanbul",
+        "image_query": "Ficcin Istanbul",
+        "tags": [
+          "food",
+          "lunch"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ISTIKLAL",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.708734,
+          40.999132
+        ]
+      },
+      "properties": {
+        "place_id": "ISTIKLAL",
+        "name": "İstiklal Avenue",
+        "type": "walk",
+        "area": "Beyoğlu",
+        "maps_query": "Istiklal Avenue Istanbul",
+        "maps_url": "https://www.google.com/maps/search/?api=1&query=Istiklal%20Avenue%20Istanbul",
+        "apple_maps_url": "http://maps.apple.com/?q=Istiklal%20Avenue%20Istanbul",
+        "image_query": "Istiklal Avenue Istanbul",
+        "tags": [
+          "walk",
+          "urban"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ST_ANTOINE",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.9771979,
+          41.0322763
+        ]
+      },
+      "properties": {
+        "place_id": "ST_ANTOINE",
+        "name": "St. Antoine Church",
+        "type": "sight",
+        "area": "Beyoğlu",
+        "maps_query": "St. Anthony of Padua Church Istanbul",
+        "maps_url": "https://www.google.com/maps/search/?api=1&query=St.%20Anthony%20of%20Padua%20Church%20Istanbul",
+        "apple_maps_url": "http://maps.apple.com/?q=St.%20Anthony%20of%20Padua%20Church%20Istanbul",
+        "image_query": "St Antoine Istanbul",
+        "tags": [
+          "church"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PERA_MUSEUM",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.9752038,
+          41.0318031
+        ]
+      },
+      "properties": {
+        "place_id": "PERA_MUSEUM",
+        "name": "Pera Museum",
+        "type": "sight",
+        "area": "Beyoğlu",
+        "maps_query": "Pera Museum Istanbul",
+        "maps_url": "https://www.google.com/maps/search/?api=1&query=Pera%20Museum%20Istanbul",
+        "apple_maps_url": "http://maps.apple.com/?q=Pera%20Museum%20Istanbul",
+        "image_query": "Pera Museum Istanbul",
+        "tags": [
+          "museum"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "MANDABATMAZ",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.9761702,
+          41.0327634
+        ]
+      },
+      "properties": {
+        "place_id": "MANDABATMAZ",
+        "name": "Mandabatmaz",
+        "type": "coffee",
+        "area": "Beyoğlu",
+        "maps_query": "Mandabatmaz Istanbul",
+        "maps_url": "https://www.google.com/maps/search/?api=1&query=Mandabatmaz%20Istanbul",
+        "apple_maps_url": "http://maps.apple.com/?q=Mandabatmaz%20Istanbul",
+        "image_query": "Mandabatmaz Istanbul coffee",
+        "tags": [
+          "coffee"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "USKUDAR_BREAKFAST",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0164724,
+          41.0258196
+        ]
+      },
+      "properties": {
+        "place_id": "USKUDAR_BREAKFAST",
+        "name": "Üsküdar breakfast stop",
+        "type": "breakfast",
+        "area": "Üsküdar",
+        "maps_query": "Kanaat Lokantasi Uskudar Istanbul",
+        "maps_url": "https://www.google.com/maps/search/?api=1&query=Kanaat%20Lokantasi%20Uskudar%20Istanbul",
+        "apple_maps_url": "http://maps.apple.com/?q=Kanaat%20Lokantasi%20Uskudar%20Istanbul",
+        "image_query": "breakfast Uskudar Istanbul",
+        "tags": [
+          "breakfast"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "KUZGUNCUK",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0360265,
+          41.03216
+        ]
+      },
+      "properties": {
+        "place_id": "KUZGUNCUK",
+        "name": "Kuzguncuk",
+        "type": "walk",
+        "area": "Kuzguncuk",
+        "maps_query": "Kuzguncuk Istanbul",
+        "maps_url": "https://www.google.com/maps/search/?api=1&query=Kuzguncuk%20Istanbul",
+        "apple_maps_url": "http://maps.apple.com/?q=Kuzguncuk%20Istanbul",
+        "image_query": "Kuzguncuk Istanbul streets",
+        "tags": [
+          "walk",
+          "neighborhood"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "CIYA",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0244294,
+          40.9893469
+        ]
+      },
+      "properties": {
+        "place_id": "CIYA",
+        "name": "Çiya Sofrası",
+        "type": "lunch",
+        "area": "Kadıköy",
+        "maps_query": "Ciya Sofrasi Istanbul",
+        "maps_url": "https://www.google.com/maps/search/?api=1&query=Ciya%20Sofrasi%20Istanbul",
+        "apple_maps_url": "http://maps.apple.com/?q=Ciya%20Sofrasi%20Istanbul",
+        "image_query": "Ciya Sofrasi Istanbul",
+        "tags": [
+          "food",
+          "lunch"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "KADIKOY_CARSI",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0258535,
+          40.9912048
+        ]
+      },
+      "properties": {
+        "place_id": "KADIKOY_CARSI",
+        "name": "Kadıköy Çarşı",
+        "type": "walk",
+        "area": "Kadıköy",
+        "maps_query": "Kadikoy Carsi Istanbul",
+        "maps_url": "https://www.google.com/maps/search/?api=1&query=Kadikoy%20Carsi%20Istanbul",
+        "apple_maps_url": "http://maps.apple.com/?q=Kadikoy%20Carsi%20Istanbul",
+        "image_query": "Kadikoy market Istanbul",
+        "tags": [
+          "walk",
+          "market"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "YELDEGIRMENI",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0265413,
+          40.9970269
+        ]
+      },
+      "properties": {
+        "place_id": "YELDEGIRMENI",
+        "name": "Yeldeğirmeni",
+        "type": "walk",
+        "area": "Kadıköy",
+        "maps_query": "Yeldegirmeni Istanbul",
+        "maps_url": "https://www.google.com/maps/search/?api=1&query=Yeldegirmeni%20Istanbul",
+        "apple_maps_url": "http://maps.apple.com/?q=Yeldegirmeni%20Istanbul",
+        "image_query": "Yeldegirmeni Istanbul",
+        "tags": [
+          "walk",
+          "streetart"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "MODA",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0254706,
+          40.9811687
+        ]
+      },
+      "properties": {
+        "place_id": "MODA",
+        "name": "Moda",
+        "type": "walk",
+        "area": "Kadıköy",
+        "maps_query": "Moda Istanbul",
+        "maps_url": "https://www.google.com/maps/search/?api=1&query=Moda%20Istanbul",
+        "apple_maps_url": "http://maps.apple.com/?q=Moda%20Istanbul",
+        "image_query": "Moda Istanbul waterfront",
+        "tags": [
+          "walk",
+          "relax"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "MODA_COFFEE",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0260568,
+          40.9847703
+        ]
+      },
+      "properties": {
+        "place_id": "MODA_COFFEE",
+        "name": "Moda coffee stop",
+        "type": "coffee",
+        "area": "Moda",
+        "maps_query": "Walter's Coffee Roastery Moda Istanbul",
+        "maps_url": "https://www.google.com/maps/search/?api=1&query=Walter%27s%20Coffee%20Roastery%20Moda%20Istanbul",
+        "apple_maps_url": "http://maps.apple.com/?q=Walter%27s%20Coffee%20Roastery%20Moda%20Istanbul",
+        "image_query": "Moda coffee Istanbul",
+        "tags": [
+          "coffee"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "KADIKOY_FERRY",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0215476,
+          40.9918235
+        ]
+      },
+      "properties": {
+        "place_id": "KADIKOY_FERRY",
+        "name": "Kadıköy Ferry Terminal",
+        "type": "ferry",
+        "area": "Kadıköy",
+        "maps_query": "Kadikoy Ferry Terminal Istanbul",
+        "maps_url": "https://www.google.com/maps/search/?api=1&query=Kadikoy%20Ferry%20Terminal%20Istanbul",
+        "apple_maps_url": "http://maps.apple.com/?q=Kadikoy%20Ferry%20Terminal%20Istanbul",
+        "image_query": "Kadikoy Ferry Terminal Istanbul",
+        "tags": [
+          "ferry",
+          "transport"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "AIRPORT",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.7322749,
+          41.2748684
+        ]
+      },
+      "properties": {
+        "place_id": "AIRPORT",
+        "name": "Airport",
+        "type": "transfer",
+        "area": "Airport",
+        "maps_query": "Istanbul Airport",
+        "maps_url": "https://www.google.com/maps/search/?api=1&query=Istanbul%20Airport",
+        "apple_maps_url": "http://maps.apple.com/?q=Istanbul%20Airport",
+        "image_query": "Istanbul Airport departures",
+        "tags": [
+          "airport"
+        ]
+      }
+    }
+  ]
 }

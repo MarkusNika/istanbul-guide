@@ -1,4 +1,219 @@
 {
   "type": "FeatureCollection",
-  "features": []
+  "features": [
+    {
+      "type": "Feature",
+      "id": "D04-1-BALAT",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.9482931,
+          41.0320032
+        ]
+      },
+      "properties": {
+        "day_id": "D04",
+        "seq": 1,
+        "time_from": "07:15",
+        "time_to": "08:15",
+        "activity_title": "Balat im Morgenlicht",
+        "with_daughter": false,
+        "priority": "must",
+        "transport_from_prev": "taxi",
+        "travel_min": 25,
+        "notes": "",
+        "place_id": "BALAT",
+        "name": "Balat",
+        "type": "walk",
+        "area": "Balat",
+        "maps_query": "Balat Istanbul",
+        "maps_url": "https://www.google.com/maps/search/?api=1&query=Balat%20Istanbul"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "D04-2-VELVET_CAFE",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.9487449,
+          41.0311316
+        ]
+      },
+      "properties": {
+        "day_id": "D04",
+        "seq": 2,
+        "time_from": "08:20",
+        "time_to": "09:00",
+        "activity_title": "Frühstück",
+        "with_daughter": false,
+        "priority": "must",
+        "transport_from_prev": "walk",
+        "travel_min": 5,
+        "notes": "falls offen",
+        "place_id": "VELVET_CAFE",
+        "name": "Velvet Cafe Balat",
+        "type": "breakfast",
+        "area": "Balat",
+        "maps_query": "Velvet Cafe Balat Istanbul",
+        "maps_url": "https://www.google.com/maps/search/?api=1&query=Velvet%20Cafe%20Balat%20Istanbul"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "D04-3-PATRIARCHATE",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.9514428,
+          41.0293643
+        ]
+      },
+      "properties": {
+        "day_id": "D04",
+        "seq": 3,
+        "time_from": "09:30",
+        "time_to": "10:00",
+        "activity_title": "Patriarchat",
+        "with_daughter": false,
+        "priority": "nice",
+        "transport_from_prev": "walk",
+        "travel_min": 10,
+        "notes": "",
+        "place_id": "PATRIARCHATE",
+        "name": "Ecumenical Patriarchate",
+        "type": "sight",
+        "area": "Fener",
+        "maps_query": "Ecumenical Patriarchate of Constantinople Istanbul",
+        "maps_url": "https://www.google.com/maps/search/?api=1&query=Ecumenical%20Patriarchate%20of%20Constantinople%20Istanbul"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "D04-4-IRON_CHURCH",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.949686,
+          41.0317775
+        ]
+      },
+      "properties": {
+        "day_id": "D04",
+        "seq": 4,
+        "time_from": "10:15",
+        "time_to": "10:45",
+        "activity_title": "Eisenkirche",
+        "with_daughter": false,
+        "priority": "must",
+        "transport_from_prev": "walk",
+        "travel_min": 10,
+        "notes": "",
+        "place_id": "IRON_CHURCH",
+        "name": "Bulgarian Iron Church",
+        "type": "sight",
+        "area": "Balat",
+        "maps_query": "Bulgarian St Stephen Church Istanbul",
+        "maps_url": "https://www.google.com/maps/search/?api=1&query=Bulgarian%20St%20Stephen%20Church%20Istanbul"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "D04-6-ASITANE",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.9389957,
+          41.0308701
+        ]
+      },
+      "properties": {
+        "day_id": "D04",
+        "seq": 6,
+        "time_from": "12:45",
+        "time_to": "14:00",
+        "activity_title": "Lunch mit Tochter",
+        "with_daughter": true,
+        "priority": "must",
+        "transport_from_prev": "walk",
+        "travel_min": 8,
+        "notes": "",
+        "place_id": "ASITANE",
+        "name": "Asitane Restaurant",
+        "type": "lunch",
+        "area": "Edirnekapı",
+        "maps_query": "Asitane Restaurant Istanbul",
+        "maps_url": "https://www.google.com/maps/search/?api=1&query=Asitane%20Restaurant%20Istanbul"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "D04-9-CAGALOGLU_HAMAMI",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.9756423,
+          41.0106906
+        ]
+      },
+      "properties": {
+        "day_id": "D04",
+        "seq": 9,
+        "time_from": "19:00",
+        "time_to": "20:30",
+        "activity_title": "Optionaler Hamam-Abend",
+        "with_daughter": true,
+        "priority": "optional",
+        "transport_from_prev": "taxi",
+        "travel_min": 30,
+        "notes": "",
+        "place_id": "CAGALOGLU_HAMAMI",
+        "name": "Cağaloğlu Hamamı",
+        "type": "hamam",
+        "area": "Sultanahmet",
+        "maps_query": "Cagaloglu Hamami Istanbul",
+        "maps_url": "https://www.google.com/maps/search/?api=1&query=Cagaloglu%20Hamami%20Istanbul"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "D04-route",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            28.9482931,
+            41.0320032
+          ],
+          [
+            28.9487449,
+            41.0311316
+          ],
+          [
+            28.9514428,
+            41.0293643
+          ],
+          [
+            28.949686,
+            41.0317775
+          ],
+          [
+            28.9389957,
+            41.0308701
+          ],
+          [
+            28.9756423,
+            41.0106906
+          ]
+        ]
+      },
+      "properties": {
+        "day_id": "D04",
+        "label": "Mo 06.04 – Balat / Fener / Eyüp",
+        "theme": "Atmosphäre & Viertel",
+        "type": "route",
+        "color": "#6A1B9A"
+      }
+    }
+  ]
 }

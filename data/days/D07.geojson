@@ -1,4 +1,351 @@
 {
   "type": "FeatureCollection",
-  "features": []
+  "features": [
+    {
+      "type": "Feature",
+      "id": "D07-1-EMINONU_FERRY",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.974141,
+          41.0179964
+        ]
+      },
+      "properties": {
+        "day_id": "D07",
+        "seq": 1,
+        "time_from": "07:15",
+        "time_to": "07:50",
+        "activity_title": "Fähre nach Üsküdar",
+        "with_daughter": false,
+        "priority": "must",
+        "transport_from_prev": "walk",
+        "travel_min": 20,
+        "notes": "",
+        "place_id": "EMINONU_FERRY",
+        "name": "Eminönü Ferry Terminal",
+        "type": "ferry",
+        "area": "Eminönü",
+        "maps_query": "Eminonu Ferry Terminal Istanbul",
+        "maps_url": "https://www.google.com/maps/search/?api=1&query=Eminonu%20Ferry%20Terminal%20Istanbul"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "D07-2-USKUDAR_BREAKFAST",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0164724,
+          41.0258196
+        ]
+      },
+      "properties": {
+        "day_id": "D07",
+        "seq": 2,
+        "time_from": "08:00",
+        "time_to": "08:30",
+        "activity_title": "Leichtes Frühstück",
+        "with_daughter": false,
+        "priority": "must",
+        "transport_from_prev": "walk",
+        "travel_min": 8,
+        "notes": "",
+        "place_id": "USKUDAR_BREAKFAST",
+        "name": "Üsküdar breakfast stop",
+        "type": "breakfast",
+        "area": "Üsküdar",
+        "maps_query": "Kanaat Lokantasi Uskudar Istanbul",
+        "maps_url": "https://www.google.com/maps/search/?api=1&query=Kanaat%20Lokantasi%20Uskudar%20Istanbul"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "D07-4-KUZGUNCUK",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0360265,
+          41.03216
+        ]
+      },
+      "properties": {
+        "day_id": "D07",
+        "seq": 4,
+        "time_from": "09:15",
+        "time_to": "10:45",
+        "activity_title": "Viertelspaziergang",
+        "with_daughter": false,
+        "priority": "must",
+        "transport_from_prev": "taxi",
+        "travel_min": 15,
+        "notes": "",
+        "place_id": "KUZGUNCUK",
+        "name": "Kuzguncuk",
+        "type": "walk",
+        "area": "Kuzguncuk",
+        "maps_query": "Kuzguncuk Istanbul",
+        "maps_url": "https://www.google.com/maps/search/?api=1&query=Kuzguncuk%20Istanbul"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "D07-5-KUZGUNCUK",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0360265,
+          41.03216
+        ]
+      },
+      "properties": {
+        "day_id": "D07",
+        "seq": 5,
+        "time_from": "10:45",
+        "time_to": "11:15",
+        "activity_title": "Kaffeepause",
+        "with_daughter": false,
+        "priority": "nice",
+        "transport_from_prev": "walk",
+        "travel_min": 0,
+        "notes": "spontan ein Café wählen",
+        "place_id": "KUZGUNCUK",
+        "name": "Kuzguncuk",
+        "type": "walk",
+        "area": "Kuzguncuk",
+        "maps_query": "Kuzguncuk Istanbul",
+        "maps_url": "https://www.google.com/maps/search/?api=1&query=Kuzguncuk%20Istanbul"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "D07-6-CIYA",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0244294,
+          40.9893469
+        ]
+      },
+      "properties": {
+        "day_id": "D07",
+        "seq": 6,
+        "time_from": "13:00",
+        "time_to": "14:15",
+        "activity_title": "Lunch mit Tochter",
+        "with_daughter": true,
+        "priority": "must",
+        "transport_from_prev": "taxi",
+        "travel_min": 25,
+        "notes": "",
+        "place_id": "CIYA",
+        "name": "Çiya Sofrası",
+        "type": "lunch",
+        "area": "Kadıköy",
+        "maps_query": "Ciya Sofrasi Istanbul",
+        "maps_url": "https://www.google.com/maps/search/?api=1&query=Ciya%20Sofrasi%20Istanbul"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "D07-7-KADIKOY_CARSI",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0258535,
+          40.9912048
+        ]
+      },
+      "properties": {
+        "day_id": "D07",
+        "seq": 7,
+        "time_from": "14:20",
+        "time_to": "15:15",
+        "activity_title": "Marktgassen",
+        "with_daughter": true,
+        "priority": "must",
+        "transport_from_prev": "walk",
+        "travel_min": 5,
+        "notes": "",
+        "place_id": "KADIKOY_CARSI",
+        "name": "Kadıköy Çarşı",
+        "type": "walk",
+        "area": "Kadıköy",
+        "maps_query": "Kadikoy Carsi Istanbul",
+        "maps_url": "https://www.google.com/maps/search/?api=1&query=Kadikoy%20Carsi%20Istanbul"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "D07-8-YELDEGIRMENI",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0265413,
+          40.9970269
+        ]
+      },
+      "properties": {
+        "day_id": "D07",
+        "seq": 8,
+        "time_from": "15:15",
+        "time_to": "16:00",
+        "activity_title": "Street Art und lokales Viertel",
+        "with_daughter": true,
+        "priority": "nice",
+        "transport_from_prev": "walk",
+        "travel_min": 10,
+        "notes": "",
+        "place_id": "YELDEGIRMENI",
+        "name": "Yeldeğirmeni",
+        "type": "walk",
+        "area": "Kadıköy",
+        "maps_query": "Yeldegirmeni Istanbul",
+        "maps_url": "https://www.google.com/maps/search/?api=1&query=Yeldegirmeni%20Istanbul"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "D07-9-MODA",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0254706,
+          40.9811687
+        ]
+      },
+      "properties": {
+        "day_id": "D07",
+        "seq": 9,
+        "time_from": "16:00",
+        "time_to": "17:15",
+        "activity_title": "Promenade und Pause",
+        "with_daughter": true,
+        "priority": "must",
+        "transport_from_prev": "walk",
+        "travel_min": 15,
+        "notes": "",
+        "place_id": "MODA",
+        "name": "Moda",
+        "type": "walk",
+        "area": "Kadıköy",
+        "maps_query": "Moda Istanbul",
+        "maps_url": "https://www.google.com/maps/search/?api=1&query=Moda%20Istanbul"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "D07-10-MODA_COFFEE",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0260568,
+          40.9847703
+        ]
+      },
+      "properties": {
+        "day_id": "D07",
+        "seq": 10,
+        "time_from": "17:15",
+        "time_to": "18:00",
+        "activity_title": "Kaffee",
+        "with_daughter": true,
+        "priority": "nice",
+        "transport_from_prev": "walk",
+        "travel_min": 5,
+        "notes": "",
+        "place_id": "MODA_COFFEE",
+        "name": "Moda coffee stop",
+        "type": "coffee",
+        "area": "Moda",
+        "maps_query": "Walter's Coffee Roastery Moda Istanbul",
+        "maps_url": "https://www.google.com/maps/search/?api=1&query=Walter%27s%20Coffee%20Roastery%20Moda%20Istanbul"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "D07-11-KADIKOY_FERRY",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.0215476,
+          40.9918235
+        ]
+      },
+      "properties": {
+        "day_id": "D07",
+        "seq": 11,
+        "time_from": "18:30",
+        "time_to": "19:00",
+        "activity_title": "Sonnenuntergangsfähre zurück",
+        "with_daughter": true,
+        "priority": "must",
+        "transport_from_prev": "walk",
+        "travel_min": 20,
+        "notes": "",
+        "place_id": "KADIKOY_FERRY",
+        "name": "Kadıköy Ferry Terminal",
+        "type": "ferry",
+        "area": "Kadıköy",
+        "maps_query": "Kadikoy Ferry Terminal Istanbul",
+        "maps_url": "https://www.google.com/maps/search/?api=1&query=Kadikoy%20Ferry%20Terminal%20Istanbul"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "D07-route",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            28.974141,
+            41.0179964
+          ],
+          [
+            29.0164724,
+            41.0258196
+          ],
+          [
+            29.0360265,
+            41.03216
+          ],
+          [
+            29.0360265,
+            41.03216
+          ],
+          [
+            29.0244294,
+            40.9893469
+          ],
+          [
+            29.0258535,
+            40.9912048
+          ],
+          [
+            29.0265413,
+            40.9970269
+          ],
+          [
+            29.0254706,
+            40.9811687
+          ],
+          [
+            29.0260568,
+            40.9847703
+          ],
+          [
+            29.0215476,
+            40.9918235
+          ]
+        ]
+      },
+      "properties": {
+        "day_id": "D07",
+        "label": "Do 09.04 – Üsküdar / Kuzguncuk / Kadıköy",
+        "theme": "Asiatische Seite",
+        "type": "route",
+        "color": "#AD1457"
+      }
+    }
+  ]
 }

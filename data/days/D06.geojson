@@ -1,4 +1,351 @@
 {
   "type": "FeatureCollection",
-  "features": []
+  "features": [
+    {
+      "type": "Feature",
+      "id": "D06-1-KAMONDO_STAIRS",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.9737825,
+          41.0239741
+        ]
+      },
+      "properties": {
+        "day_id": "D06",
+        "seq": 1,
+        "time_from": "07:15",
+        "time_to": "08:00",
+        "activity_title": "Morgenrunde",
+        "with_daughter": false,
+        "priority": "nice",
+        "transport_from_prev": "tram",
+        "travel_min": 20,
+        "notes": "",
+        "place_id": "KAMONDO_STAIRS",
+        "name": "Kamondo Stairs",
+        "type": "walk",
+        "area": "Karaköy",
+        "maps_query": "Kamondo Stairs Istanbul",
+        "maps_url": "https://www.google.com/maps/search/?api=1&query=Kamondo%20Stairs%20Istanbul"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "D06-2-PRIVATO",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.9740831,
+          41.0268623
+        ]
+      },
+      "properties": {
+        "day_id": "D06",
+        "seq": 2,
+        "time_from": "08:15",
+        "time_to": "09:00",
+        "activity_title": "Frühstück",
+        "with_daughter": false,
+        "priority": "must",
+        "transport_from_prev": "walk",
+        "travel_min": 8,
+        "notes": "",
+        "place_id": "PRIVATO",
+        "name": "Privato Cafe",
+        "type": "breakfast",
+        "area": "Galata",
+        "maps_query": "Privato Cafe Istanbul",
+        "maps_url": "https://www.google.com/maps/search/?api=1&query=Privato%20Cafe%20Istanbul"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "D06-3-GALATA_TOWER",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.9742134,
+          41.0256406
+        ]
+      },
+      "properties": {
+        "day_id": "D06",
+        "seq": 3,
+        "time_from": "09:15",
+        "time_to": "10:00",
+        "activity_title": "Früher Besuch",
+        "with_daughter": false,
+        "priority": "must",
+        "transport_from_prev": "walk",
+        "travel_min": 5,
+        "notes": "",
+        "place_id": "GALATA_TOWER",
+        "name": "Galata Tower",
+        "type": "sight",
+        "area": "Galata",
+        "maps_query": "Galata Tower Istanbul",
+        "maps_url": "https://www.google.com/maps/search/?api=1&query=Galata%20Tower%20Istanbul"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "D06-4-CUKURCUMA",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.9800959,
+          41.0312475
+        ]
+      },
+      "properties": {
+        "day_id": "D06",
+        "seq": 4,
+        "time_from": "10:15",
+        "time_to": "10:50",
+        "activity_title": "Spaziergang",
+        "with_daughter": false,
+        "priority": "nice",
+        "transport_from_prev": "walk",
+        "travel_min": 15,
+        "notes": "",
+        "place_id": "CUKURCUMA",
+        "name": "Çukurcuma",
+        "type": "walk",
+        "area": "Beyoğlu",
+        "maps_query": "Cukurcuma Istanbul",
+        "maps_url": "https://www.google.com/maps/search/?api=1&query=Cukurcuma%20Istanbul"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "D06-5-CIHANGIR",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.9853187,
+          41.0330402
+        ]
+      },
+      "properties": {
+        "day_id": "D06",
+        "seq": 5,
+        "time_from": "11:00",
+        "time_to": "11:45",
+        "activity_title": "Spaziergang",
+        "with_daughter": false,
+        "priority": "nice",
+        "transport_from_prev": "walk",
+        "travel_min": 10,
+        "notes": "",
+        "place_id": "CIHANGIR",
+        "name": "Cihangir",
+        "type": "walk",
+        "area": "Cihangir",
+        "maps_query": "Cihangir Istanbul",
+        "maps_url": "https://www.google.com/maps/search/?api=1&query=Cihangir%20Istanbul"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "D06-6-FICCIN",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.9757155,
+          41.0325552
+        ]
+      },
+      "properties": {
+        "day_id": "D06",
+        "seq": 6,
+        "time_from": "13:00",
+        "time_to": "14:15",
+        "activity_title": "Lunch mit Tochter",
+        "with_daughter": true,
+        "priority": "must",
+        "transport_from_prev": "walk",
+        "travel_min": 15,
+        "notes": "",
+        "place_id": "FICCIN",
+        "name": "Ficcin",
+        "type": "lunch",
+        "area": "Beyoğlu",
+        "maps_query": "Ficcin Beyoglu Istanbul",
+        "maps_url": "https://www.google.com/maps/search/?api=1&query=Ficcin%20Beyoglu%20Istanbul"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "D06-7-ISTIKLAL",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.708734,
+          40.999132
+        ]
+      },
+      "properties": {
+        "day_id": "D06",
+        "seq": 7,
+        "time_from": "14:20",
+        "time_to": "15:45",
+        "activity_title": "İstiklal mit Seitengassen",
+        "with_daughter": true,
+        "priority": "must",
+        "transport_from_prev": "walk",
+        "travel_min": 8,
+        "notes": "",
+        "place_id": "ISTIKLAL",
+        "name": "İstiklal Avenue",
+        "type": "walk",
+        "area": "Beyoğlu",
+        "maps_query": "Istiklal Avenue Istanbul",
+        "maps_url": "https://www.google.com/maps/search/?api=1&query=Istiklal%20Avenue%20Istanbul"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "D06-8-ST_ANTOINE",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.9771979,
+          41.0322763
+        ]
+      },
+      "properties": {
+        "day_id": "D06",
+        "seq": 8,
+        "time_from": "15:45",
+        "time_to": "16:15",
+        "activity_title": "Kirche",
+        "with_daughter": true,
+        "priority": "nice",
+        "transport_from_prev": "walk",
+        "travel_min": 5,
+        "notes": "",
+        "place_id": "ST_ANTOINE",
+        "name": "St. Antoine Church",
+        "type": "sight",
+        "area": "Beyoğlu",
+        "maps_query": "St. Anthony of Padua Church Istanbul",
+        "maps_url": "https://www.google.com/maps/search/?api=1&query=St.%20Anthony%20of%20Padua%20Church%20Istanbul"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "D06-9-PERA_MUSEUM",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.9752038,
+          41.0318031
+        ]
+      },
+      "properties": {
+        "day_id": "D06",
+        "seq": 9,
+        "time_from": "16:20",
+        "time_to": "17:15",
+        "activity_title": "Museum und Sitzpause",
+        "with_daughter": true,
+        "priority": "nice",
+        "transport_from_prev": "walk",
+        "travel_min": 8,
+        "notes": "",
+        "place_id": "PERA_MUSEUM",
+        "name": "Pera Museum",
+        "type": "sight",
+        "area": "Beyoğlu",
+        "maps_query": "Pera Museum Istanbul",
+        "maps_url": "https://www.google.com/maps/search/?api=1&query=Pera%20Museum%20Istanbul"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "D06-10-MANDABATMAZ",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.9761702,
+          41.0327634
+        ]
+      },
+      "properties": {
+        "day_id": "D06",
+        "seq": 10,
+        "time_from": "17:20",
+        "time_to": "18:00",
+        "activity_title": "Türkischer Kaffee",
+        "with_daughter": true,
+        "priority": "must",
+        "transport_from_prev": "walk",
+        "travel_min": 8,
+        "notes": "",
+        "place_id": "MANDABATMAZ",
+        "name": "Mandabatmaz",
+        "type": "coffee",
+        "area": "Beyoğlu",
+        "maps_query": "Mandabatmaz Istanbul",
+        "maps_url": "https://www.google.com/maps/search/?api=1&query=Mandabatmaz%20Istanbul"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "D06-route",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            28.9737825,
+            41.0239741
+          ],
+          [
+            28.9740831,
+            41.0268623
+          ],
+          [
+            28.9742134,
+            41.0256406
+          ],
+          [
+            28.9800959,
+            41.0312475
+          ],
+          [
+            28.9853187,
+            41.0330402
+          ],
+          [
+            28.9757155,
+            41.0325552
+          ],
+          [
+            28.708734,
+            40.999132
+          ],
+          [
+            28.9771979,
+            41.0322763
+          ],
+          [
+            28.9752038,
+            41.0318031
+          ],
+          [
+            28.9761702,
+            41.0327634
+          ]
+        ]
+      },
+      "properties": {
+        "day_id": "D06",
+        "label": "Mi 08.04 – Galata / Pera / Cihangir",
+        "theme": "Urbanes Istanbul",
+        "type": "route",
+        "color": "#00838F"
+      }
+    }
+  ]
 }

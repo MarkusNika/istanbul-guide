@@ -1,4 +1,318 @@
 {
   "type": "FeatureCollection",
-  "features": []
+  "features": [
+    {
+      "type": "Feature",
+      "id": "D03-1-GULHANE_PARK",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.9809017,
+          41.0130256
+        ]
+      },
+      "properties": {
+        "day_id": "D03",
+        "seq": 1,
+        "time_from": "06:30",
+        "time_to": "07:15",
+        "activity_title": "Morgenspaziergang",
+        "with_daughter": false,
+        "priority": "nice",
+        "transport_from_prev": "walk",
+        "travel_min": 12,
+        "notes": "",
+        "place_id": "GULHANE_PARK",
+        "name": "Gülhane Park",
+        "type": "walk",
+        "area": "Sirkeci",
+        "maps_query": "Gulhane Park Istanbul",
+        "maps_url": "https://www.google.com/maps/search/?api=1&query=Gulhane%20Park%20Istanbul"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "D03-2-BREAKFAST_SIRKECI",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.9733605,
+          41.0160106
+        ]
+      },
+      "properties": {
+        "day_id": "D03",
+        "seq": 2,
+        "time_from": "07:15",
+        "time_to": "07:45",
+        "activity_title": "Schnelles Frühstück",
+        "with_daughter": false,
+        "priority": "must",
+        "transport_from_prev": "walk",
+        "travel_min": 8,
+        "notes": "",
+        "place_id": "BREAKFAST_SIRKECI",
+        "name": "Quick breakfast Sirkeci",
+        "type": "breakfast",
+        "area": "Sirkeci",
+        "maps_query": "Hafiz Mustafa Sirkeci Istanbul",
+        "maps_url": "https://www.google.com/maps/search/?api=1&query=Hafiz%20Mustafa%20Sirkeci%20Istanbul"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "D03-3-TOPKAPI",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.9832034,
+          41.011344
+        ]
+      },
+      "properties": {
+        "day_id": "D03",
+        "seq": 3,
+        "time_from": "09:00",
+        "time_to": "11:45",
+        "activity_title": "Topkapı inkl. Harem",
+        "with_daughter": false,
+        "priority": "must",
+        "transport_from_prev": "walk",
+        "travel_min": 12,
+        "notes": "früh da sein",
+        "place_id": "TOPKAPI",
+        "name": "Topkapi Palace",
+        "type": "sight",
+        "area": "Sultanahmet",
+        "maps_query": "Topkapi Palace Istanbul",
+        "maps_url": "https://www.google.com/maps/search/?api=1&query=Topkapi%20Palace%20Istanbul"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "D03-4-HAMDI",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.9698993,
+          41.0171629
+        ]
+      },
+      "properties": {
+        "day_id": "D03",
+        "seq": 4,
+        "time_from": "13:00",
+        "time_to": "14:15",
+        "activity_title": "Lunch mit Tochter",
+        "with_daughter": true,
+        "priority": "must",
+        "transport_from_prev": "walk",
+        "travel_min": 20,
+        "notes": "",
+        "place_id": "HAMDI",
+        "name": "Hamdi Restaurant Eminönü",
+        "type": "lunch",
+        "area": "Eminönü",
+        "maps_query": "Hamdi Restaurant Eminonu Istanbul",
+        "maps_url": "https://www.google.com/maps/search/?api=1&query=Hamdi%20Restaurant%20Eminonu%20Istanbul"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "D03-5-SULEYMANIYE",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.9639548,
+          41.0162287
+        ]
+      },
+      "properties": {
+        "day_id": "D03",
+        "seq": 5,
+        "time_from": "14:35",
+        "time_to": "15:30",
+        "activity_title": "Moschee und Hof",
+        "with_daughter": true,
+        "priority": "must",
+        "transport_from_prev": "taxi",
+        "travel_min": 10,
+        "notes": "bergauf lieber Taxi",
+        "place_id": "SULEYMANIYE",
+        "name": "Süleymaniye Mosque",
+        "type": "sight",
+        "area": "Fatih",
+        "maps_query": "Suleymaniye Mosque Istanbul",
+        "maps_url": "https://www.google.com/maps/search/?api=1&query=Suleymaniye%20Mosque%20Istanbul"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "D03-6-SULEYMANIYE",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.9639548,
+          41.0162287
+        ]
+      },
+      "properties": {
+        "day_id": "D03",
+        "seq": 6,
+        "time_from": "15:30",
+        "time_to": "16:00",
+        "activity_title": "Tee mit Aussicht",
+        "with_daughter": true,
+        "priority": "nice",
+        "transport_from_prev": "walk",
+        "travel_min": 0,
+        "notes": "gleicher Ort",
+        "place_id": "SULEYMANIYE",
+        "name": "Süleymaniye Mosque",
+        "type": "sight",
+        "area": "Fatih",
+        "maps_query": "Suleymaniye Mosque Istanbul",
+        "maps_url": "https://www.google.com/maps/search/?api=1&query=Suleymaniye%20Mosque%20Istanbul"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "D03-7-VEFA_BOZACISI",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.9584185,
+          41.0153241
+        ]
+      },
+      "properties": {
+        "day_id": "D03",
+        "seq": 7,
+        "time_from": "16:20",
+        "time_to": "16:40",
+        "activity_title": "Boza probieren",
+        "with_daughter": true,
+        "priority": "nice",
+        "transport_from_prev": "walk",
+        "travel_min": 12,
+        "notes": "",
+        "place_id": "VEFA_BOZACISI",
+        "name": "Vefa Bozacısı",
+        "type": "coffee",
+        "area": "Fatih",
+        "maps_query": "Vefa Bozacisi Istanbul",
+        "maps_url": "https://www.google.com/maps/search/?api=1&query=Vefa%20Bozacisi%20Istanbul"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "D03-8-ZEYREK",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.9572486,
+          41.0197079
+        ]
+      },
+      "properties": {
+        "day_id": "D03",
+        "seq": 8,
+        "time_from": "16:45",
+        "time_to": "17:15",
+        "activity_title": "Historische Gassen",
+        "with_daughter": true,
+        "priority": "nice",
+        "transport_from_prev": "walk",
+        "travel_min": 10,
+        "notes": "",
+        "place_id": "ZEYREK",
+        "name": "Zeyrek",
+        "type": "walk",
+        "area": "Fatih",
+        "maps_query": "Zeyrek Mosque Istanbul",
+        "maps_url": "https://www.google.com/maps/search/?api=1&query=Zeyrek%20Mosque%20Istanbul"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "D03-9-VALENS_AQUEDUCT",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.9549684,
+          41.0162933
+        ]
+      },
+      "properties": {
+        "day_id": "D03",
+        "seq": 9,
+        "time_from": "17:20",
+        "time_to": "17:35",
+        "activity_title": "Kurzer Stopp",
+        "with_daughter": true,
+        "priority": "nice",
+        "transport_from_prev": "walk",
+        "travel_min": 8,
+        "notes": "",
+        "place_id": "VALENS_AQUEDUCT",
+        "name": "Valens Aqueduct",
+        "type": "sight",
+        "area": "Fatih",
+        "maps_query": "Valens Aqueduct Istanbul",
+        "maps_url": "https://www.google.com/maps/search/?api=1&query=Valens%20Aqueduct%20Istanbul"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "D03-route",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            28.9809017,
+            41.0130256
+          ],
+          [
+            28.9733605,
+            41.0160106
+          ],
+          [
+            28.9832034,
+            41.011344
+          ],
+          [
+            28.9698993,
+            41.0171629
+          ],
+          [
+            28.9639548,
+            41.0162287
+          ],
+          [
+            28.9639548,
+            41.0162287
+          ],
+          [
+            28.9584185,
+            41.0153241
+          ],
+          [
+            28.9572486,
+            41.0197079
+          ],
+          [
+            28.9549684,
+            41.0162933
+          ]
+        ]
+      },
+      "properties": {
+        "day_id": "D03",
+        "label": "So 05.04 – Topkapı / Süleymaniye",
+        "theme": "Imperium & stilles Istanbul",
+        "type": "route",
+        "color": "#2E7D32"
+      }
+    }
+  ]
 }
