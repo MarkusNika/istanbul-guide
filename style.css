@@ -318,6 +318,13 @@ h2 {
   background: #dfe8f1;
 }
 
+/* Leaflet divIcon: default pane styles hide custom marker bubbles */
+.leaflet-div-icon.custom-div-icon {
+  background: transparent;
+  border: none;
+  margin: 0;
+}
+
 .map-hint {
   margin-top: 10px;
   color: var(--muted);

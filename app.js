@@ -32,7 +32,6 @@ const el = {
   timeline: document.getElementById("timeline"),
   hotelLink: document.getElementById("hotelLink"),
   cacheStatus: document.getElementById("cacheStatus"),
-  mapHint: document.getElementById("mapHint"),
   tabs: [...document.querySelectorAll(".tab")],
   panels: {
     plan: document.getElementById("planTab"),
@@ -41,6 +40,11 @@ const el = {
   },
   chips: [...document.querySelectorAll(".chip")]
 };
+
+function setMapHint(text) {
+  const node = document.getElementById("mapHint");
+  if (node) node.textContent = text;
+}
 
 function escapeHtml(value = "") {
   return String(value)
@@ -145,12 +149,14 @@ function getMappedItemsForDay(day) {
 function fitMapToDay(day) {
   if (!state.map || typeof window.L === "undefined") return;
 
+  if (state.hotelLayer) {
+    state.hotelLayer.clearLayers();
+  }
+
   const mappedItems = getMappedItemsForDay(day);
   if (!mappedItems.length) {
     state.map.setView(FALLBACK_CENTER, FALLBACK_ZOOM);
-    if (el.mapHint) {
-      el.mapHint.textContent = "Für diesen Tag sind keine Koordinaten vorhanden.";
-    }
+    setMapHint("Für diesen Tag sind keine Koordinaten vorhanden.");
     return;
   }
 
@@ -161,9 +167,7 @@ function fitMapToDay(day) {
     maxZoom: 15
   });
 
-  if (el.mapHint) {
-    el.mapHint.textContent = `${mappedItems.length} Orte mit Koordinaten auf der Karte.`;
-  }
+  setMapHint(`${mappedItems.length} Orte mit Koordinaten auf der Karte.`);
 }
 
 function showHotelMarker(hotel) {
@@ -203,17 +207,17 @@ function centerMapOnHotel() {
   const hotel = hotelPlaceId ? state.guide.places[hotelPlaceId] : null;
 
   if (!state.map || !hotel || !hotel.has_coordinates) {
-    if (el.mapHint) {
-      el.mapHint.textContent = "Hotel-Koordinaten sind nicht verfügbar.";
-    }
+    setMapHint("Hotel-Koordinaten sind nicht verfügbar.");
     return;
   }
 
-  state.map.setView([hotel.lat, hotel.lon], 16);
-
-  if (el.mapHint) {
-    el.mapHint.textContent = `Hotel zentriert: ${hotel.name}`;
+  if (!state.hotelLayer && typeof window.L !== "undefined") {
+    state.hotelLayer = L.layerGroup().addTo(state.map);
   }
+
+  state.map.setView([hotel.lat, hotel.lon], 16);
+  showHotelMarker(hotel);
+  setMapHint(`Hotel zentriert: ${hotel.name}`);
 }
 
 
@@ -414,9 +418,7 @@ function ensureMap() {
 
   if (typeof window.L === "undefined") {
     console.error("Leaflet wurde nicht geladen. Prüfe /vendor/leaflet/leaflet.js");
-    if (el.mapHint) {
-      el.mapHint.textContent = "Leaflet JS wurde nicht geladen. Bitte Pfad /vendor/leaflet/leaflet.js prüfen.";
-    }
+    setMapHint("Leaflet JS wurde nicht geladen. Bitte Pfad /vendor/leaflet/leaflet.js prüfen.");
     return;
   }
 
@@ -467,14 +469,15 @@ function renderMap(day) {
 
   state.markersLayer.clearLayers();
   state.routeLayer.clearLayers();
+  if (state.hotelLayer) {
+    state.hotelLayer.clearLayers();
+  }
 
   const mappedItems = getMappedItemsForDay(day);
 
   if (!mappedItems.length) {
     state.map.setView(FALLBACK_CENTER, FALLBACK_ZOOM);
-    if (el.mapHint) {
-      el.mapHint.textContent = "Noch keine Koordinaten in places.csv gepflegt.";
-    }
+    setMapHint("Noch keine Koordinaten in places.csv gepflegt.");
     return;
   }
 
