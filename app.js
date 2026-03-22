@@ -11,8 +11,10 @@ const state = {
   map: null,
   markersLayer: null,
   routeLayer: null,
+  hotelLayer: null,
   usingCache: false
 };
+
 
 const el = {
   tripMeta: document.getElementById("tripMeta"),
@@ -23,6 +25,8 @@ const el = {
   todayBtn: document.getElementById("todayBtn"),
   zoomDayBtn: document.getElementById("zoomDayBtn"),
   hotelCenterBtn: document.getElementById("hotelCenterBtn"),
+  mapPrevDayBtn: document.getElementById("mapPrevDayBtn"),
+  mapNextDayBtn: document.getElementById("mapNextDayBtn"),
   dayTheme: document.getElementById("dayTheme"),
   dayStats: document.getElementById("dayStats"),
   timeline: document.getElementById("timeline"),
@@ -61,7 +65,7 @@ function saveCachedGuide(guide) {
   try {
     localStorage.setItem(CACHE_KEY, JSON.stringify(guide));
   } catch {
-    // ignore quota or private mode issues
+    // ignore quota/private mode issues
   }
 }
 
@@ -75,7 +79,10 @@ async function loadGuide({ forceRefresh = false } = {}) {
     }
   }
 
-  const response = await fetch(GUIDE_URL, { cache: forceRefresh ? "reload" : "default" });
+  const response = await fetch(GUIDE_URL, {
+    cache: forceRefresh ? "reload" : "default"
+  });
+
   if (!response.ok) {
     if (state.guide) return;
     throw new Error(`guide.json konnte nicht geladen werden: ${response.status}`);
@@ -114,7 +121,6 @@ function pickTodayOrNearestTripDayId(guide) {
   return sorted[sorted.length - 1].day_id;
 }
 
-
 function pickInitialDayId(guide) {
   const urlHashDay = location.hash.replace("#", "").trim();
   if (urlHashDay && guide.days.some(d => d.day_id === urlHashDay)) {
@@ -129,7 +135,7 @@ function setHashDay(dayId) {
 }
 
 function currentDay() {
-  return state.guide.days.find(d => d.day_id === state.currentDayId);
+  return state.guide?.days.find(d => d.day_id === state.currentDayId);
 }
 
 function getMappedItemsForDay(day) {
@@ -137,12 +143,14 @@ function getMappedItemsForDay(day) {
 }
 
 function fitMapToDay(day) {
-  if (!state.map) return;
+  if (!state.map || typeof window.L === "undefined") return;
 
   const mappedItems = getMappedItemsForDay(day);
   if (!mappedItems.length) {
     state.map.setView(FALLBACK_CENTER, FALLBACK_ZOOM);
-    el.mapHint.textContent = "Für diesen Tag sind keine Koordinaten vorhanden.";
+    if (el.mapHint) {
+      el.mapHint.textContent = "Für diesen Tag sind keine Koordinaten vorhanden.";
+    }
     return;
   }
 
@@ -153,21 +161,61 @@ function fitMapToDay(day) {
     maxZoom: 15
   });
 
-  el.mapHint.textContent = `${mappedItems.length} Orte mit Koordinaten auf der Karte.`;
+  if (el.mapHint) {
+    el.mapHint.textContent = `${mappedItems.length} Orte mit Koordinaten auf der Karte.`;
+  }
 }
+
+function showHotelMarker(hotel) {
+  if (!state.map || !state.hotelLayer || !hotel || !hotel.has_coordinates) return;
+
+  state.hotelLayer.clearLayers();
+
+  const latlng = [hotel.lat, hotel.lon];
+
+  const focusRing = L.circleMarker(latlng, {
+    radius: 18,
+    color: "#1565C0",
+    weight: 3,
+    fillColor: "#42A5F5",
+    fillOpacity: 0.18
+  });
+
+  const marker = L.marker(latlng, {
+    icon: createDivIcon("hotel", "H")
+  });
+
+  marker.bindPopup(`
+    <div class="popup-title">${escapeHtml(hotel.name)}</div>
+    <div class="popup-sub">${escapeHtml(hotel.area)} · Hotel</div>
+    <div><a href="${escapeHtml(hotel.maps_url)}" target="_blank" rel="noopener">Google Maps öffnen</a></div>
+  `);
+
+  focusRing.addTo(state.hotelLayer);
+  marker.addTo(state.hotelLayer);
+
+  marker.openPopup();
+}
+
 
 function centerMapOnHotel() {
   const hotelPlaceId = state.guide?.trip?.hotel_place_id;
   const hotel = hotelPlaceId ? state.guide.places[hotelPlaceId] : null;
 
   if (!state.map || !hotel || !hotel.has_coordinates) {
-    el.mapHint.textContent = "Hotel-Koordinaten sind nicht verfügbar.";
+    if (el.mapHint) {
+      el.mapHint.textContent = "Hotel-Koordinaten sind nicht verfügbar.";
+    }
     return;
   }
 
   state.map.setView([hotel.lat, hotel.lon], 16);
-  el.mapHint.textContent = `Hotel zentriert: ${hotel.name}`;
+
+  if (el.mapHint) {
+    el.mapHint.textContent = `Hotel zentriert: ${hotel.name}`;
+  }
 }
+
 
 function filterItems(items, filter) {
   switch (filter) {
@@ -237,6 +285,7 @@ function renderAll() {
   renderInfo(trip);
   syncActiveControls();
   syncMapButtons();
+  syncDayNavButtons();
   setHashDay(day.day_id);
 
   if (state.currentTab === "map") {
@@ -246,18 +295,26 @@ function renderAll() {
 }
 
 function renderHeader(trip) {
-  el.tripMeta.textContent = `${trip.start_date} bis ${trip.end_date} · ${state.guide.days.length} Tage`;
+  if (el.tripMeta) {
+    el.tripMeta.textContent = `${trip.start_date} bis ${trip.end_date} · ${state.guide.days.length} Tage`;
+  }
+
   const hotel = state.guide.places[trip.hotel_place_id];
-  if (hotel) {
+  if (hotel && el.hotelLink) {
     el.hotelLink.textContent = hotel.name;
     el.hotelLink.href = hotel.maps_url;
   }
-  el.cacheStatus.textContent = state.usingCache
-    ? "Daten aus lokalem Cache geladen"
-    : `Live geladen · Stand ${new Date(trip.generated_at).toLocaleString("de-DE")}`;
+
+  if (el.cacheStatus) {
+    el.cacheStatus.textContent = state.usingCache
+      ? "Daten aus lokalem Cache geladen"
+      : `Live geladen · Stand ${new Date(trip.generated_at).toLocaleString("de-DE")}`;
+  }
 }
 
 function renderDaySelect() {
+  if (!el.daySelect) return;
+
   const days = state.guide.days;
   el.daySelect.innerHTML = days
     .map(day => `<option value="${escapeHtml(day.day_id)}">${escapeHtml(day.label)}</option>`)
@@ -267,25 +324,30 @@ function renderDaySelect() {
 }
 
 function renderThemeAndStats(day) {
-  el.dayTheme.innerHTML = `
-    <div class="day-color-bar day-${escapeHtml(day.day_id)}"></div>
-    ${escapeHtml(day.theme)}
-  `;
-
+  if (el.dayTheme) {
+    el.dayTheme.innerHTML = `
+      <div class="day-color-bar day-${escapeHtml(day.day_id)}"></div>
+      ${escapeHtml(day.theme)}
+    `;
+  }
 
   const visibleItems = filterItems(day.items, state.currentFilter);
   const daughterCount = visibleItems.filter(i => i.with_daughter).length;
   const mustCount = visibleItems.filter(i => i.priority === "must").length;
 
-  el.dayStats.innerHTML = `
-    <span class="stat">${visibleItems.length} Stops</span>
-    <span class="stat">${mustCount} Must</span>
-    <span class="stat">${daughterCount} mit Tochter</span>
-  `;
+  if (el.dayStats) {
+    el.dayStats.innerHTML = `
+      <span class="stat">${visibleItems.length} Stops</span>
+      <span class="stat">${mustCount} Must</span>
+      <span class="stat">${daughterCount} mit Tochter</span>
+    `;
+  }
 }
 
 function renderTimeline(day) {
   const items = filterItems(day.items, state.currentFilter);
+
+  if (!el.timeline) return;
 
   if (!items.length) {
     el.timeline.innerHTML = `<div class="empty-state">Für diesen Filter gibt es an diesem Tag keine Einträge.</div>`;
@@ -302,8 +364,7 @@ function renderTimeline(day) {
       ? `<div class="note">${escapeHtml(item.notes)}</div>`
       : "";
 
-    const hasCoords = place.has_coordinates;
-    const centerBtn = hasCoords
+    const centerBtn = place.has_coordinates
       ? `<button class="action-btn" data-action="center-map" data-place-id="${escapeHtml(place.place_id)}">Auf Karte</button>`
       : "";
 
@@ -353,7 +414,9 @@ function ensureMap() {
 
   if (typeof window.L === "undefined") {
     console.error("Leaflet wurde nicht geladen. Prüfe /vendor/leaflet/leaflet.js");
-    el.mapHint.textContent = "Leaflet JS wurde nicht geladen. Bitte Pfad /vendor/leaflet/leaflet.js prüfen.";
+    if (el.mapHint) {
+      el.mapHint.textContent = "Leaflet JS wurde nicht geladen. Bitte Pfad /vendor/leaflet/leaflet.js prüfen.";
+    }
     return;
   }
 
@@ -366,26 +429,10 @@ function ensureMap() {
     attribution: "&copy; OpenStreetMap-Mitwirkende"
   }).addTo(state.map);
 
-  state.markersLayer = L.layerGroup().addTo(state.map);
-  state.routeLayer = L.layerGroup().addTo(state.map);
-}
+    state.markersLayer = L.layerGroup().addTo(state.map);
+    state.routeLayer = L.layerGroup().addTo(state.map);
+    state.hotelLayer = L.layerGroup().addTo(state.map);
 
-
-function markerColorForType(type) {
-  const colors = {
-    hotel: "#455A64",
-    sight: "#1565C0",
-    walk: "#00838F",
-    breakfast: "#EF6C00",
-    lunch: "#2E7D32",
-    dinner: "#C62828",
-    coffee: "#6A1B9A",
-    ferry: "#0277BD",
-    view: "#AD1457",
-    hamam: "#8D6E63",
-    transfer: "#546E7A"
-  };
-  return colors[type] || "#1565C0";
 }
 
 function markerClassForType(type) {
@@ -415,7 +462,6 @@ function createDivIcon(type, label) {
   });
 }
 
-
 function renderMap(day) {
   if (!state.map || !state.markersLayer || !state.routeLayer) return;
 
@@ -426,7 +472,9 @@ function renderMap(day) {
 
   if (!mappedItems.length) {
     state.map.setView(FALLBACK_CENTER, FALLBACK_ZOOM);
-    el.mapHint.textContent = "Noch keine Koordinaten in places.csv gepflegt.";
+    if (el.mapHint) {
+      el.mapHint.textContent = "Noch keine Koordinaten in places.csv gepflegt.";
+    }
     return;
   }
 
@@ -462,16 +510,15 @@ function renderMap(day) {
   fitMapToDay(day);
 }
 
-
 function centerMapOnPlace(placeId) {
-  const place = state.guide.places[placeId];
+  const place = state.guide?.places[placeId];
   if (!place || !place.has_coordinates || !state.map) return;
 
   state.map.setView([place.lat, place.lon], 16);
 }
 
-function renderInfo(trip) {
-  // currently handled in header + info panel
+function renderInfo(_trip) {
+  // currently handled by static HTML + renderHeader
 }
 
 function switchTab(tabName) {
@@ -500,86 +547,9 @@ function switchTab(tabName) {
   }
 }
 
-
 function syncActiveControls() {
   el.chips.forEach(chip => {
     chip.classList.toggle("active", chip.dataset.filter === state.currentFilter);
-  });
-}
-
-function goRelativeDay(offset) {
-  const days = state.guide.days;
-  const idx = days.findIndex(d => d.day_id === state.currentDayId);
-  if (idx < 0) return;
-  const next = idx + offset;
-  if (next < 0 || next >= days.length) return;
-  state.currentDayId = days[next].day_id;
-  renderAll();
-}
-
-function attachEvents() {
-  el.daySelect.addEventListener("change", () => {
-    state.currentDayId = el.daySelect.value;
-    renderAll();
-  });
-
-  el.prevDayBtn.addEventListener("click", () => goRelativeDay(-1));
-  el.nextDayBtn.addEventListener("click", () => goRelativeDay(1));
-
-  el.tabs.forEach(btn => {
-    btn.addEventListener("click", () => switchTab(btn.dataset.tab));
-  });
-
-  el.chips.forEach(chip => {
-    chip.addEventListener("click", () => {
-      state.currentFilter = chip.dataset.filter;
-      renderAll();
-    });
-  });
-
-  el.refreshBtn.addEventListener("click", async () => {
-    try {
-      await loadGuide({ forceRefresh: true });
-    } catch (err) {
-      console.error(err);
-      alert("Neu laden fehlgeschlagen.");
-    }
-  });
-
-  el.todayBtn.addEventListener("click", () => {
-  const targetDayId = pickTodayOrNearestTripDayId(state.guide);
-  if (!targetDayId) return;
-
-  state.currentDayId = targetDayId;
-  renderAll();
-  });
-
-  el.zoomDayBtn.addEventListener("click", () => {
-    ensureMap();
-    const day = currentDay();
-    if (!day) return;
-
-    switchTab("map");
-    setTimeout(() => {
-      fitMapToDay(day);
-    }, 120);
-  });
-
-  el.hotelCenterBtn.addEventListener("click", () => {
-    ensureMap();
-    switchTab("map");
-    setTimeout(() => {
-      centerMapOnHotel();
-    }, 120);
-  });
-
-
-  window.addEventListener("hashchange", () => {
-    const hashDay = location.hash.replace("#", "").trim();
-    if (state.guide && state.guide.days.some(d => d.day_id === hashDay)) {
-      state.currentDayId = hashDay;
-      renderAll();
-    }
   });
 }
 
@@ -597,7 +567,139 @@ function syncMapButtons() {
 
   if (el.hotelCenterBtn) {
     el.hotelCenterBtn.disabled = !hasHotelCoords;
+    el.hotelCenterBtn.title = hasHotelCoords
+      ? "Hotel auf der Karte zentrieren"
+      : "Hotel-Koordinaten fehlen noch";
   }
+}
+
+function syncDayNavButtons() {
+  const days = state.guide?.days || [];
+  const idx = days.findIndex(d => d.day_id === state.currentDayId);
+
+  const atStart = idx <= 0;
+  const atEnd = idx < 0 || idx >= days.length - 1;
+
+  if (el.prevDayBtn) el.prevDayBtn.disabled = atStart;
+  if (el.nextDayBtn) el.nextDayBtn.disabled = atEnd;
+  if (el.mapPrevDayBtn) el.mapPrevDayBtn.disabled = atStart;
+  if (el.mapNextDayBtn) el.mapNextDayBtn.disabled = atEnd;
+}
+
+function goRelativeDay(offset) {
+  const days = state.guide.days;
+  const idx = days.findIndex(d => d.day_id === state.currentDayId);
+  if (idx < 0) return;
+
+  const next = idx + offset;
+  if (next < 0 || next >= days.length) return;
+
+  state.currentDayId = days[next].day_id;
+  renderAll();
+
+  if (state.currentTab === "map") {
+    setTimeout(() => {
+      if (state.map) {
+        state.map.invalidateSize();
+        const day = currentDay();
+        if (day) renderMap(day);
+      }
+    }, 80);
+  }
+}
+
+function attachEvents() {
+  if (el.daySelect) {
+    el.daySelect.addEventListener("change", () => {
+      state.currentDayId = el.daySelect.value;
+      renderAll();
+    });
+  }
+
+  if (el.prevDayBtn) {
+    el.prevDayBtn.addEventListener("click", () => goRelativeDay(-1));
+  }
+
+  if (el.nextDayBtn) {
+    el.nextDayBtn.addEventListener("click", () => goRelativeDay(1));
+  }
+
+  if (el.todayBtn) {
+    el.todayBtn.addEventListener("click", () => {
+      const targetDayId = pickTodayOrNearestTripDayId(state.guide);
+      if (!targetDayId) return;
+
+      state.currentDayId = targetDayId;
+      renderAll();
+    });
+  }
+
+  if (el.zoomDayBtn) {
+    el.zoomDayBtn.addEventListener("click", () => {
+      ensureMap();
+      const day = currentDay();
+      if (!day) return;
+
+      switchTab("map");
+      setTimeout(() => {
+        fitMapToDay(day);
+      }, 120);
+    });
+  }
+
+  if (el.hotelCenterBtn) {
+    el.hotelCenterBtn.addEventListener("click", () => {
+      ensureMap();
+      switchTab("map");
+      setTimeout(() => {
+        centerMapOnHotel();
+      }, 120);
+    });
+  }
+
+  if (el.mapPrevDayBtn) {
+    el.mapPrevDayBtn.addEventListener("click", () => {
+      goRelativeDay(-1);
+      switchTab("map");
+    });
+  }
+
+  if (el.mapNextDayBtn) {
+    el.mapNextDayBtn.addEventListener("click", () => {
+      goRelativeDay(1);
+      switchTab("map");
+    });
+  }
+
+  el.tabs.forEach(btn => {
+    btn.addEventListener("click", () => switchTab(btn.dataset.tab));
+  });
+
+  el.chips.forEach(chip => {
+    chip.addEventListener("click", () => {
+      state.currentFilter = chip.dataset.filter;
+      renderAll();
+    });
+  });
+
+  if (el.refreshBtn) {
+    el.refreshBtn.addEventListener("click", async () => {
+      try {
+        await loadGuide({ forceRefresh: true });
+      } catch (err) {
+        console.error(err);
+        alert("Neu laden fehlgeschlagen.");
+      }
+    });
+  }
+
+  window.addEventListener("hashchange", () => {
+    const hashDay = location.hash.replace("#", "").trim();
+    if (state.guide && state.guide.days.some(d => d.day_id === hashDay)) {
+      state.currentDayId = hashDay;
+      renderAll();
+    }
+  });
 }
 
 async function boot() {
@@ -620,12 +722,14 @@ async function boot() {
       return;
     }
 
-    el.timeline.innerHTML = `
-      <div class="empty-state">
-        Daten konnten nicht geladen werden.<br>
-        Bitte zuerst <code>python scripts/build_data.py</code> ausführen und dann über einen lokalen Webserver starten.
-      </div>
-    `;
+    if (el.timeline) {
+      el.timeline.innerHTML = `
+        <div class="empty-state">
+          Daten konnten nicht geladen werden.<br>
+          Bitte zuerst <code>python scripts/build_data.py</code> ausführen und dann über einen lokalen Webserver starten.
+        </div>
+      `;
+    }
   }
 }
 

@@ -1,13 +1,23 @@
+"""Geocode places from places.csv and write lat/lon back into the file.
+
+This script is intended for personal trip-planning data enrichment.
+It reads data/places.csv, looks up missing coordinates via Nominatim,
+stores a local cache, and writes the enriched CSV back to disk.
+"""
+
 from __future__ import annotations
 
 import csv
 import json
 import shutil
+import socket
 import sys
 import time
 import urllib.parse
 import urllib.request
+from json import JSONDecodeError
 from pathlib import Path
+from urllib.error import HTTPError, URLError
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 DATA_DIR = BASE_DIR / "data"
@@ -19,40 +29,50 @@ BACKUP_CSV = DATA_DIR / "places.csv.bak"
 USER_AGENT = "istanbul-guide-geocoder/1.0 (personal trip planning)"
 SLEEP_SECONDS = 1.2
 
+# left, top, right, bottom
 ISTANBUL_VIEWBOX = "28.5,41.35,29.5,40.8"
 NOMINATIM_URL = "https://nominatim.openstreetmap.org/search"
 
 
 def load_csv(path: Path) -> tuple[list[dict], list[str]]:
-    with path.open("r", encoding="utf-8", newline="") as f:
-        reader = csv.DictReader(f)
+    """Load a CSV file and return rows plus fieldnames."""
+    with path.open("r", encoding="utf-8", newline="") as file_obj:
+        reader = csv.DictReader(file_obj)
         rows = list(reader)
         fieldnames = reader.fieldnames or []
     return rows, fieldnames
 
 
 def save_csv(path: Path, rows: list[dict], fieldnames: list[str]) -> None:
-    with path.open("w", encoding="utf-8", newline="") as f:
-        writer = csv.DictWriter(f, fieldnames=fieldnames)
+    """Write rows back to a CSV file using the given fieldnames."""
+    with path.open("w", encoding="utf-8", newline="") as file_obj:
+        writer = csv.DictWriter(file_obj, fieldnames=fieldnames)
         writer.writeheader()
         writer.writerows(rows)
 
 
 def load_cache() -> dict:
+    """Load geocoding cache from disk if it exists."""
     if CACHE_JSON.exists():
         return json.loads(CACHE_JSON.read_text(encoding="utf-8"))
     return {}
 
 
 def save_cache(cache: dict) -> None:
-    CACHE_JSON.write_text(json.dumps(cache, ensure_ascii=False, indent=2), encoding="utf-8")
+    """Persist the geocoding cache to disk."""
+    CACHE_JSON.write_text(
+        json.dumps(cache, ensure_ascii=False, indent=2),
+        encoding="utf-8",
+    )
 
 
 def has_coords(row: dict) -> bool:
+    """Return True if a row already contains both lat and lon."""
     return bool((row.get("lat") or "").strip()) and bool((row.get("lon") or "").strip())
 
 
 def geocode_query(query: str) -> dict | None:
+    """Geocode a single query against Nominatim and return the top hit."""
     params = {
         "q": query,
         "format": "jsonv2",
@@ -60,20 +80,20 @@ def geocode_query(query: str) -> dict | None:
         "countrycodes": "tr",
         "viewbox": ISTANBUL_VIEWBOX,
         "bounded": 0,
-        "addressdetails": 0
+        "addressdetails": 0,
     }
 
     url = f"{NOMINATIM_URL}?{urllib.parse.urlencode(params)}"
-    req = urllib.request.Request(
+    request = urllib.request.Request(
         url,
         headers={
             "User-Agent": USER_AGENT,
-            "Accept": "application/json"
-        }
+            "Accept": "application/json",
+        },
     )
 
-    with urllib.request.urlopen(req, timeout=30) as resp:
-        data = json.loads(resp.read().decode("utf-8"))
+    with urllib.request.urlopen(request, timeout=30) as response:
+        data = json.loads(response.read().decode("utf-8"))
 
     if not data:
         return None
@@ -87,7 +107,24 @@ def geocode_query(query: str) -> dict | None:
     }
 
 
-def main():
+def enrich_row_from_result(row: dict, result: dict | None) -> bool:
+    """Update a CSV row from a geocoding result. Return True on success."""
+    if not result:
+        row["geocode_provider"] = "nominatim"
+        row["geocode_status"] = "not-found"
+        row["geocode_display_name"] = ""
+        return False
+
+    row["lat"] = result["lat"]
+    row["lon"] = result["lon"]
+    row["geocode_provider"] = "nominatim"
+    row["geocode_status"] = "ok"
+    row["geocode_display_name"] = result.get("display_name", "")
+    return True
+
+
+def main() -> None:
+    """Run the geocoding workflow for all places without coordinates."""
     if not PLACES_CSV.exists():
         print(f"ERROR: not found: {PLACES_CSV}")
         sys.exit(1)
@@ -97,11 +134,11 @@ def main():
     extra_fields = [
         "geocode_provider",
         "geocode_status",
-        "geocode_display_name"
+        "geocode_display_name",
     ]
-    for f in extra_fields:
-        if f not in fieldnames:
-            fieldnames.append(f)
+    for field in extra_fields:
+        if field not in fieldnames:
+            fieldnames.append(field)
 
     cache = load_cache()
 
@@ -141,22 +178,15 @@ def main():
                 cache[query] = result
                 save_cache(cache)
                 time.sleep(SLEEP_SECONDS)
-            except Exception as exc:
+            except (HTTPError, URLError, TimeoutError, socket.timeout, JSONDecodeError) as exc:
                 result = None
                 print(f"      ERROR: {exc}")
 
-        if result:
-            row["lat"] = result["lat"]
-            row["lon"] = result["lon"]
-            row["geocode_provider"] = "nominatim"
-            row["geocode_status"] = "ok"
-            row["geocode_display_name"] = result.get("display_name", "")
+        success = enrich_row_from_result(row, result)
+        if success:
             updated += 1
             print(f"      -> {row['lat']}, {row['lon']}")
         else:
-            row["geocode_provider"] = "nominatim"
-            row["geocode_status"] = "not-found"
-            row["geocode_display_name"] = ""
             failed += 1
             print("      -> not found")
 
